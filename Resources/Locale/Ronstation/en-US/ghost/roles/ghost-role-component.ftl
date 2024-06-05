@@ -1,0 +1,1 @@
+ghost-role-information-protag-skeleton-description = Be an extra crewmember to the station. Serve your superiors and help whenever needed. Go ask a head of personnel (if there are any) to get a job for you.

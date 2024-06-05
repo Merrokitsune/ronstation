@@ -47,10 +47,10 @@
   components:
   - type: GhostRole
     name: ghost-role-information-closet-skeleton-name
-    description: ghost-role-information-closet-skeleton-description
+    description: ghost-role-information-protag-skeleton-description
     raffle:
       settings: default
   - type: GhostTakeoverAvailable
   - type: Loadout
-    prototypes: [LimitedPassengerGear]
+    prototypes: [SkeletonPassengerGear]
   - type: RandomHumanoidAppearance
