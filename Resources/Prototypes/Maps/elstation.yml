@@ -9,9 +9,9 @@
       stationProto: StandardNanotrasenStation
       components:
         - type: StationEmergencyShuttle
-          emergencyShuttlePath: /Maps/Shuttles/energency_el.yml
+          emergencyShuttlePath: /Maps/Shuttles/emergency_el.yml
         - type: StationNameSetup
-          mapNameTemplate: '{0} ELstation {1}'
+          mapNameTemplate: '{0} EL Station {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
@@ -64,6 +64,6 @@
             Mime: [ 1, 1 ]
             Musician: [ 1, 1 ]
             Reporter: [ 1, 1 ]
-            #centcom      
+            #centcom
             BlueShield: [ 1, 1 ]
-            CentComConsultant: [ 1, 1 ]            
+            CentComConsultant: [ 1, 1 ]
