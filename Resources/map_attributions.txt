@@ -46,3 +46,7 @@
 - files: ["core.yml"]
   authors: Ubaser
 
+## Starshine
+
+- files: ["elstation.yml"]
+  authors: Elst28
