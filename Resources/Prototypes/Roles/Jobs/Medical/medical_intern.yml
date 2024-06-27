@@ -6,7 +6,7 @@
   requirements:
     - !type:DepartmentTimeRequirement
       department: Medical
-      time: 610 # 15 hrs
+      time: 600 # 15 hrs
       inverted: true # stop playing intern if you're good at med!
   startingGear: MedicalInternGear
   icon: "JobIconMedicalIntern"
@@ -24,6 +24,6 @@
     ears: ClothingHeadsetMedical
     belt: ClothingBeltMedicalFilled
     pocket2: BookMedicalReferenceBook
-  storage:
-    back:
-    - BoxSurvivalMedical
+  #storage:
+    #back:
+    #- Stuff
