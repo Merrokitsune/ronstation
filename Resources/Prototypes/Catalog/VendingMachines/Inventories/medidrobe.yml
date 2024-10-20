@@ -18,7 +18,7 @@
     UniformScrubsColorGreen: 4
     UniformScrubsColorBlue: 4
     UniformScrubsColorPurple: 4
-    ClothingHeadHatSurgcapGreen: 4 
+    ClothingHeadHatSurgcapGreen: 4
     ClothingHeadHatSurgcapBlue: 4
     ClothingHeadHatSurgcapPurple: 4
     ClothingShoesBootsWinterMed: 2
@@ -27,3 +27,7 @@
     ClothingHeadHatSurgcapCybersun: 1 #DeltaV
     ClothingOuterCoatCybersunWindbreaker: 1 #DeltaV
     ClothingShoesBootsWinterMed: 2
+    ClothingUniformJumpskirtOfLife: 1
+    ToyFigurineMedicalDoctor: 1
+    ToyFigurineParamedic: 1
+    ToyFigurineChiefMedicalOfficer: 1

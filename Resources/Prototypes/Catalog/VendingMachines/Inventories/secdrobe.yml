@@ -27,3 +27,9 @@
     ClothingShoesBootsWinterSec: 2
     ClothingShoesBootsCowboyBlack: 1
     ClothingHeadHatCowboyBlack: 1
+    ClothingHeadHelmetJustice: 1
+  contrabandInventory:
+    ClothingMaskClownSecurity: 1
+    ToyFigurineSecurity: 1
+    ToyFigurineWarden: 1
+    ToyFigurineHeadOfSecurity: 1
