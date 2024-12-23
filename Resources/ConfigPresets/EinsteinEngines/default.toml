@@ -53,3 +53,16 @@ map_enabled = true
 
 #[worldgen]
 #enabled = true
+
+#RONSTATION:
+#Required for development without glimmer, psionics, and heightadjust.
+
+[glimmer]
+enabled = false
+
+[psionics]
+rolls_enabled = false
+
+[heightadjust]
+modifies_hitbox = false
+modifies_bloodstream = false
