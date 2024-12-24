@@ -8,7 +8,7 @@
   suffix: General
   components:
   - type: Sprite
-    sprite: Objects/Devices/station_beacon.rsi
+    sprite: _Ronstation/Objects/Devices/station_beacon.rsi
     drawdepth: BelowFloor
     layers:
     - state: blink
@@ -84,7 +84,7 @@
     mode: PlaceFree
   components:
   - type: Sprite
-    sprite: Objects/Devices/station_beacon.rsi
+    sprite: _Ronstation/Objects/Devices/station_beacon.rsi
     layers:
     - state: icon
       map: ["base"]
@@ -102,9 +102,9 @@
   components:
   - type: Item
     size: Small
-    sprite: Objects/Devices/station_beacon.rsi
+    sprite: _Ronstation/Objects/Devices/station_beacon.rsi
   - type: Sprite
-    sprite: Objects/Devices/station_beacon.rsi
+    sprite: _Ronstation/Objects/Devices/station_beacon.rsi
     state: assembly
   - type: Construction
     graph: StationBeaconPart
@@ -294,10 +294,10 @@
 - type: entity
   parent: DefaultStationBeacon
   id: DefaultStationBeaconScience
-  suffix: Epistemics #Delta V - Renamed
+  suffix: Science #Ronstation - Renamed
   components:
   - type: NavMapBeacon
-    defaultText: station-beacon-epistemics #Delta V - Renamed
+    defaultText: station-beacon-science #Ronstation - Renamed
     color: "#D381C9"
 
 - type: entity
@@ -319,10 +319,10 @@
 - type: entity
   parent: DefaultStationBeaconScience
   id: DefaultStationBeaconRDRoom
-  suffix: MG's Room
+  suffix: RD's Room #Ronstation - Renamed
   components:
   - type: NavMapBeacon
-    defaultText: station-beacon-mystagogue  #Delta V - Renamed
+    defaultText: station-beacon-research-director  #Ronstation - Renamed
 
 - type: entity
   parent: DefaultStationBeaconScience
@@ -351,19 +351,19 @@
 - type: entity
   parent: DefaultStationBeacon
   id: DefaultStationBeaconSupply
-  suffix: Logistics #Delta V - Renamed
+  suffix: Cargo #Ronstation - Renamed
   components:
   - type: NavMapBeacon
-    defaultText: station-beacon-logistics #Delta V - Renamed
+    defaultText: station-beacon-cargo #Ronstation - Renamed
     color: "#A46106"
 
 - type: entity
   parent: DefaultStationBeaconSupply
   id: DefaultStationBeaconCargoReception
-  suffix: Logistics Reception #Delta V - Renamed
+  suffix: Cargo Reception #Ronstation - Renamed
   components:
   - type: NavMapBeacon
-    defaultText: station-beacon-logistics-reception #Delta V - Renamed
+    defaultText: station-beacon-cargo-reception #Ronstation - Renamed
 
 - type: entity
   parent: DefaultStationBeaconSupply
@@ -376,10 +376,10 @@
 - type: entity
   parent: DefaultStationBeaconSupply
   id: DefaultStationBeaconQMRoom
-  suffix: LO #Delta V - Renamed
+  suffix: QM #Ronstation - Renamed
   components:
   - type: NavMapBeacon
-    defaultText: station-beacon-lo #Delta V - Renamed
+    defaultText: station-beacon-qm #Ronstation - Renamed
 
 - type: entity
   parent: DefaultStationBeaconSupply
@@ -569,7 +569,7 @@
     defaultText: station-beacon-eva-storage
 
 - type: entity
-  parent: DefaultStationBeaconScience #Delta V - Chapel in Epi
+  parent: DefaultStationBeaconService #Delta V - Chapel in Epi
   id: DefaultStationBeaconChapel
   suffix: Chapel
   components:

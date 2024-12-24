@@ -22,7 +22,7 @@
     graph: LightFixture
     node: tubeLight
   - type: Sprite
-    sprite: Structures/Wallmounts/Lighting/light_tube.rsi
+    sprite: _Ronstation/Structures/Wallmounts/Lighting/light_tube.rsi
     drawdepth: WallMountedItems
     layers:
     - map: ["enum.PoweredLightLayers.Base"]
@@ -84,7 +84,7 @@
   parent: AlwaysPoweredWallLight
   components:
   - type: Sprite
-    sprite: Structures/Wallmounts/Lighting/light_tube.rsi
+    sprite: _Ronstation/Structures/Wallmounts/Lighting/light_tube.rsi
     state: empty
   - type: PointLight
     enabled: false
@@ -237,7 +237,7 @@
       sound:
         path: /Audio/Ambience/Objects/light_hum.ogg
     - type: Sprite
-      sprite: Structures/Wallmounts/Lighting/light_small.rsi
+      sprite: _Ronstation/Structures/Wallmounts/Lighting/light_small.rsi
       state: base
     - type: PointLight
       energy: 1.0
@@ -278,7 +278,7 @@
   parent: SmallLight
   components:
   - type: Sprite
-    sprite: Structures/Wallmounts/Lighting/light_small.rsi
+    sprite: _Ronstation/Structures/Wallmounts/Lighting/light_small.rsi
     state: empty
   - type: AmbientSound
     enabled: false
@@ -372,7 +372,7 @@
   - type: RotatingLight
     speed: 40
   - type: Sprite
-    sprite: Structures/Wallmounts/Lighting/emergency_light.rsi
+    sprite: _Ronstation/Structures/Wallmounts/Lighting/emergency_light.rsi
     layers:
     - state: base
       map: [ "enum.EmergencyLightVisualLayers.Base" ]

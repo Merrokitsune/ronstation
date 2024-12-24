@@ -14,7 +14,7 @@
       sound:
         path: /Audio/Ambience/Objects/periodic_beep.ogg
     - type: Sprite
-      sprite: Structures/Power/smes.rsi
+      sprite: _Ronstation/Structures/Power/smes.rsi
       snapCardinals: true
       layers:
         - state: smes
@@ -34,7 +34,7 @@
       baseMaxCharge: 8000000
     - type: UpgradePowerSupplyRamping
       scaling: Linear
-      supplyRampingMultiplier: 1     
+      supplyRampingMultiplier: 1
     - type: Appearance
     - type: Battery
       startingCharge: 0
@@ -53,7 +53,7 @@
       sourceNode: input
       loadNode: output
       collectionName: smes
-      sprite: Structures/Power/smes.rsi
+      sprite: _Ronstation/Structures/Power/smes.rsi
       state: static
     - type: BatteryDischarger
       voltage: High

@@ -6,7 +6,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Objects/Misc/id_cards.rsi
+    sprite: _Ronstation/Objects/Misc/id_cards.rsi
   - type: Clothing
     slots:
     - idcard
@@ -247,7 +247,7 @@
 - type: entity
   parent: IDCardStandard
   id: CargoIDCard
-  name: logistics ID card # DeltaV - Logistics Department replacing Cargo
+  name: cargo ID card # Ronstation - Cargo Department replacing Logistics
   components:
   - type: Sprite
     layers:
@@ -279,7 +279,7 @@
 - type: entity
   parent: IDCardStandard
   id: QuartermasterIDCard
-  name: logistics officer ID card # DeltaV - Logistics Department replacing Cargo
+  name: quartermaster ID card # Ronstation - Cargo Department replacing Logistics
   components:
   - type: Sprite
     layers:
@@ -584,7 +584,7 @@
 - type: entity
   parent: IDCardStandard
   id: RDIDCard
-  name: mystagogue ID card # DeltaV - Epistemics Department replacing Science
+  name: research director ID card # Ronstation - Science Department replacing Epistemics
   components:
   - type: Sprite
     layers:
@@ -620,7 +620,7 @@
 - type: entity
   parent: IDCardStandard
   id: BrigmedicIDCard
-  name: corpsman ID card # DeltaV - rename brigmedic to corpsman
+  name: brigmedic ID card # Ronstation - rename corpsman to brigmedic
   components:
   - type: Sprite
     layers:

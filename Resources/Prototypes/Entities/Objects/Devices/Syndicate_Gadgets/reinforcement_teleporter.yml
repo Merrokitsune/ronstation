@@ -5,7 +5,7 @@
   description: Call in a syndicate agent of questionable quality, instantly! Only basic equipment provided.
   components:
   - type: Sprite
-    sprite: Objects/Devices/communication.rsi
+    sprite: _Ronstation/Objects/Devices/communication.rsi
     layers:
     - state: radio
   - type: GhostRole

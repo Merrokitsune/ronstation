@@ -12,7 +12,7 @@
     sound:
       path: /Audio/Items/welder_drop.ogg
   - type: Sprite
-    sprite: Objects/Tools/welder.rsi
+    sprite: _Ronstation/Objects/Tools/welder.rsi
     layers:
     - state: icon
     - state: welder_flame
@@ -27,7 +27,7 @@
           False: { visible: false }
   - type: Item
     size: Small
-    sprite: Objects/Tools/welder.rsi
+    sprite: _Ronstation/Objects/Tools/welder.rsi
   - type: ItemToggle
     predictable: false
     soundActivate:
@@ -135,9 +135,9 @@
   description: "An industrial welder with over double the fuel capacity."
   components:
   - type: Sprite
-    sprite: Objects/Tools/welder_industrial.rsi
+    sprite: _Ronstation/Objects/Tools/welder_industrial.rsi
   - type: Item
-    sprite: Objects/Tools/welder_industrial.rsi
+    sprite: _Ronstation/Objects/Tools/welder_industrial.rsi
   - type: SolutionContainerManager
     solutions:
       Welder:

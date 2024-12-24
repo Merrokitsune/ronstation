@@ -1,7 +1,7 @@
 ﻿- type: tile
   id: Plating
   name: tiles-plating
-  sprite: /Textures/Tiles/plating.png
+  sprite: /Textures/_Ronstation/Tiles/plating.png
   baseTurf: Lattice
   isSubfloor: true
   deconstructTools: [ Axing ]
@@ -13,7 +13,7 @@
 - type: tile
   id: PlatingDamaged
   name: tiles-plating
-  sprite: /Textures/Tiles/plating_damaged.png
+  sprite: /Textures/_Ronstation/Tiles/plating_damaged.png
   variants: 3
   placementVariants:
   - 1.0
@@ -30,7 +30,7 @@
 - type: tile
   id: PlatingBurnt
   name: tiles-plating
-  sprite: /Textures/Tiles/plating_burnt.png
+  sprite: /Textures/_Ronstation/Tiles/plating_burnt.png
   baseTurf: Lattice
   isSubfloor: true
   deconstructTools: [ Axing ]
@@ -66,7 +66,7 @@
 - type: tile
   id: PlatingSnow
   name: tiles-snow-plating
-  sprite: /Textures/Tiles/snow_plating.png #Not in the snow planet RSI because it doesn't have any metadata. Should probably be moved to its own folder later.
+  sprite: /Textures/_Ronstation/Tiles/snow_plating.png #Not in the snow planet RSI because it doesn't have any metadata. Should probably be moved to its own folder later.
   baseTurf: Lattice
   isSubfloor: true
   deconstructTools: [ Axing ]
@@ -78,7 +78,7 @@
 - type: tile
   id: Lattice
   name: tiles-lattice
-  sprite: /Textures/Tiles/lattice.png
+  sprite: /Textures/_Ronstation/Tiles/lattice.png
   baseTurf: Space
   isSubfloor: true
   deconstructTools: [ Cutting ]
@@ -93,7 +93,7 @@
 - type: tile
   id: TrainLattice
   name: tiles-lattice-train
-  sprite: /Textures/Tiles/latticeTrain.png
+  sprite: /Textures/_Ronstation/Tiles/latticeTrain.png
   baseTurf: Space
   isSubfloor: true
   deconstructTools: [ Cutting ]

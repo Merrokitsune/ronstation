@@ -13,7 +13,7 @@
 - type: entity
   parent: ClothingHeadsetAlt
   id: ClothingHeadsetAltCargo
-  name: logistics officer's over-ear headset # DeltaV - Logistics Department replacing Cargo
+  name: quartermaster's over-ear headset # Ronstation - Cargo Department replacing Logistics
   components:
   - type: ContainerFill
     containers:
@@ -22,9 +22,9 @@
       - EncryptionKeyCommand
       - EncryptionKeyCommon
   - type: Sprite
-    sprite: Clothing/Ears/Headsets/cargo.rsi
+    sprite: _Ronstation/Clothing/Ears/Headsets/cargo.rsi
   - type: Clothing
-    sprite: Clothing/Ears/Headsets/cargo.rsi
+    sprite: _Ronstation/Clothing/Ears/Headsets/cargo.rsi
 
 - type: entity
   parent: ClothingHeadsetAlt
@@ -37,9 +37,9 @@
       - EncryptionKeyCentCom
       - EncryptionKeyStationMaster
   - type: Sprite
-    sprite: Clothing/Ears/Headsets/centcom.rsi
+    sprite: _Ronstation/Clothing/Ears/Headsets/centcom.rsi
   - type: Clothing
-    sprite: Clothing/Ears/Headsets/centcom.rsi
+    sprite: _Ronstation/Clothing/Ears/Headsets/centcom.rsi
 
 - type: entity
   parent: ClothingHeadsetAltCentCom
@@ -61,9 +61,9 @@
       key_slots:
       - EncryptionKeyStationMaster
   - type: Sprite
-    sprite: Clothing/Ears/Headsets/command.rsi
+    sprite: _Ronstation/Clothing/Ears/Headsets/command.rsi
   - type: Clothing
-    sprite: Clothing/Ears/Headsets/command.rsi
+    sprite: _Ronstation/Clothing/Ears/Headsets/command.rsi
 
 - type: entity
   parent: ClothingHeadsetAlt
@@ -77,9 +77,9 @@
       - EncryptionKeyCommand
       - EncryptionKeyCommon
   - type: Sprite
-    sprite: Clothing/Ears/Headsets/engineering.rsi
+    sprite: _Ronstation/Clothing/Ears/Headsets/engineering.rsi
   - type: Clothing
-    sprite: Clothing/Ears/Headsets/engineering.rsi
+    sprite: _Ronstation/Clothing/Ears/Headsets/engineering.rsi
 
 - type: entity
   parent: ClothingHeadsetAlt
@@ -93,9 +93,9 @@
       - EncryptionKeyCommand
       - EncryptionKeyCommon
   - type: Sprite
-    sprite: Clothing/Ears/Headsets/medical.rsi
+    sprite: _Ronstation/Clothing/Ears/Headsets/medical.rsi
   - type: Clothing
-    sprite: Clothing/Ears/Headsets/medical.rsi
+    sprite: _Ronstation/Clothing/Ears/Headsets/medical.rsi
   - type: StealTarget
     stealGroup: ClothingHeadsetAltMedical
 
@@ -111,14 +111,14 @@
       - EncryptionKeyCommand
       - EncryptionKeyCommon
   - type: Sprite
-    sprite: Clothing/Ears/Headsets/security.rsi
+    sprite: _Ronstation/Clothing/Ears/Headsets/security.rsi
   - type: Clothing
-    sprite: Clothing/Ears/Headsets/security.rsi
+    sprite: _Ronstation/Clothing/Ears/Headsets/security.rsi
 
 - type: entity
   parent: ClothingHeadsetAlt
   id: ClothingHeadsetAltScience
-  name: mystagogue's over-ear headset # DeltaV - Epistemics Department replacing Science
+  name: research director's over-ear headset # Ronstation - Science Department replacing Epistemics
   components:
   - type: ContainerFill
     containers:
@@ -127,9 +127,9 @@
       - EncryptionKeyCommand
       - EncryptionKeyCommon
   - type: Sprite
-    sprite: Clothing/Ears/Headsets/science.rsi
+    sprite: _Ronstation/Clothing/Ears/Headsets/science.rsi
   - type: Clothing
-    sprite: Clothing/Ears/Headsets/science.rsi
+    sprite: _Ronstation/Clothing/Ears/Headsets/science.rsi
 
 - type: entity
   parent: ClothingHeadsetAlt
@@ -145,9 +145,9 @@
       key_slots:
       - EncryptionKeySyndie
   - type: Sprite
-    sprite: Clothing/Ears/Headsets/syndicate.rsi
+    sprite: _Ronstation/Clothing/Ears/Headsets/syndicate.rsi
   - type: Clothing
-    sprite: Clothing/Ears/Headsets/syndicate.rsi
+    sprite: _Ronstation/Clothing/Ears/Headsets/syndicate.rsi
 
 - type: entity
   parent: ClothingHeadsetAlt
@@ -162,6 +162,6 @@
         key_slots:
           - EncryptionKeyFreelance
     - type: Sprite
-      sprite: Clothing/Ears/Headsets/freelance.rsi
+      sprite: _Ronstation/Clothing/Ears/Headsets/freelance.rsi
     - type: Clothing
-      sprite: Clothing/Ears/Headsets/freelance.rsi
+      sprite: _Ronstation/Clothing/Ears/Headsets/freelance.rsi

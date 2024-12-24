@@ -36,7 +36,7 @@
   - type: Sprite
     noRot: false
     drawdepth: SmallObjects
-    sprite: Structures/Wallmounts/intercom.rsi
+    sprite: _Ronstation/Structures/Wallmounts/intercom.rsi
     layers:
     - state: base
     - state: unshaded

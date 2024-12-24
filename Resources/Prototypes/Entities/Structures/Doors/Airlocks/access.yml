@@ -29,7 +29,7 @@
       board: [ DoorElectronicsTheatre ]
 
 - type: entity
-  parent: AirlockScience # DeltaV - Chapel is in Epistemics
+  parent: AirlockServiceLocked # Ronstation - Chapel is in Service
   id: AirlockChapelLocked
   suffix: Chapel, Locked
   components:
@@ -184,7 +184,7 @@
 - type: entity
   parent: AirlockCargo
   id: AirlockCargoLocked
-  suffix: Logistics, Locked # DeltaV - Logistics Department replacing Cargo
+  suffix: Cargo, Locked # Ronstation - Cargo Department replacing Logistics
   components:
   - type: ContainerFill
     containers:
@@ -256,7 +256,7 @@
 - type: entity
   parent: AirlockScience
   id: AirlockScienceLocked
-  suffix: Epistemics, Locked # DeltaV - Epistemics Department replacing Science
+  suffix: Science, Locked # Ronstation - Science Department replacing Epistemics
   components:
   - type: ContainerFill
     containers:
@@ -265,7 +265,7 @@
 - type: entity
   parent: AirlockScience
   id: AirlockMedicalScienceLocked
-  suffix: Medical/Epistemics, Locked # DeltaV - Epistemics Department replacing Science
+  suffix: Medical/Science, Locked # Ronstation - Science Department replacing Epistemics
   components:
   - type: ContainerFill
     containers:
@@ -346,7 +346,7 @@
 - type: entity
   parent: AirlockCommand
   id: AirlockQuartermasterLocked
-  suffix: Logistics Officer, Locked # DeltaV - Logistics Department replacing Cargo
+  suffix: Quartermaster, Locked # Ronstation - Cargo Department replacing Logistics
   components:
   - type: ContainerFill
     containers:
@@ -568,7 +568,7 @@
 - type: entity
   parent: AirlockCargoGlass
   id: AirlockCargoGlassLocked
-  suffix: Logistics, Locked # DeltaV - Logistics Department replacing Cargo
+  suffix: Cargo, Locked # Ronstation - Cargo Department replacing Logistics
   components:
   - type: ContainerFill
     containers:
@@ -630,7 +630,7 @@
 - type: entity
   parent: AirlockScienceGlass
   id: AirlockScienceGlassLocked
-  suffix: Epistemics, Locked # DeltaV - Epistemics Department replacing Science
+  suffix: Science, Locked # Ronstation - Science Department replacing Epistemics
   components:
   - type: ContainerFill
     containers:
@@ -639,7 +639,7 @@
 - type: entity
   parent: AirlockScienceGlass
   id: AirlockMedicalScienceGlassLocked
-  suffix: Medical/Epistemics, Locked # DeltaV - Epistemics Department replacing Science
+  suffix: Medical/Science, Locked # Ronstation - Science Department replacing Epistemics
   components:
   - type: ContainerFill
     containers:
@@ -720,7 +720,7 @@
 - type: entity
   parent: AirlockCommandGlass
   id: AirlockQuartermasterGlassLocked
-  suffix: Logistics Officer, Locked # DeltaV - Logistics Department replacing Cargo
+  suffix: Quartermaster, Locked # Ronstation - Cargo Department replacing Logistics
   components:
   - type: ContainerFill
     containers:
@@ -829,7 +829,7 @@
 - type: entity
   parent: AirlockMaint
   id: AirlockMaintCargoLocked
-  suffix: Logistics, Locked # DeltaV - Logistics Department replacing Cargo
+  suffix: Cargo, Locked # Ronstation - Cargo Department replacing Logistics
   components:
   - type: ContainerFill
     containers:
@@ -977,7 +977,7 @@
 - type: entity
   parent: AirlockMaint
   id: AirlockMaintRnDLocked
-  suffix: Epistemics, Locked # DeltaV - Epistemics Department replacing Science
+  suffix: Science, Locked # Ronstation - Science Department replacing Epistemics
   components:
   - type: ContainerFill
     containers:
@@ -988,7 +988,7 @@
 - type: entity
   parent: AirlockMaintRnDLocked
   id: AirlockMaintRnDMedLocked
-  suffix: Medical/Epistemics, Locked # DeltaV - Epistemics Department replacing Science
+  suffix: Medical/Science, Locked # Ronstation - Science Department replacing Epistemics
   components:
   - type: ContainerFill
     containers:

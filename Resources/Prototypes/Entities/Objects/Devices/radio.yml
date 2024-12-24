@@ -12,13 +12,13 @@
   - type: Speech
     speechVerb: Robotic
   - type: Sprite
-    sprite: Objects/Devices/communication.rsi
+    sprite: _Ronstation/Objects/Devices/communication.rsi
     layers:
     - state: walkietalkie
     - state: walkietalkie-on
     state: walkietalkie
   - type: Item
-    sprite: Objects/Devices/communication.rsi
+    sprite: _Ronstation/Objects/Devices/communication.rsi
     heldPrefix: walkietalkie
   - type: Tag
     tags:

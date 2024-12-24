@@ -24,7 +24,7 @@
     - PlantSampleTaker
     - Wirecutter
   - type: Sprite
-    sprite: Objects/Tools/wirecutters.rsi
+    sprite: _Ronstation/Objects/Tools/wirecutters.rsi
     layers:
     - state: cutters
       map: [ "enum.DamageStateVisualLayers.Base" ]
@@ -104,7 +104,7 @@
     tags:
     - Screwdriver
   - type: Sprite
-    sprite: Objects/Tools/screwdriver.rsi
+    sprite: _Ronstation/Objects/Tools/screwdriver.rsi
     layers:
       - state: screwdriver
         map: [ "enum.DamageStateVisualLayers.Base" ]
@@ -181,12 +181,12 @@
     tags:
     - Wrench
   - type: Sprite
-    sprite: Objects/Tools/wrench.rsi
+    sprite: _Ronstation/Objects/Tools/wrench.rsi
     state: icon
   - type: Item
-    sprite: Objects/Tools/wrench.rsi
+    sprite: _Ronstation/Objects/Tools/wrench.rsi
     storedSprite:
-      sprite: Objects/Tools/wrench.rsi
+      sprite: _Ronstation/Objects/Tools/wrench.rsi
       state: storage
   - type: MeleeWeapon
     wideAnimationRotation: 135
@@ -238,13 +238,13 @@
     tags:
     - Crowbar
   - type: Sprite
-    sprite: Objects/Tools/crowbar.rsi
+    sprite: _Ronstation/Objects/Tools/crowbar.rsi
     state: icon
   - type: Item
-    sprite: Objects/Tools/crowbar.rsi
+    sprite: _Ronstation/Objects/Tools/crowbar.rsi
     size: Small
     storedSprite:
-      sprite: Objects/Tools/crowbar.rsi
+      sprite: _Ronstation/Objects/Tools/crowbar.rsi
       state: storage
   - type: MeleeWeapon
     wideAnimationRotation: -135
@@ -289,7 +289,7 @@
   - type: Item
     heldPrefix: red
     storedSprite:
-      sprite: Objects/Tools/crowbar.rsi
+      sprite: _Ronstation/Objects/Tools/crowbar.rsi
       state: red-storage
 
 - type: entity
@@ -306,7 +306,7 @@
     sound:
       path: /Audio/Items/multitool_drop.ogg
   - type: Sprite
-    sprite: Objects/Tools/multitool.rsi
+    sprite: _Ronstation/Objects/Tools/multitool.rsi
     layers:
     - state: icon
     - state: green-unlit
@@ -324,7 +324,7 @@
   - type: Item
     size: Small
   - type: Clothing
-    sprite: Objects/Tools/multitool.rsi
+    sprite: _Ronstation/Objects/Tools/multitool.rsi
     quickEquip: false
     slots:
     - Belt
@@ -364,7 +364,7 @@
       sound:
         path: /Audio/Items/multitool_drop.ogg
     - type: Sprite
-      sprite: Objects/Tools/network_configurator.rsi
+      sprite: _Ronstation/Objects/Tools/network_configurator.rsi
       layers:
         - state: icon
         - state: mode-link
@@ -417,10 +417,10 @@
     tags:
     - Powerdrill
   - type: Sprite
-    sprite: Objects/Tools/drill.rsi
+    sprite: _Ronstation/Objects/Tools/drill.rsi
     state: drill_screw
   - type: Item
-    sprite: Objects/Tools/drill.rsi
+    sprite: _Ronstation/Objects/Tools/drill.rsi
     size: Small
   - type: Tool
     qualities:
@@ -432,7 +432,7 @@
     entries:
       - behavior: Screwing
         sprite:
-          sprite: Objects/Tools/drill.rsi
+          sprite: _Ronstation/Objects/Tools/drill.rsi
           state: drill_screw
         useSound:
           path: /Audio/Items/drill_use.ogg
@@ -440,7 +440,7 @@
           path: /Audio/Items/change_drill.ogg
       - behavior: Anchoring
         sprite:
-          sprite: Objects/Tools/drill.rsi
+          sprite: _Ronstation/Objects/Tools/drill.rsi
           state: drill_bolt
         useSound:
           path: /Audio/Items/drill_use.ogg
@@ -511,12 +511,12 @@
     charges: 30
   - type: UseDelay
   - type: Sprite
-    sprite: Objects/Tools/rcd.rsi
+    sprite: _Ronstation/Objects/Tools/rcd.rsi
     state: icon
   - type: Item
     size: Normal
   - type: Clothing
-    sprite: Objects/Tools/rcd.rsi
+    sprite: _Ronstation/Objects/Tools/rcd.rsi
     quickEquip: false
     slots:
     - Belt
@@ -590,10 +590,10 @@
   components:
   - type: RCDAmmo
   - type: Sprite
-    sprite: Objects/Tools/rcd.rsi
+    sprite: _Ronstation/Objects/Tools/rcd.rsi
     state: ammo
   - type: Item
-    sprite: Objects/Tools/rcd.rsi
+    sprite: _Ronstation/Objects/Tools/rcd.rsi
     heldPrefix: ammo
   - type: PhysicalComposition
     materialComposition:
