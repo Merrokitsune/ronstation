@@ -4,6 +4,8 @@
   antagonist: true
   setPreference: true
   objective: roles-antag-syndicate-agent-objective
-  requirements:
-  - !type:CharacterOverallTimeRequirement # DeltaV - Playtime requirement
-    min: 86400 # DeltaV - 24 hours
+- type: LanguageKnowledge
+  speaks:
+  - Codespeak
+  understands:
+  - Codespeak

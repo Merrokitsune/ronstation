@@ -3,7 +3,7 @@
   parent: BaseStructure
   id: Spaceshroom
   suffix: Structure
-  description: A cluster of wild mushrooms that likes to grow in dark, moist environments.
+  description: A cluster of wild mushrooms.
   components:
     - type: Sprite
       sprite: Objects/Misc/spaceshroom.rsi
@@ -48,7 +48,7 @@
   name: spaceshroom
   parent: FoodProduceBase
   id: FoodSpaceshroom
-  description: A wild mushroom. There's no telling what effect it could have...
+  description: A wild mushroom.
   components:
   - type: Produce
   - type: Sprite
@@ -114,12 +114,12 @@
   - type: SolutionContainerManager
     solutions:
       food:
-        maxVol: 15
+        maxVol: 20
         reagents:
         - ReagentId: Nutriment
           Quantity: 10
         - ReagentId: Vitamin
-          Quantity: 5
+          Quantity: 10
   - type: Sprite
     sprite: Objects/Misc/spaceshroom.rsi
     state: spaceshroom_cooked

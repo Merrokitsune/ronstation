@@ -354,3 +354,30 @@
   color: "#bababa"
   meltingPoint: 419.5
   boilingPoint: 907.0
+
+- type: reagent
+  id: Bromine
+  name: reagent-name-bromine
+  group: Elements
+  desc: reagent-desc-bromine
+  physicalDesc: reagent-physical-desc-gaseous
+  flavor: sweet
+  color: "#752817"
+  meltingPoint: 266.3
+  boilingPoint: 332.6
+  plantMetabolism:
+    - !type:PlantAdjustWater
+      amount: -0.5
+    - !type:PlantAdjustToxins
+      amount: 20
+    - !type:PlantAdjustWeeds
+      amount: -5
+    - !type:PlantAdjustHealth
+      amount: -1
+  metabolisms:
+    Poison:
+      effects:
+      - !type:HealthChange
+        damage:
+          types:
+            Poison: 2

@@ -106,6 +106,44 @@
         - proto: WeaponTeslaGun
           prob: 0.1
           cost: 2
+# Seed loot table
+        - proto: CannabisSeeds
+          prob: 0.5
+        - proto: TobaccoSeeds
+          prob: 0.5
+        - proto: GalaxythistleSeeds
+          prob: 0.5
+        - proto: LingzhiSeeds
+          prob: 0.5
+        - proto: NettleSeeds
+          prob: 0.5
+        - proto: BlueTomatoSeeds
+          prob: 0.5
+        - proto: BloodTomatoSeeds
+          prob: 0.5
+        - proto: RainbowCannabisSeeds
+          prob: 0.1
+        - proto: KoibeanSeeds
+          prob: 0.1
+          cost: 1
+        - proto: AmbrosiaDeusSeeds
+          prob: 0.1
+          cost: 1
+        - proto: SpacemansTrumpetSeeds
+          prob: 0.1
+          cost: 1
+        - proto: SteelcapSeeds
+          prob: 0.1
+          cost: 1
+        - proto: DeathNettleSeeds
+          prob: 0.1
+          cost: 2
+        - proto: GatfruitSeeds
+          prob: 0.1
+          cost: 2
+        - proto: PyrottonSeeds
+          prob: 0.1
+          cost: 2
 
 # Mob loot table
 
