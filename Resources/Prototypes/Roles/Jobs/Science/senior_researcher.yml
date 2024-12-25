@@ -3,9 +3,10 @@
   name: job-name-senior-researcher
   description: job-description-senior-researcher
   playTimeTracker: JobSeniorResearcher
+  setPreference: false
   requirements:
     - !type:CharacterDepartmentTimeRequirement
-      department: Epistemics # DeltaV - Epistemics Department replacing Science
+      department: Science # Ronstation - Science Department replacing Epistemics
       min: 216000 #60 hrs
   startingGear: SeniorResearcherGear
   icon: "JobIconSeniorResearcher"

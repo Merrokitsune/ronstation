@@ -8,11 +8,14 @@
   cost: 0
   exclusive: true
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerBelt
     - !type:CharacterJobRequirement
       jobs:
-        - SeniorEngineer
+        - StationEngineer
   items:
     - ClothingBeltUtility
 

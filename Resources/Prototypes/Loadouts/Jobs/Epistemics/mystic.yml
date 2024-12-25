@@ -11,11 +11,14 @@
   category: JobsEpistemicsMystic
   cost: 0
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Science
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutMysticEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - SeniorResearcher
+        - Scientist
   items:
     - BoxCandle
 

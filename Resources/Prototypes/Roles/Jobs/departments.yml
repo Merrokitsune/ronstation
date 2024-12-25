@@ -18,7 +18,7 @@
   - Borg
   - Botanist
   - Boxer
-  # - Chaplain # DeltaV - Move Chaplain into Epistemics
+  - Chaplain # DeltaV - Move Chaplain into Service
   - Chef
   - Clown
   - HeadOfPersonnel
@@ -34,6 +34,7 @@
   - MartialArtist # Nyanotrasen - MartialArtist, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Wildcards/martialartist.yml
   - Prisoner # Nyanotrasen - Prisoner, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Wildcards/prisoner.yml
   - Gladiator # Nyanotrasen - Gladiator, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Wildcards/gladiator.yml
+  - Librarian # Ronstation - Move Librarian into Service
 
 - type: department
   id: Command
@@ -92,18 +93,19 @@
   - Brigmedic # DeltaV - Brigmedic, see Resources/Prototypes/DeltaV/Roles/Jobs/Security/brigmedic.yml
 
 - type: department
-  id: Epistemics # DeltaV - Epistemics Department replacing Science
+  id: Epistemics # Ronstation - Science Department replacing Epistemics. Science roles moved to Ronstation's departments.yml.
   description: department-Science-description
   color: "#D381C9"
   roles:
-  - ResearchDirector
-  - SeniorResearcher
-  - Scientist
-  - ResearchAssistant
-  - Chaplain # DeltaV - Move Chaplain into Epistemics
+  # - ResearchDirector # Ronstation - Science Department replacing Epistemics.
+  # - SeniorResearcher # Ronstation - Science Department replacing Epistemics.
+  # - Scientist # Ronstation - Science Department replacing Epistemics.
+  # - ResearchAssistant # Ronstation - Science Department replacing Epistemics.
+  # - Chaplain # Ronstation - Move Chaplain into Service
   - ForensicMantis # Nyanotrasen - ForensicMantis, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Epistemics/forensicmantis.yml
-  - Librarian
-  - Roboticist
+  # - Librarian # Ronstation - Move Librarian into Service
+  # - Roboticist # Ronstation - Science Department replacing Epistemics.
+  primary: false
 
 - type: department
   id: Specific
