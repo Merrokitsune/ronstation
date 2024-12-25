@@ -44,7 +44,7 @@ loadout-category-JobsLogistics = Logistics
 loadout-category-JobsLogisticsAUncategorized = All Logistics
 loadout-category-JobsLogisticsCargoTechnician = Cargo Technician
 loadout-category-JobsLogisticsCourier = Courier
-loadout-category-JobsLogisticsLogisticsOfficer = Logistics Officer
+loadout-category-JobsLogisticsLogisticsOfficer = Quartermaster
 loadout-category-JobsLogisticsSalvageSpecialist = Salvage Specialist
 
 # Medical
