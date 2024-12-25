@@ -29,11 +29,14 @@
   cost: 0
   exclusive: true
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Medical
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorPhysicianBelt
     - !type:CharacterJobRequirement
       jobs:
-        - SeniorPhysician
+        - MedicalDoctor
   items:
     - ClothingBeltMedicalAdvancedFilled
 
@@ -48,11 +51,14 @@
   cost: 0
   exclusive: true
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Medical
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorPhysicianHead
     - !type:CharacterJobRequirement
       jobs:
-        - SeniorPhysician
+        - MedicalDoctor
   items:
     - ClothingHeadHatBeretSeniorPhysician
 
@@ -73,11 +79,14 @@
   cost: 0
   exclusive: true
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Medical
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorPhysicianUniforms
     - !type:CharacterJobRequirement
       jobs:
-        - SeniorPhysician
+        - MedicalDoctor
   items:
     - ClothingUniformJumpskirtSeniorPhysician
 
@@ -87,10 +96,13 @@
   cost: 0
   exclusive: true
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Medical
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorPhysicianUniforms
     - !type:CharacterJobRequirement
       jobs:
-        - SeniorPhysician
+        - MedicalDoctor
   items:
     - ClothingUniformJumpsuitSeniorPhysician

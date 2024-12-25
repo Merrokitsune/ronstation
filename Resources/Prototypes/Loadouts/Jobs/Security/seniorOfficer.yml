@@ -47,10 +47,13 @@
   cost: 0
   exclusive: true
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorOfficerUniforms
     - !type:CharacterJobRequirement
       jobs:
-        - SeniorOfficer
+        - SecurityOfficer
   items:
     - ClothingUniformJumpsuitSeniorOfficer
