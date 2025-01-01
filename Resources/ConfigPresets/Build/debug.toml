@@ -4,6 +4,7 @@ enabled = false
 
 [shuttle]
 auto_call_time = 0
+arrivals_map = "Maps/_Ronstation/Misc/terminal.yml"
 
 [glimmer]
 enabled = false
@@ -11,6 +12,3 @@ enabled = false
 [psionics]
 rolls_enabled = false
 
-[heightadjust]
-modifies_hitbox = false
-modifies_bloodstream = false

@@ -56,7 +56,10 @@ map_enabled = true
 #enabled = true
 
 #RONSTATION:
-#Required for development without glimmer, psionics, and heightadjust.
+#Required for development without glimmer, and psionics.
+
+[shuttle]
+arrivals_map = "Maps/_Ronstation/Misc/terminal.yml"
 
 [glimmer]
 enabled = false
@@ -64,6 +67,3 @@ enabled = false
 [psionics]
 rolls_enabled = false
 
-[heightadjust]
-modifies_hitbox = false
-modifies_bloodstream = false

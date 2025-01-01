@@ -24,6 +24,7 @@ auto_call_time = 0
 emergency = false
 arrivals = false
 preload_grids = false
+arrivals_map = "Maps/_Ronstation/Misc/terminal.yml"
 
 [admin]
 see_own_notes = true
@@ -33,7 +34,3 @@ enabled = false
 
 [psionics]
 rolls_enabled = false
-
-[heightadjust]
-modifies_hitbox = false
-modifies_bloodstream = false
