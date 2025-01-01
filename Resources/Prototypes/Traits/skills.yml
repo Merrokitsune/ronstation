@@ -212,6 +212,15 @@
           inverted: true
           species:
             - Shadowkin
+            - Gingerbread # Ronstaiton - Race rework.
+            - Vox # Ronstaiton - Race rework.
+            - Diona # Ronstaiton - Race rework.
+            - Dwarf # Ronstaiton - Race rework.
+            - SlimePerson # Ronstaiton - Race rework.
+            - Arachnid # Ronstaiton - Race rework.
+            - Reptilian # Ronstaiton - Race rework.
+            - Human # Ronstaiton - Race rework.
+            - Moth # Ronstaiton - Race rework.
     - !type:CharacterTraitRequirement
       inverted: true
       traits:

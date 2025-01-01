@@ -11,6 +11,10 @@
         Quantity: 3
       - ReagentId: Sugar
         Quantity: 10
+  - type: FlavorProfile
+    flavors:
+      - sweet
+  - type: Food
 
 - type: entity
   id: TorsoGingerbread
