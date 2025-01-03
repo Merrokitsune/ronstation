@@ -5,7 +5,7 @@
   playTimeTracker: JobScientist
   requirements:
     - !type:CharacterDepartmentTimeRequirement
-      department: Epistemics # DeltaV - Epistemics Department replacing Science
+      department: Science # Ronstation - Science Department replacing Epistemics
       min: 14400 #4 hrs
   startingGear: ScientistGear
   icon: "JobIconScientist"

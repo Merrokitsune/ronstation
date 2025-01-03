@@ -3,51 +3,54 @@
   name: job-name-mantis
   description: job-description-mantis
   playTimeTracker: JobForensicMantis
+  setPreference: true
   requirements:
     - !type:CharacterOverallTimeRequirement
-      min: 18000
+      min: 18000 # 5 hours.
     - !type:DepartmentTimeRequirement
-      department: Epistemics # DeltaV - Epistemics Department replacing Science
-      min: 3600
-    - !type:CharacterLogicOrRequirement
-      requirements:
-        - !type:CharacterSpeciesRequirement
-          inverted: true
-          species:
-            - IPC
-        - !type:CharacterTraitRequirement
-          traits:
-            - AnomalousPositronics
-    - !type:CharacterLogicOrRequirement
-      requirements:
-        - !type:CharacterSpeciesRequirement
-          species:
-            - Shadowkin
-        - !type:CharacterTraitRequirement
-          inverted: true
-          traits:
-            - ShadowkinBlackeye
+      department: Science # Ronstation - Forensic Mantis replaced with Praying Mantis.
+      min: 18000 #Ronstation - 5 hours.
+  #  - !type:CharacterPlaytimeRequirement
+  #    tracker: JobDetective
+  #    min: 18000 #Ronstation - 5 hours.
+  #  - !type:CharacterLogicOrRequirement
+  #    requirements:
+  #      - !type:CharacterSpeciesRequirement
+  #        inverted: true
+  #        species:
+  #          - IPC
+  #      - !type:CharacterTraitRequirement
+  #        traits:
+  #          - AnomalousPositronics
+  #  - !type:CharacterLogicOrRequirement # Ronstation - Unneeded speciesism.
+  #    requirements:
+  #      - !type:CharacterSpeciesRequirement
+  #        inverted: true
+  #        species:
+  #          - Shadowkin
   startingGear: ForensicMantisGear
   icon: "JobIconForensicMantis"
   supervisors: job-supervisors-rd
   antagAdvantage: 5 # DeltaV - From 4 to 5
-  canBeAntag: true # DeltaV - Mantis is no longer a Detective
+  canBeAntag: false # Ronstation - Mantis is now a "warden" of science.
   # whitelistRequired: true
   access:
   - Research
   - Maintenance
   - Mantis # DeltaV - Mantis, see Resources/Prototypes/DeltaV/Access/epistemics.yml
   special:
-  - !type:AddComponentSpecial
-    components:
-    - type: Psionic
-      powerSlots: 2
-  - !type:AddComponentSpecial
-    components:
-    - type: InnatePsionicPowers
-      powersToAdd:
-        - MetapsionicPower
-        - TelepathyPower
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ] # Ronstation - Mantis is science's warden.
+  #- !type:AddComponentSpecial
+  #  components:
+  #  - type: Psionic
+  #    powerSlots: 2
+  #- !type:AddComponentSpecial
+  #  components:
+  #  - type: InnatePsionicPowers
+  #    powersToAdd:
+  #      - MetapsionicPower
+  #      - TelepathyPower
 
 - type: startingGear
   id: ForensicMantisGear
@@ -58,7 +61,7 @@
     head: ClothingHeadHatFezMantis
     id: ForensicMantisPDA
     eyes: ClothingEyesGlassesSunglasses
-    ears: ClothingHeadsetScience # DeltaV - Mantis is part of Epistemics
+    ears: ClothingHeadsetScience
     gloves: ClothingHandsGlovesColorWhite
     outerClothing: ClothingOuterCoatMantis
     belt: ClothingBeltMantis

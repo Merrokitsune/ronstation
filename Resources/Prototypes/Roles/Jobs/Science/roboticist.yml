@@ -5,7 +5,7 @@
   playTimeTracker: JobRoboticist
   requirements:
   - !type:CharacterDepartmentTimeRequirement
-    department: Epistemics
+    department: Science # Ronstation - Science Department replacing Epistemics
     min: 14400 # 4 hours - same as scientist
   startingGear: RoboticistGear
   icon: "JobIconRoboticist"

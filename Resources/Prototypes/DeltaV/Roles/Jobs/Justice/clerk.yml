@@ -4,6 +4,7 @@
   description: job-description-clerk
   playTimeTracker: JobClerk
   antagAdvantage: 2
+  setPreference: true
   requirements:
     - !type:CharacterDepartmentTimeRequirement
       department: Security
@@ -14,7 +15,7 @@
     - !type:CharacterPlaytimeRequirement
       tracker: JobProsecutor
       min: 36000 # 10 hours
-
+    - !type:CharacterWhitelistRequirement # Ronstation - Whitelist requirement because of their highly roleplay-based nature.
 
   startingGear: ClerkGear
   icon: "JobIconClerk"

@@ -3,9 +3,11 @@
   name: job-name-prosecutor
   description: job-description-prosecutor
   playTimeTracker: JobProsecutor
+  setPreference: true
   requirements:
     - !type:CharacterOverallTimeRequirement
       min: 36000 # 10 hrs
+    - !type:CharacterWhitelistRequirement # Ronstation - Whitelist requirement because of their highly roleplay-based nature. Lawyers can become prosecutors.
   startingGear: ProsecutorGear
   icon: "JobIconProsecutor"
   supervisors: job-supervisors-cj

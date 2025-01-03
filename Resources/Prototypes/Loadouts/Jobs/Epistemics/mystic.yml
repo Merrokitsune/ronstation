@@ -11,11 +11,14 @@
   category: JobsEpistemicsMystic
   cost: 0
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Science
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutMysticEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - SeniorResearcher
+        - Scientist
   items:
     - BoxCandle
 
@@ -24,11 +27,14 @@
   category: JobsEpistemicsMystic
   cost: 0
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Science
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutMysticEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - SeniorResearcher
+        - Scientist
   items:
     - BoxCandleSmall
 
@@ -37,11 +43,14 @@
   category: JobsEpistemicsMystic
   cost: 0
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Science
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutMysticEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - SeniorResearcher
+        - Scientist
   items:
     - PillCanisterSpaceDrugs
 
@@ -65,11 +74,14 @@
   exclusive: true
   customColorTint: true
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Science
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutMysticOuter
     - !type:CharacterJobRequirement
       jobs:
-        - SeniorResearcher
+        - Scientist
   items:
     - ClothingOuterCoatLabSeniorResearcher
 
@@ -82,11 +94,14 @@
   cost: 0
   exclusive: true
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Science
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutMysticUniforms
     - !type:CharacterJobRequirement
       jobs:
-        - SeniorResearcher
+        - Scientist
   items:
     - ClothingUniformJumpskirtSeniorResearcher
 
@@ -96,10 +111,13 @@
   cost: 0
   exclusive: true
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Science
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutMysticUniforms
     - !type:CharacterJobRequirement
       jobs:
-        - SeniorResearcher
+        - Scientist
   items:
     - ClothingUniformJumpsuitSeniorResearcher

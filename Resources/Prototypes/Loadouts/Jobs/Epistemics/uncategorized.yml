@@ -12,7 +12,7 @@
       group: LoadoutEpistemicsBackpacks
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Science
 
 - type: loadout
   id: LoadoutBackpackSatchelScience
@@ -26,7 +26,7 @@
       group: LoadoutEpistemicsBackpacks
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Science
 
 - type: loadout
   id: LoadoutBackpackDuffelScience
@@ -40,7 +40,7 @@
       group: LoadoutEpistemicsBackpacks
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Science
 
 # Belt
 
@@ -59,7 +59,7 @@
       group: LoadoutEpistemicsEyes
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Science
   items:
     - ClothingEyesHudDiagnostic
 
@@ -73,7 +73,7 @@
       group: LoadoutEpistemicsEyes
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Science
   items:
     - ClothingEyesEyepatchHudDiag
 
@@ -88,7 +88,7 @@
       group: LoadoutEpistemicsGloves
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Science
   items:
     - ClothingHandsGlovesColorPurple
 
@@ -102,7 +102,7 @@
       group: LoadoutEpistemicsGloves
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Science
   items:
     - ClothingHandsGlovesLatex
 
@@ -116,7 +116,7 @@
       group: LoadoutEpistemicsGloves
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Science
   items:
     - ClothingHandsGlovesRobohands
 
@@ -131,7 +131,7 @@
       group: LoadoutEpistemicsHead
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Science
   items:
     - ClothingHeadHatBeretRND
 
@@ -145,7 +145,7 @@
       group: LoadoutEpistemicsHead
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Science
   items:
     - ClothingHeadHatFez
 
@@ -161,7 +161,7 @@
       group: LoadoutEpistemicsHead
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Science
 
 # Id
 
@@ -176,7 +176,7 @@
       group: LoadoutEpistemicsNeck
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Science
   items:
     - ClothingNeckTieSci
 
@@ -190,7 +190,7 @@
       group: LoadoutEpistemicsNeck
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Science
   items:
     - ClothingNeckScarfStripedPurple
 
@@ -204,7 +204,7 @@
       group: LoadoutEpistemicsNeck
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Science
   items:
     - ClothingNeckScarfStripedBlack
 
@@ -222,7 +222,7 @@
       group: LoadoutEpistemicsOuter
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Science
   items:
     - ClothingOuterCoatRnd
 
@@ -237,7 +237,7 @@
       group: LoadoutEpistemicsOuter
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Science
   items:
     - ClothingOuterCoatLab
 
@@ -251,7 +251,7 @@
       group: LoadoutEpistemicsOuter
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Science
   items:
     - ClothingOuterCoatRobo
 
@@ -265,7 +265,7 @@
       group: LoadoutEpistemicsOuter
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Science
   items:
     - ClothingOuterWinterSci
 
@@ -280,7 +280,7 @@
       group: LoadoutEpistemicsOuter
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Science
   items:
     - ClothingOuterExplorerCoat
 
@@ -295,7 +295,7 @@
       group: LoadoutEpistemicsOuter
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Science
 
 # Shoes
 - type: loadout
@@ -308,7 +308,7 @@
       group: LoadoutEpistemicsShoes
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Science
   items:
     - ClothingShoesBootsWinterSci
 

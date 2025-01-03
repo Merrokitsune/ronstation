@@ -1,12 +1,12 @@
 - type: entity
   categories: [ HideSpawnMenu ]
-  parent: ClothingBackpackScience
+  parent: ClothingBackpack # Ronstation - Mantis is in Command.
   id: ClothingBackpackMantisFilled
   components:
     - type: StorageFill
       contents:
       # - id: BoxForensicPad # DeltaV - Mantis is no longer a Detective
       - id: HandLabeler
-      - id: PillMindbreakerToxin
+      # - id: PillMindbreakerToxin
       - id: BoxFolderGrey
       - id: RubberStampMantis

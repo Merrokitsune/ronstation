@@ -5,26 +5,26 @@
   playTimeTracker: JobChaplain
   requirements:
     - !type:CharacterDepartmentTimeRequirement
-      department: Epistemics # Chaplain is now one of the station's "Crew-Aligned Wizards"
+      department: Civilian # Chaplain is now one of the station's "Crew-Aligned Wizards"
       min: 14400 # 4 hours
-    - !type:CharacterLogicOrRequirement
-      requirements:
-        - !type:CharacterSpeciesRequirement
-          inverted: true
-          species:
-            - IPC
-        - !type:CharacterTraitRequirement
-          traits:
-            - AnomalousPositronics
-    - !type:CharacterLogicOrRequirement
-      requirements:
-        - !type:CharacterSpeciesRequirement
-          inverted: true
-          species:
-            - Shadowkin
+    #- !type:CharacterLogicOrRequirement
+    #  requirements:
+    #    - !type:CharacterSpeciesRequirement
+    #      inverted: true
+    #      species:
+    #        - IPC
+    #    - !type:CharacterTraitRequirement
+    #      traits:
+    #        - AnomalousPositronics
+    #- !type:CharacterLogicOrRequirement # Ronstation - We don't need speciesism.
+    #  requirements:
+    #    - !type:CharacterSpeciesRequirement
+    #      inverted: true
+    #      species:
+    #        - Shadowkin
   startingGear: ChaplainGear
   icon: "JobIconChaplain"
-  supervisors: job-supervisors-rd
+  supervisors: job-supervisors-hop # Ronstation - Change supervisor to head of personnel
   access:
   - Chapel
   - Research
@@ -33,13 +33,13 @@
   - !type:AddComponentSpecial
     components:
     - type: BibleUser
-    - type: Psionic
-      powerRollMultiplier: 3
-    - type: InnatePsionicPowers
-      powersToAdd:
-        - TelepathyPower
-        - HealingWordPower
-        - SummonRemiliaPower
+    #- type: Psionic
+    #  powerRollMultiplier: 3
+    #- type: InnatePsionicPowers
+    #  powersToAdd:
+    #    - TelepathyPower
+    #    - HealingWordPower
+    #    - SummonRemiliaPower
 
 - type: startingGear
   id: ChaplainGear

@@ -5,23 +5,23 @@
   playTimeTracker: JobLibrarian
   requirements:
     - !type:CharacterDepartmentTimeRequirement
-      department: Epistemics
+      department: Civilian # Ronstation - Librarian is now in Service.
       min: 14400
-    - !type:CharacterLogicOrRequirement
-      requirements:
-        - !type:CharacterSpeciesRequirement
-          inverted: true
-          species:
-            - IPC
-        - !type:CharacterTraitRequirement
-          traits:
-            - AnomalousPositronics
-    - !type:CharacterLogicOrRequirement
-      requirements:
-        - !type:CharacterSpeciesRequirement
-          inverted: true
-          species:
-            - Shadowkin
+  #  - !type:CharacterLogicOrRequirement
+  #    requirements:
+  #      - !type:CharacterSpeciesRequirement
+  #        inverted: true
+  #        species:
+  #          - IPC
+  #      - !type:CharacterTraitRequirement
+  #        traits:
+  #          - AnomalousPositronics
+  #  - !type:CharacterLogicOrRequirement
+  #    requirements:
+  #      - !type:CharacterSpeciesRequirement
+  #        inverted: true
+  #        species:
+  #          - Shadowkin
   startingGear: LibrarianGear
   icon: "JobIconLibrarian"
   supervisors: job-supervisors-rd
@@ -29,14 +29,14 @@
   - Research
   - Maintenance
   - Library
-  special:
-  - !type:AddComponentSpecial
-    components:
-    - type: Psionic
-    - type: InnatePsionicPowers
-      powersToAdd:
-        - XenoglossyPower
-        - TelepathyPower
+  #special:
+  #- !type:AddComponentSpecial
+  #  components:
+  #  - type: Psionic
+  #  - type: InnatePsionicPowers
+  #    powersToAdd:
+  #      - XenoglossyPower
+  #      - TelepathyPower
 
 
 - type: startingGear

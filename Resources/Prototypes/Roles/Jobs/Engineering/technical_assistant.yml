@@ -7,10 +7,10 @@
   requirements:
   - !type:CharacterOverallTimeRequirement # DeltaV - to prevent griefers from taking the role.
       min: 14400 # 4 hours
-    # - !type:DepartmentTimeRequirement # DeltaV - Removes time limit
-    #   department: Engineering
-    #   time: 54000 #15 hrs
-    #   inverted: true # stop playing intern if you're good at engineering!
+  - !type:CharacterDepartmentTimeRequirement # Ronstation - Readds time limit
+      department: Engineering
+      min: 54000 #15 hrs
+      inverted: true # stop playing intern if you're good at engineering!
   startingGear: TechnicalAssistantGear
   icon: "JobIconTechnicalAssistant"
   supervisors: job-supervisors-engineering
