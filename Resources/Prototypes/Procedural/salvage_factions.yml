@@ -23,26 +23,6 @@
     Megafauna: MobXenoQueen
 
 - type: salvageFaction
-  id: Argocytes
-  entries:
-    - proto: MobArgocyteMolder
-    - proto: MobArgocyteCrawler
-      cost: 1
-    - proto: MobArgocyteFounder
-      cost: 5
-      prob: 0.1
-    - proto: MobArgocyteLeviathing
-      cost: 10
-      prob: 0.02
-    - proto: MobArgocyteEnforcer
-      cost: 5
-    - proto: MobArgocyteSkitter
-      cost: 2
-    - proto: MobArgocyteGlider
-  configs:
-    Megafauna: MobArgocyteLeviathing
-
-- type: salvageFaction
   id: Carps
   entries:
     - proto: MobCarpDungeon
