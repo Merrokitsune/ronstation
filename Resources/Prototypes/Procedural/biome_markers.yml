@@ -31,11 +31,6 @@
   id: Carps
   prototype: MobCarpDungeon
 
-- type: biomeMarkerLayer
-  id: Argocytes
-  prototype: MobArgocyteSkitter
-
-
 #- type: biomeMarkerLayer
 #  id: Experiment
 #  proto: DungeonMarkerExperiment
