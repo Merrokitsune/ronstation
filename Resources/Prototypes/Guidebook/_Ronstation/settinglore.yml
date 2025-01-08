@@ -1,0 +1,25 @@
+- type: guideEntry
+  id: SettingLore
+  name: guide-entry-setting-lore
+  text: "/ServerInfo/Guidebook/_Ronstation/Lore/SettingLore.xml"
+  children:
+    - Entities
+
+- type: guideEntry
+  id: Entities
+  name: guide-entry-entities
+  text: "/ServerInfo/Guidebook/_Ronstation/Lore/Entities/Entities.xml"
+  children:
+    - Nanotrasen
+    - TheState
+
+
+- type: guideEntry
+  id: Nanotrasen
+  name: guide-entry-nanotrasen
+  text: "/ServerInfo/Guidebook/_Ronstation/Lore/Entities/Nanotrasen.xml"
+
+- type: guideEntry
+  id: TheState
+  name: guide-entry-state
+  text: "/ServerInfo/Guidebook/_Ronstation/Lore/Entities/TheState.xml"

@@ -13,7 +13,7 @@
   - Writing
   - Glossary
   - LoadoutInfo
-  - SettingLore
+  #- SettingLore
 
 - type: guideEntry
   id: Writing
