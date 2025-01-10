@@ -1281,7 +1281,13 @@
 - type: tile
   id: FloorShuttleWhite
   name: tiles-white-shuttle-floor
-  sprite: /Textures/Tiles/shuttlewhite.png #Ronstation's shuttle textures are having problems.
+  sprite: /Textures/_Ronstation/Tiles/shuttlewhite.png #Ronstation - Tile retexture.
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
@@ -1294,7 +1300,13 @@
 - type: tile
   id: FloorShuttleGrey
   name: tiles-grey-shuttle-floor
-  sprite: /Textures/Tiles/shuttlegrey.png #Ronstation's shuttle textures are having problems.
+  sprite: /Textures/_Ronstation/Tiles/shuttlegrey.png #Ronstation - Tile retexture.
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
@@ -1307,7 +1319,13 @@
 - type: tile
   id: FloorShuttleBlack
   name: tiles-black-shuttle-floor
-  sprite: /Textures/Tiles/shuttleblack.png #Ronstation's shuttle textures are having problems.
+  sprite: /Textures/_Ronstation/Tiles/shuttleblack.png #Ronstation - Tile retexture.
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
@@ -1320,7 +1338,13 @@
 - type: tile
   id: FloorShuttleBlue
   name: tiles-blue-shuttle-floor
-  sprite: /Textures/Tiles/shuttleblue.png #Ronstation's shuttle textures are having problems.
+  sprite: /Textures/_Ronstation/Tiles/shuttleblue.png #Ronstation - Tile retexture.
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
@@ -1333,7 +1357,13 @@
 - type: tile
   id: FloorShuttleOrange
   name: tiles-orange-shuttle-floor
-  sprite: /Textures/Tiles/shuttleorange.png #Ronstation's shuttle textures are having problems.
+  sprite: /Textures/_Ronstation/Tiles/shuttleorange.png #Ronstation - Tile retexture.
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
@@ -1346,7 +1376,13 @@
 - type: tile
   id: FloorShuttlePurple
   name: tiles-purple-shuttle-floor
-  sprite: /Textures/Tiles/shuttlepurple.png #Ronstation's shuttle textures are having problems.
+  sprite: /Textures/_Ronstation/Tiles/shuttlepurple.png #Ronstation - Tile retexture.
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
@@ -1359,7 +1395,13 @@
 - type: tile
   id: FloorShuttleRed
   name: tiles-red-shuttle-floor
-  sprite: /Textures/Tiles/shuttlered.png #Ronstation's shuttle textures are having problems.
+  sprite: /Textures/_Ronstation/Tiles/shuttlered.png #Ronstation - Tile retexture.
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
