@@ -1,0 +1,45 @@
+# Seed loot table
+- type: salvageLoot
+  id: SalvageLootRonstation
+  loots:
+    - !type:RandomSpawnsLoot
+      entries:
+        - proto: GalaxythistleSeeds
+          prob: 0.5
+        - proto: LingzhiSeeds
+          prob: 0.5
+        - proto: NettleSeeds
+          prob: 0.5
+          cost: 1
+        - proto: CannabisSeeds
+          prob: 0.25
+        - proto: TobaccoSeeds
+          prob: 0.25
+        - proto: BlueTomatoSeeds
+          prob: 0.25
+        - proto: BloodTomatoSeeds
+          prob: 0.25
+        - proto: RainbowCannabisSeeds
+          prob: 0.1
+          cost: 1
+        - proto: KoibeanSeeds
+          prob: 0.1
+          cost: 1
+        - proto: AmbrosiaDeusSeeds
+          prob: 0.1
+          cost: 1
+        - proto: SpacemansTrumpetSeeds
+          prob: 0.1
+          cost: 1
+        - proto: SteelcapSeeds
+          prob: 0.1
+          cost: 1
+        - proto: DeathNettleSeeds
+          prob: 0.1
+          cost: 2
+        - proto: GatfruitSeeds
+          prob: 0.05
+          cost: 5
+        - proto: PyrottonSeeds
+          prob: 0.05
+          cost: 5

@@ -1,0 +1,15 @@
+- type: salvageDifficulty
+  id: Easy
+  lootBudget: 20
+  mobBudget: 15
+  modifierBudget: 1
+  color: "#9FED5896"
+  recommendedPlayers: 2
+
+- type: salvageDifficulty
+  id: Difficult
+  lootBudget: 60
+  mobBudget: 50
+  modifierBudget: 4
+  color: "#DE3A3A96"
+  recommendedPlayers: 6
