@@ -466,8 +466,6 @@ entities:
       pos: -0.5,8.5
       parent: 2
     - type: DeviceList
-      configurators:
-      - invalid
       devices:
       - 426
       - 258
@@ -2035,8 +2033,6 @@ entities:
       pos: -4.5,-0.5
       parent: 2
     - type: DeviceList
-      configurators:
-      - invalid
       devices:
       - 494
       - 342
