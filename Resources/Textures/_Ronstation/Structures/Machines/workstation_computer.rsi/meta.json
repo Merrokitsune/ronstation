@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from FTL13 at commit https://github.com/FTL13/FTL13/commit/78dca3b5fa88182a8b7528f5c6567c7dcb81a6ec, and tgstation at commit https://github.com/tgstation/tgstation/pull/68187/commits/49881707f9a17831eb82c5e0ef03dd4ad34775c4. generic_mouse created by Merrokitsune for the Ronstation fork.",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+    "states": [
+        {
+            "name": "computer",
+            "directions": 4
+        },
+        {
+            "name": "screen_error",
+            "directions": 4
+        },
+        {
+            "name": "generic",
+            "directions": 4,
+            "delays": [
+                [
+                    0.2,
+                    0.2
+                ],
+                [
+                    0.2,
+                    0.2
+                ],
+                [
+                    0.2,
+                    0.2
+                ],
+                [
+                    0.2,
+                    0.2
+                ]
+            ]
+        },
+        {
+            "name": "generic_mouse",
+            "directions": 4
+        },
+        {
+            "name": "generic_keyboard",
+            "directions": 4
+        }
+    ]
+}
