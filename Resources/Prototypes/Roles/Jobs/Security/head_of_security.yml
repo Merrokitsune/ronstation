@@ -14,7 +14,7 @@
       department: Security
       min: 108000 # Ronstation - 30 hours
     - !type:CharacterOverallTimeRequirement
-      min: 90000 # DeltaV - 25 hours
+      min: 126000 # Ronstation - 35 hours
   #  - !type:CharacterWhitelistRequirement
     - !type:CharacterTraitRequirement
       inverted: true
