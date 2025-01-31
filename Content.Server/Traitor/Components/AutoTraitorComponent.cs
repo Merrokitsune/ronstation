@@ -1,5 +1,6 @@
 using Content.Server.Traitor.Systems;
 using Robust.Shared.Prototypes;
+using Content.Shared.Language;
 
 namespace Content.Server.Traitor.Components;
 
@@ -14,4 +15,7 @@ public sealed partial class AutoTraitorComponent : Component
     /// </summary>
     [DataField]
     public EntProtoId Profile = "Traitor";
+
+    [DataField]
+    public ProtoId  <LanguagePrototype> CultLanguageId { get; set; } = "Codespeak";
 }

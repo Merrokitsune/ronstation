@@ -1,6 +1,7 @@
 using Robust.Shared.Audio;
 using Content.Shared.StatusIcon;
 using Robust.Shared.Prototypes;
+using Content.Shared.Language;
 using Robust.Shared.GameStates;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototype;
@@ -19,4 +20,7 @@ public sealed partial class NukeOperativeComponent : Component
     /// </summary>
     [DataField("syndStatusIcon", customTypeSerializer: typeof(PrototypeIdSerializer<FactionIconPrototype>))]
     public string SyndStatusIcon = "SyndicateFaction";
+
+    [DataField]
+    public ProtoId  <LanguagePrototype> CultLanguageId { get; set; } = "Codespeak";
 }
