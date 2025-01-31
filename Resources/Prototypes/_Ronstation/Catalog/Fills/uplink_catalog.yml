@@ -11,7 +11,7 @@
   categories:
   - UplinkExplosives
 
-- type: uplinkListing
+- type: listing
   id: UplinkX4Bundle
   name: uplink-x4-bundle-name
   description: uplink-x4-bundle-desc
