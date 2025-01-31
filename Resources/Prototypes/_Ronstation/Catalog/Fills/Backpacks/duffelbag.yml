@@ -1,0 +1,11 @@
+- type: entity
+  parent: ClothingBackpackDuffelSyndicate
+  id: ClothingBackpackDuffelSyndicateX4tBundle
+  name: syndicate X-4 bundle
+  description: "Contains a lot of X-4 charges."
+  components:
+    - type: StorageFill
+      contents:
+        - id: X4
+          amount: 4
+
