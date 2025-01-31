@@ -5,7 +5,7 @@
   id: X4
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Bombs/x4.rsi
+    sprite: Textures/Objects/Weapons/Bombs/x4.rsi
     state: icon
     layers:
     - state: icon
