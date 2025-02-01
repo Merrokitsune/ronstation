@@ -13,8 +13,8 @@
   - Writing
   - Glossary
   - LoadoutInfo
-  - SettingLore
-  - Psionics
+  #- SettingLore # Ronstation - Lore removed, pending rework.
+  #- Psionics # Ronstation - Psionics does not exist.
 
 - type: guideEntry
   id: Writing
