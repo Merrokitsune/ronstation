@@ -29,7 +29,6 @@
   name: guide-entry-chemist
   text: "/ServerInfo/Guidebook/Medical/Chemist.xml"
   children:
-  - Medicine
   - Botanicals
   - AdvancedBrute
 
