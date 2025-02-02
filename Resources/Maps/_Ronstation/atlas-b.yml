@@ -238,6 +238,13 @@ entities:
           decals:
             272: 25,0
         - node:
+            cleanable: True
+            zIndex: 1
+            color: '#FFFFFFBF'
+            id: Blasto
+          decals:
+            1566: -50,-8
+        - node:
             color: '#FFFFFFFF'
             id: Bot
           decals:
@@ -730,7 +737,6 @@ entities:
             826: 19,-9
             827: 19,-12
             924: 15,2
-            927: -2,2
             1199: -35,-12
             1204: -10,15
             1205: -10,14
@@ -1155,12 +1161,12 @@ entities:
             color: '#9FED5896'
             id: BrickLineOverlayW
           decals:
-            449: -7,1
             450: -7,0
             451: -7,-1
             452: -7,3
             453: -7,4
             454: -7,5
+            1537: -7,1
         - node:
             color: '#A4610696'
             id: BrickLineOverlayW
@@ -1671,6 +1677,14 @@ entities:
             265: -10.760528,3.47183
             266: -9.948028,0.6905799
         - node:
+            color: '#334E6DC8'
+            id: FullTileOverlayGreyscale
+          decals:
+            1548: -3,3
+            1549: -3,2
+            1550: -6,2
+            1551: -6,1
+        - node:
             color: '#9FED5896'
             id: FullTileOverlayGreyscale
           decals:
@@ -1715,6 +1729,13 @@ entities:
             125: -36,-3
             187: -38,9
             193: -36,7
+        - node:
+            cleanable: True
+            zIndex: 1
+            color: '#FFFFFFBF'
+            id: Gib
+          decals:
+            1563: 28,-10
         - node:
             color: '#FFFFFFFF'
             id: Grassa3
@@ -1844,6 +1865,11 @@ entities:
             319: -13,1
             320: -13,0
         - node:
+            color: '#D4D4D496'
+            id: HalfTileOverlayGreyscale270
+          decals:
+            1552: -5,2
+        - node:
             color: '#DE3A3A96'
             id: HalfTileOverlayGreyscale270
           decals:
@@ -1860,6 +1886,11 @@ entities:
             323: -9,1
             324: -9,3
             325: -9,4
+        - node:
+            color: '#D4D4D496'
+            id: HalfTileOverlayGreyscale90
+          decals:
+            1553: -4,2
         - node:
             color: '#DE3A3A96'
             id: HalfTileOverlayGreyscale90
@@ -2113,15 +2144,31 @@ entities:
           decals:
             1484: -42,-16
         - node:
+            color: '#334E6DC8'
+            id: QuarterTileOverlayGreyscale
+          decals:
+            1545: -4,2
+        - node:
             color: '#9FED584D'
             id: QuarterTileOverlayGreyscale
           decals:
             315: -12,5
         - node:
+            color: '#D4D4D496'
+            id: QuarterTileOverlayGreyscale
+          decals:
+            1558: -5,1
+            1561: -3,1
+        - node:
             color: '#0000003F'
             id: QuarterTileOverlayGreyscale180
           decals:
             1483: -42,-16
+        - node:
+            color: '#334E6DC8'
+            id: QuarterTileOverlayGreyscale180
+          decals:
+            1544: -5,2
         - node:
             color: '#9FED584D'
             id: QuarterTileOverlayGreyscale180
@@ -2138,6 +2185,12 @@ entities:
             236: -16,9
             237: -15,9
         - node:
+            color: '#D4D4D496'
+            id: QuarterTileOverlayGreyscale180
+          decals:
+            1559: -4,3
+            1560: -6,3
+        - node:
             color: '#DE3A3A96'
             id: QuarterTileOverlayGreyscale180
           decals:
@@ -2148,10 +2201,22 @@ entities:
           decals:
             312: -12,-1
         - node:
+            color: '#D4D4D496'
+            id: QuarterTileOverlayGreyscale270
+          decals:
+            1555: -5,3
+            1556: -4,2
+        - node:
             color: '#9FED584D'
             id: QuarterTileOverlayGreyscale90
           decals:
             314: -10,5
+        - node:
+            color: '#D4D4D496'
+            id: QuarterTileOverlayGreyscale90
+          decals:
+            1554: -4,1
+            1557: -5,2
         - node:
             color: '#DE3A3A96'
             id: QuarterTileOverlayGreyscale90
@@ -2175,6 +2240,12 @@ entities:
             278: -30,-8
             279: -29,-8
         - node:
+            color: '#334E6DC8'
+            id: ThreeQuarterTileOverlayGreyscale
+          decals:
+            1540: -6,3
+            1547: -4,3
+        - node:
             color: '#9FED584D'
             id: ThreeQuarterTileOverlayGreyscale
           decals:
@@ -2185,6 +2256,12 @@ entities:
             id: ThreeQuarterTileOverlayGreyscale
           decals:
             425: -32,-7
+        - node:
+            color: '#334E6DC8'
+            id: ThreeQuarterTileOverlayGreyscale180
+          decals:
+            1538: -3,1
+            1546: -5,1
         - node:
             color: '#9FED584D'
             id: ThreeQuarterTileOverlayGreyscale180
@@ -2197,6 +2274,11 @@ entities:
           decals:
             744: -31,-9
         - node:
+            color: '#334E6DC8'
+            id: ThreeQuarterTileOverlayGreyscale270
+          decals:
+            1542: -4,1
+        - node:
             color: '#9FED584D'
             id: ThreeQuarterTileOverlayGreyscale270
           decals:
@@ -2208,6 +2290,11 @@ entities:
           decals:
             606: -29,-13
         - node:
+            color: '#334E6DC8'
+            id: ThreeQuarterTileOverlayGreyscale90
+          decals:
+            1543: -5,3
+        - node:
             color: '#9FED584D'
             id: ThreeQuarterTileOverlayGreyscale90
           decals:
@@ -2218,6 +2305,13 @@ entities:
             id: ThreeQuarterTileOverlayGreyscale90
           decals:
             583: -20,-13
+        - node:
+            cleanable: True
+            zIndex: 1
+            color: '#FFFFFFBF'
+            id: Waffle
+          decals:
+            1565: -56,1
         - node:
             color: '#FFFFFFFF'
             id: WarnBox
@@ -2703,7 +2797,6 @@ entities:
             914: -14,-6
             915: -14,10
             916: -2,3
-            917: -2,1
             1134: 19,2
         - node:
             color: '#8C347F96'
@@ -3120,6 +3213,42 @@ entities:
             1428: 9,18
             1429: 9,17
             1430: 9,16
+        - node:
+            cleanable: True
+            zIndex: 1
+            color: '#FFFFFFBF'
+            id: b
+          decals:
+            1576: -2.8453164,-17.810488
+            1578: -1.8381647,-17.805431
+        - node:
+            cleanable: True
+            zIndex: 1
+            color: '#FFFFFFBF'
+            id: corgi
+          decals:
+            1580: 25.97336,-10.005882
+        - node:
+            cleanable: True
+            zIndex: 1
+            color: '#FFFFFFBF'
+            id: engie
+          decals:
+            1564: -44,13
+        - node:
+            cleanable: True
+            zIndex: 1
+            color: '#FFFFFFBF'
+            id: matt
+          decals:
+            1562: -5,19
+        - node:
+            cleanable: True
+            zIndex: 1
+            color: '#FFFFFFBF'
+            id: o
+          decals:
+            1579: -2.2835383,-17.74476
     - type: GridAtmosphere
       version: 2
       data:
@@ -50678,6 +50807,14 @@ entities:
     - type: Transform
       pos: -43.5,6.5
       parent: 30
+- proto: ShelfKitchen
+  entities:
+  - uid: 3339
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -17.5,0.5
+      parent: 30
 - proto: Shovel
   entities:
   - uid: 1429
@@ -52231,6 +52368,13 @@ entities:
     components:
     - type: Transform
       pos: 41.415924,-7.6761785
+      parent: 30
+- proto: SodaDispenser
+  entities:
+  - uid: 3338
+    components:
+    - type: Transform
+      pos: -20.5,2.5
       parent: 30
 - proto: SolarPanel
   entities:
@@ -55496,19 +55640,6 @@ entities:
       parent: 30
 - proto: VendingMachineSoda
   entities:
-  - uid: 5622
-    components:
-    - type: Transform
-      pos: -20.5,2.5
-      parent: 30
-    - type: ContainerContainer
-      containers:
-        ReagentDispenser-beaker: !type:ContainerSlot {}
-        machine_board: !type:Container
-          ents: []
-        machine_parts: !type:Container
-          ents: []
-        beakerSlot: !type:ContainerSlot {}
   - uid: 6076
     components:
     - type: Transform
