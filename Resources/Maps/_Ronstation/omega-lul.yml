@@ -8047,7 +8047,7 @@ entities:
       pos: -15.5,-2.5
       parent: 4812
     - type: Door
-      secondsUntilStateChange: -9042.425
+      secondsUntilStateChange: -9642.301
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -12066,13 +12066,6 @@ entities:
     components:
     - type: Transform
       pos: -26.5,32.5
-      parent: 4812
-    - type: SpamEmitSound
-      enabled: False
-  - uid: 10853
-    components:
-    - type: Transform
-      pos: -22.5,5.5
       parent: 4812
     - type: SpamEmitSound
       enabled: False
@@ -66923,6 +66916,13 @@ entities:
     - type: Transform
       pos: 17.49418,49.5522
       parent: 4812
+- proto: Jukebox
+  entities:
+  - uid: 10853
+    components:
+    - type: Transform
+      pos: -5.5,10.5
+      parent: 4812
 - proto: KitchenKnife
   entities:
   - uid: 1642
@@ -75014,10 +75014,10 @@ entities:
       parent: 4812
 - proto: RandomArcade
   entities:
-  - uid: 10851
+  - uid: 14670
     components:
     - type: Transform
-      pos: -23.5,5.5
+      pos: -22.5,5.5
       parent: 4812
 - proto: RandomArtifactSpawner
   entities:
@@ -84521,6 +84521,13 @@ entities:
     components:
     - type: Transform
       pos: 25.5,-32.5
+      parent: 4812
+- proto: VendingMachinePride
+  entities:
+  - uid: 10851
+    components:
+    - type: Transform
+      pos: -23.5,5.5
       parent: 4812
 - proto: VendingMachineRoboDrobe
   entities:

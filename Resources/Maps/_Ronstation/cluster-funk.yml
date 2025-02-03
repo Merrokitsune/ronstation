@@ -25132,6 +25132,26 @@ entities:
     - type: Transform
       pos: -20.5,16.5
       parent: 1
+  - uid: 13713
+    components:
+    - type: Transform
+      pos: -7.5,-28.5
+      parent: 1
+  - uid: 13714
+    components:
+    - type: Transform
+      pos: -7.5,-29.5
+      parent: 1
+  - uid: 13715
+    components:
+    - type: Transform
+      pos: -5.5,-28.5
+      parent: 1
+  - uid: 13716
+    components:
+    - type: Transform
+      pos: -5.5,-29.5
+      parent: 1
 - proto: CarpetGreen
   entities:
   - uid: 3833
@@ -78472,6 +78492,13 @@ entities:
     components:
     - type: Transform
       pos: 1.5,-5.5
+      parent: 1
+- proto: VendingMachinePride
+  entities:
+  - uid: 13712
+    components:
+    - type: Transform
+      pos: -5.5,-24.5
       parent: 1
 - proto: VendingMachineRoboDrobe
   entities:
