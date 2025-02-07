@@ -11,12 +11,12 @@ ert-backpack-category-rifleman-description =
     Contains a M90, a Pollock,
     some magazines and three breaching charges.
 
-ert-backpack-category-marksman-name = Marksman's kit.
+ert-backpack-category-marksman-name = Marksman's kit
 ert-backpack-category-marksman-description = 
     Contains a Vulcan, a Pollock,
     some magazines and one breaching charge.
 
-ert-backpack-category-battery-name = Battery Kit
+ert-backpack-category-battery-name = Battery kit
 ert-backpack-category-battery-description = 
     Contains a Vulcan, a PDW-9 Energy Pistol,
     a portable recharger and two X-4 plastic explosives.
