@@ -23,3 +23,17 @@
     Telecrystal: 20
   categories:
   - UplinkExplosives
+
+  - type: listing
+  id: UplinkCarpetBomb
+  name: uplink-carpet-bomb-name
+  description: uplink-carpet-bomb-desc
+  productEntity: CarpetBomb
+  cost:
+    Telecrystal: 1
+  categories:
+  - UplinkExplosives
+  conditions:
+    - !type:BuyerDepartmentCondition
+      whitelist:
+      - Service

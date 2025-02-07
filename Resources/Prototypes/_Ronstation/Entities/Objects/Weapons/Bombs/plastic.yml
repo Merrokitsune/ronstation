@@ -1,6 +1,6 @@
 - type: entity
   name: composition X-4
-  description: A specialized shaped high explosive breaching charge. 
+  description: A specialized shaped high explosive breaching charge. Incredibly effective against walls.
   parent: BasePlasticExplosive
   id: X4
   components:
@@ -23,8 +23,8 @@
       - Trigger
   - type: Explosive
     explosionType: DemolitionCharge
-    totalIntensity: 80
-    intensitySlope: 6.5
+    totalIntensity: 100
+    intensitySlope: 7
     maxIntensity: 60
     canCreateVacuum: true
   - type: ExplodeOnTrigger

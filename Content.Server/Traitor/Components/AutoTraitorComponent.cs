@@ -15,7 +15,5 @@ public sealed partial class AutoTraitorComponent : Component
     /// </summary>
     [DataField]
     public EntProtoId Profile = "Traitor";
-
-    [DataField]
-    public ProtoId  <LanguagePrototype> CultLanguageId { get; set; } = "Codespeak";
+    
 }

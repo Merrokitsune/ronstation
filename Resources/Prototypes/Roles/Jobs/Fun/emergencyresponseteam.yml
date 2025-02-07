@@ -28,7 +28,7 @@
     ears: ClothingHeadsetAltCentCom
     belt: ClothingBeltSecurityFilled
     pocket1: WeaponPistolN1984NonLethal
-    pocket2: FlashlightSeclite
+    pocket2: SupplyBoxERT
 
 - type: startingGear
   id: ERTLeaderGearEVA
@@ -45,7 +45,7 @@
     ears: ClothingHeadsetAltCentCom
     belt: ClothingBeltSecurityFilled
     pocket1: WeaponPistolN1984NonLethal
-    pocket2: FlashlightSeclite
+    pocket2: SupplyBoxERT
 
 - type: startingGear
   id: ERTLeaderGearEVALecter
@@ -62,7 +62,7 @@
     ears: ClothingHeadsetAltCentCom
     belt: ClothingBeltSecurityFilled
     pocket1: MagazineRifle
-    pocket2: MagazineRifle
+    pocket2: SupplyBoxERT
   inhand:
     - AirTankFilled
 
@@ -150,7 +150,7 @@
     id: ERTEngineerPDA
     ears: ClothingHeadsetAltCentCom
     belt: ClothingBeltChiefEngineerFilled
-    pocket1: Flare
+    pocket1: SupplyBoxERT
     pocket2: GasAnalyzer
 
 - type: startingGear
@@ -167,7 +167,7 @@
     id: ERTEngineerPDA
     ears: ClothingHeadsetAltCentCom
     belt: ClothingBeltChiefEngineerFilled
-    pocket1: Flare
+    pocket1: SupplyBoxERT
     pocket2: GasAnalyzer
 
 # Security
@@ -200,7 +200,7 @@
     ears: ClothingHeadsetAltCentCom
     belt: ClothingBeltSecurityFilled
     pocket1: WeaponPistolMk58Nonlethal
-    pocket2: FlashlightSeclite
+    pocket2: SupplyBoxERT
 
 - type: startingGear
   id: ERTSecurityGearEVA
@@ -217,7 +217,7 @@
     ears: ClothingHeadsetAltCentCom
     belt: ClothingBeltSecurityFilled
     pocket1: WeaponPistolMk58Nonlethal
-    pocket2: FlashlightSeclite
+    pocket2: SupplyBoxERT
 
 - type: startingGear
   id: ERTSecurityGearEVALecter
@@ -233,7 +233,7 @@
     id: ERTSecurityPDA
     ears: ClothingHeadsetAltCentCom
     belt: ClothingBeltSecurityFilled
-    pocket1: MagazineRifle
+    pocket1: SupplyBoxERT
     pocket2: MagazineRifle
   inhand:
     - AirTankFilled
@@ -268,6 +268,7 @@
     ears: ClothingHeadsetAltCentCom
     belt: ClothingBeltMedicalFilled
     pocket1: Flare
+    pocket2: SupplyBoxERT
 
 - type: startingGear
   id: ERTMedicalGearEVA
@@ -284,6 +285,7 @@
     ears: ClothingHeadsetAltCentCom
     belt: ClothingBeltMedicalFilled
     pocket1: Flare
+    pocket2: SupplyBoxERT
 
 # Janitor
 - type: job
