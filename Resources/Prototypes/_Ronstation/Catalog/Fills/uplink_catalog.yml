@@ -18,7 +18,7 @@
   productEntity: ClothingBackpackDuffelSyndicateX4tBundle
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 12
+    Telecrystal: 1
   cost:
     Telecrystal: 20
   categories:

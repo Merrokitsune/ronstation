@@ -221,7 +221,6 @@
         - id: BoxZiptie
         - id: CrowbarRed
         - id: MagazineMagnum
-        - id: SupplyBoxERT
 
 - type: entity
   categories: [ HideSpawnMenu ]
@@ -237,7 +236,6 @@
         - id: BoxZiptie
         - id: CrowbarRed
         - id: MagazinePistol
-        - id: SupplyBoxERT
 
 - type: entity
   categories: [ HideSpawnMenu ]
@@ -253,7 +251,6 @@
         - id: OmnizineChemistryBottle
         - id: EpinephrineChemistryBottle
         - id: EpinephrineChemistryBottle
-        - id: SupplyBoxERT
 
 - type: entity
   categories: [ HideSpawnMenu ]
@@ -273,7 +270,6 @@
         - id: SheetPlasteel
         - id: SheetSteel
         - id: SheetGlass
-        - id: SupplyBoxERT
 
 - type: entity
   categories: [ HideSpawnMenu ]
@@ -289,7 +285,6 @@
         - id: Soap
         - id: CrowbarRed
         - id: AdvMopItem
-        - id: SupplyBoxERT
 
 - type: entity
   categories: [ HideSpawnMenu ]
