@@ -569,6 +569,36 @@
   description: A highly advanced bluespace powered RCD that creates endless fuel slowly, this RCD is intended for use of ERT teams.
   suffix: AutoRecharge
   components:
+  - type: RCD
+    availablePrototypes:
+    - WallSolid
+    - FloorSteel
+    - Plating
+    - Catwalk
+    - Grille
+    - Window
+    - WindowDirectional
+    - WindowReinforcedDirectional
+    - ReinforcedWindow
+    - Airlock
+    - AirlockGlass
+    - Firelock
+    - TubeLight
+    - BulbLight
+    - LVCable
+    - MVCable
+    - HVCable
+    - CableTerminal
+    - Deconstruct
+    - FloorGlass
+    - FloorRGlass
+    - BaseAPC
+    - BaseRecharger
+    - BaseSMES
+    - BaseSubstation
+    - WallReinforced
+    - BaseWindoor
+    - WindoorSecure
   - type: LimitedCharges
     maxCharges: 120
     charges: 120
@@ -582,6 +612,36 @@
   name: Mapping RCD
   description: This is a debug item if you are not a jannie or a coder you should not be seeing this.
   components:
+  - type: RCD
+    availablePrototypes:
+    - WallSolid
+    - FloorSteel
+    - Plating
+    - Catwalk
+    - Grille
+    - Window
+    - WindowDirectional
+    - WindowReinforcedDirectional
+    - ReinforcedWindow
+    - Airlock
+    - AirlockGlass
+    - Firelock
+    - TubeLight
+    - BulbLight
+    - LVCable
+    - MVCable
+    - HVCable
+    - CableTerminal
+    - Deconstruct
+    - FloorGlass
+    - FloorRGlass
+    - BaseAPC
+    - BaseRecharger
+    - BaseSMES
+    - BaseSubstation
+    - WallReinforced
+    - BaseWindoor
+    - WindoorSecure
    - type: LimitedCharges
     maxCharges: 9999
     charges: 9999
