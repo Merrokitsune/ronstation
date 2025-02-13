@@ -580,6 +580,7 @@
     - AutodocCircuitboard # Shitmed Change
     - OperatingTableCircuitboard # Shitmed Change
     - MaterialSiloCircuitboard
+    - MaterialSiloLoaderCircuitboard
     - GygaxCentralElectronics
     - GygaxPeripheralsElectronics
     - GygaxTargetingElectronics
