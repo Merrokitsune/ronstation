@@ -565,8 +565,8 @@
 - type: entity
   id: RCDRecharging
   parent: RCD
-  name: experimental RCD
-  description: A bluespace-enhanced rapid construction device that passively generates its own compressed matter.
+  name: Advanced RCD
+  description: A highly advanced bluespace powered RCD that creates endless fuel slowly, this RCD is intended for use of ERT teams.
   suffix: AutoRecharge
   components:
   - type: LimitedCharges
@@ -579,8 +579,8 @@
   id: RCDExperimental
   parent: RCD
   suffix: Admeme
-  name: experimental RCD
-  description: A bluespace-enhanced rapid construction device that passively generates its own compressed matter.
+  name: Mapping RCD
+  description: This is a debug item if you are not a jannie or a coder you should not be seeing this.
   components:
    - type: LimitedCharges
     maxCharges: 9999
