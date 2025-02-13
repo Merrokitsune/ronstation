@@ -11,18 +11,7 @@
 
 - type: entity
   parent: BaseProgramDisk
-  id: ProgramDiskCriminalRecords
-  name: program disk
-  suffix: Criminal Records
-  description: A diskette for usage in a computer.
-  components:
-    - type: ComputerDisk
-      programPrototype: CriminalRecordsDiskPrototype
-      persistState: true
-
-- type: entity
-  parent: BaseProgramDisk
-  id: ProgramDiskCriminalRecords
+  id: ProgramDiskShipyard
   name: program disk
   suffix: Shipyard
   description: A diskette for usage in a computer.
@@ -30,3 +19,4 @@
     - type: ComputerDisk
       programPrototype: ShipyardDiskPrototype
       persistState: true
+
