@@ -3,17 +3,32 @@
   name: Criminal Records
   categories: [HideSpawnMenu]
   components:
-    - type: CriminalRecordsConsole
-    - type: UserInterface
+  - type: CriminalRecordsConsole
+  - type: UserInterface
     interfaces:
       enum.CriminalRecordsConsoleKey.Key:
         type: CriminalRecordsConsoleBoundUserInterface
       enum.WiresUiKey.Key:
         type: WiresBoundUserInterface
-    - type: ActivatableUI
-      key: enum.CriminalRecordsConsoleKey.Key
-    - type: AccessReader
-      access: [["Command"]]
-    - type: GuideHelp
-      guides:
-      - CriminalRecords
+  - type: ActivatableUI
+    key: enum.CriminalRecordsConsoleKey.Key
+  - type: AccessReader
+    access: [["Command"]]
+  - type: GuideHelp
+    guides:
+    - CriminalRecords
+
+- type: entity
+  id: ShipyardDiskPrototype
+  name: Shipyard
+  categories: [HideSpawnMenu]
+  components:
+  - type: ShipyardConsole
+  - type: AccessReader
+    access: [[ Captain ]]
+  - type: ActivatableUI
+    key: enum.ShipyardConsoleUiKey.Key
+  - type: UserInterface
+    interfaces:
+      enum.ShipyardConsoleUiKey.Key:
+        type: ShipyardConsoleBoundUserInterface
