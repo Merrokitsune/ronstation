@@ -11,7 +11,8 @@
       - !type:HealthChange
         damage:
           types:
-            Poison: 2
+            Poison: 1
+            Asphyxiation: 1
       - !type:PopupMessage
         type: Local
         visualType: MediumCaution
