@@ -570,10 +570,10 @@
   suffix: AutoRecharge
   components:
   - type: LimitedCharges
-    maxCharges: 20
-    charges: 20
+    maxCharges: 120
+    charges: 120
   - type: AutoRecharge
-    rechargeDuration: 10
+    rechargeDuration: 5
 
 - type: entity
   id: RCDExperimental
@@ -582,6 +582,9 @@
   name: experimental RCD
   description: A bluespace-enhanced rapid construction device that passively generates its own compressed matter.
   components:
+   - type: LimitedCharges
+    maxCharges: 9999
+    charges: 9999
   - type: AutoRecharge
     rechargeDuration: 1
 
