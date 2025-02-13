@@ -1,0 +1,9 @@
+# lockable buttons
+
+- type: entity
+  id: LockableButtonMantis
+  suffix: Ward Mantis
+  parent: LockableButton
+  components:
+  - type: AccessReader
+    access: [["Mantis"]]

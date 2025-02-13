@@ -1,0 +1,8 @@
+- type: entity
+  parent: HighSecDoor
+  id: HighSecMantisLocked
+  suffix: Ward Mantis, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsMantis ]
