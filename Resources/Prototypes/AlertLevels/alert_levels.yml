@@ -14,17 +14,19 @@
       color: DodgerBlue
       forceEnableEmergencyLights: true
       emergencyLightColor: DodgerBlue
-      shuttleTime: 600
+      shuttleTime: 500
     violet:
       announcement: alert-level-violet-announcement
       sound: /Audio/Announcements/Alerts/code_violet.ogg
       color: Violet
       emergencyLightColor: Violet
       forceEnableEmergencyLights: true
-      shuttleTime: 600
+      shuttleTime: 900
     white:
       announcement: alert-level-white-announcement
+      selectable: false
       sound: /Audio/Announcements/Alerts/code_white.ogg
+      disableSelection: true
       emergencyLightColor: "#F6CCF6"
       color: White
       shuttleTime: 600
@@ -34,14 +36,14 @@
       color: Yellow
       emergencyLightColor: Goldenrod
       forceEnableEmergencyLights: true
-      shuttleTime: 600
+      shuttleTime: 400
     red:
       announcement: alert-level-red-announcement
       sound: /Audio/Announcements/Alerts/code_red.ogg
       color: Red
       emergencyLightColor: Red
       forceEnableEmergencyLights: true
-      shuttleTime: 600
+      shuttleTime: 300
     gamma:
       announcement: alert-level-gamma-announcement
       selectable: false
@@ -50,7 +52,7 @@
       color: PaleVioletRed
       emergencyLightColor: PaleVioletRed
       forceEnableEmergencyLights: true
-      shuttleTime: 600
+      shuttleTime: 250
     delta:
       announcement: alert-level-delta-announcement
       selectable: false
@@ -68,4 +70,4 @@
       color: DarkViolet
       emergencyLightColor: DarkViolet
       forceEnableEmergencyLights: true
-      shuttleTime: 1200
+      shuttleTime: 4600

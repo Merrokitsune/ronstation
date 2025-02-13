@@ -14,7 +14,6 @@
       inverted: true
       traits:
         - Blindness
-        - Pacifist
         - BrittleBoneDisease
   startingGear: CorpsmanGear
   icon: "JobIconBrigmedic"
