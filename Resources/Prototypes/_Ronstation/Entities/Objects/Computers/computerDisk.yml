@@ -5,9 +5,9 @@
   suffix: Criminal Records
   description: A diskette for usage in a computer.
   components:
-    - type: ComputerDisk
-      programPrototype: CriminalRecordsDiskPrototype
-      persistState: true
+  - type: ComputerDisk
+    programPrototype: CriminalRecordsDiskPrototype
+    persistState: true
 
 - type: entity
   parent: BaseProgramDisk
@@ -16,6 +16,6 @@
   suffix: Station Records
   description: A diskette for usage in a computer.
   components:
-    - type: ComputerDisk
-      programPrototype: StationRecordsDiskPrototype
-      persistState: true
+  - type: ComputerDisk
+    programPrototype: StationRecordsDiskPrototype
+    persistState: true
