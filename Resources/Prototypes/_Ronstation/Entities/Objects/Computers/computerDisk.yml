@@ -11,12 +11,11 @@
 
 - type: entity
   parent: BaseProgramDisk
-  id: ProgramDiskShipyard
+  id: ProgramDiskStationRecords
   name: program disk
-  suffix: Shipyard
+  suffix: Station Records
   description: A diskette for usage in a computer.
   components:
     - type: ComputerDisk
-      programPrototype: ShipyardDiskPrototype
+      programPrototype: StationRecordsDiskPrototype
       persistState: true
-

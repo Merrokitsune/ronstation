@@ -19,16 +19,16 @@
     - CriminalRecords
 
 - type: entity
-  id: ShipyardDiskPrototype
-  name: Shipyard
+  id: StationRecordsDiskPrototype
+  name: Station Records
   categories: [HideSpawnMenu]
   components:
-  - type: ShipyardConsole
-  - type: AccessReader
-    access: [[ Captain ]]
-  - type: ActivatableUI
-    key: enum.ShipyardConsoleUiKey.Key
+  - type: GeneralStationRecordConsole
   - type: UserInterface
     interfaces:
-      enum.ShipyardConsoleUiKey.Key:
-        type: ShipyardConsoleBoundUserInterface
+      enum.GeneralStationRecordConsoleKey.Key:
+        type: GeneralStationRecordConsoleBoundUserInterface
+      enum.WiresUiKey.Key:
+        type: WiresBoundUserInterface
+  - type: ActivatableUI
+    key: enum.GeneralStationRecordConsoleKey.Key
