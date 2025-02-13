@@ -1079,3 +1079,23 @@
     Steel: 100
     Glass: 500
     Gold: 100
+
+- type: latheRecipe
+  id: FabricationManufactorumBoard
+  result: FabricationManufactorumBoard
+  category: Circuitry
+  completetime: 4
+  materials:
+    Steel: 300
+    Glass: 200
+    Silver: 100
+
+- type: latheRecipe
+  id: FabricationPharmaceuticalFabricatorBoard
+  result: FabricationPharmaceuticalFabricatorBoard
+  category: Circuitry
+  completetime: 4
+  materials:
+    Steel: 200
+    Glass: 300
+    Silver: 100

@@ -1,0 +1,78 @@
+- type: entity
+  name: stabilizer auto-injector
+  parent: ChemicalMedipen
+  id: StabilizerMedipen
+  description: A quick, accessible way to stabilize patients in critical condition. Contains cordrazine and inaprovaline.
+  components:
+  - type: Sprite
+    sprite: Objects/Specific/Medical/medipen.rsi
+    layers:
+    - state: firstaid
+      map: ["enum.SolutionContainerLayers.Fill"]
+  - type: SolutionContainerVisuals
+    maxFillLevels: 1
+    changeColor: false
+    emptySpriteName: firstaid_empty
+  - type: SolutionContainerManager
+    solutions:
+      pen:
+        maxVol: 20
+        reagents:
+        - ReagentId: Cordrazine
+          Quantity: 15
+        - ReagentId: Inaprovaline
+          Quantity: 5
+  - type: Tag
+    tags: []
+
+- type: entity
+  name: pentetic auto-injector
+  parent: ChemicalMedipen
+  id: PenteticMedipen
+  description: A rapid, accessible dose of anti-radiation medicine. Works on the dead. Contains pentetic acid. "Interdyne Pharmaceuticals" is inscribed on the side.
+  components:
+  - type: Sprite
+    sprite: Objects/Specific/Medical/medipen.rsi
+    layers:
+    - state: arithpen
+      map: ["enum.SolutionContainerLayers.Fill"]
+  - type: SolutionContainerVisuals
+    maxFillLevels: 1
+    changeColor: false
+    emptySpriteName: arithpen_empty
+  - type: SolutionContainerManager
+    solutions:
+      pen:
+        maxVol: 15
+        reagents:
+        - ReagentId: PenteticAcid
+          Quantity: 15
+  - type: Tag
+    tags: []
+
+- type: entity
+  name: heartburn mix auto-injector # a reference, i don't think it's obvious though
+  parent: ChemicalMedipen
+  id: HeartburnMedipen
+  description: A rapid, accessible dose of brute medicine. Contains cordrazine and salicylic acid. "Interdyne Pharmaceuticals" is inscribed on the side.
+  components:
+  - type: Sprite
+    sprite: Objects/Specific/Medical/medipen.rsi
+    layers:
+    - state: bicpen
+      map: ["enum.SolutionContainerLayers.Fill"]
+  - type: SolutionContainerVisuals
+    maxFillLevels: 1
+    changeColor: false
+    emptySpriteName: bicpen_empty
+  - type: SolutionContainerManager
+    solutions:
+      pen:
+        maxVol: 35
+        reagents:
+        - ReagentId: Cordrazine
+          Quantity: 15
+        - ReagentId: SalicylicAcid
+          Quantiy: 20
+  - type: Tag
+    tags: []

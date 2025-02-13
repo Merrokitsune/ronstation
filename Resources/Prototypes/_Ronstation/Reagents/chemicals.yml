@@ -1,0 +1,42 @@
+- type: reagent
+  id: Cyanide
+  name: reagent-name-cyanide
+  desc: reagent-desc-cyanide
+  physicalDesc: reagent-physical-desc-opaque
+  color: "#00B4FF"
+  metabolisms:
+    metabolismRate: 0.125
+    Poison:
+      effects:
+      - !type:HealthChange
+        damage:
+          types:
+            Poison: 2
+      - !type:PopupMessage
+        type: Local
+        visualType: MediumCaution
+        messages: [ "cyanide-effect-horrendously-weak" ]
+        probability: 0.1
+      - !type:GenericStatusEffect
+        key: KnockedDown
+        time: 4
+        type: Add
+        probability: 0.1
+
+- type: reagent
+  id: Formaldehyde
+  name: reagent-name-formaldehyde
+  desc: reagent-desc-formaldehyde
+  physicalDesc: reagent-physical-desc-pungent
+  color: "#B4004B"
+  metabolisms:
+    Poison:
+      effects:
+      - !type:HealthChange
+        damage:
+          types:
+            Poison: 0.5
+      - !type:AdjustReagent
+        probability: 0.3
+        reagent: Histamine
+        amount: 0.5
