@@ -1,0 +1,19 @@
+- type: entity
+  id: CriminalRecordsDiskPrototype
+  name: Criminal Records
+  categories: [HideSpawnMenu]
+  components:
+    - type: CriminalRecordsConsole
+    - type: UserInterface
+    interfaces:
+      enum.CriminalRecordsConsoleKey.Key:
+        type: CriminalRecordsConsoleBoundUserInterface
+      enum.WiresUiKey.Key:
+        type: WiresBoundUserInterface
+    - type: ActivatableUI
+      key: enum.CriminalRecordsConsoleKey.Key
+    - type: AccessReader
+      access: [["Command"]]
+    - type: GuideHelp
+      guides:
+      - CriminalRecords
