@@ -48,7 +48,7 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitSeniorOfficer
     back: ClothingBackpackSecurity
-    shoes: ClothingShoesBootsCombatFilled
+    shoes: ClothingShoesBootsJackFilled
     eyes: ClothingEyesGlassesSecurity
     head: ClothingHeadHatBeretSecurity
     outerClothing: ClothingOuterArmorPlateCarrier # DeltaV - ClothingOuterArmorBasic replaced in favour of plate carrier
