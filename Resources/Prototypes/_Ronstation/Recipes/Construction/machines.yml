@@ -1,0 +1,13 @@
+- type: construction
+  name: workstation
+  id: Workstation
+  graph: Workstation
+  startNode: start
+  targetNode: workstation
+  category: construction-category-machines
+  description: A frame used to construct any workstation with a computer circuitboard.
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  icon:
+    sprite: _Ronstation/Structures/Machines/parts.rsi
+    state: 4

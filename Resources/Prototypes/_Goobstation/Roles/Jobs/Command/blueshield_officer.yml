@@ -16,9 +16,6 @@
     - !type:CharacterTraitRequirement
       inverted: true
       traits:
-        - Foreigner
-        - ForeignerLight
-        - Muted
         - Blindness
         - Pacifist
         - BrittleBoneDisease
@@ -31,7 +28,7 @@
   canBeAntag: false
   access:
   - Security
-  - Brig
+  #- Brig # Ronstation - Brig access is removed by Delta-V.
   - External
   - Cryogenics
   - Maintenance

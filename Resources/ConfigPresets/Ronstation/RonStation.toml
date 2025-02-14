@@ -17,6 +17,8 @@ lobbyenabled       = true
 lobbyduration      = 240
 station_goals      = false
 map_pool           = "RonstationMapPool"
+auto_eat_food      = true
+auto_eat_drinks    = true
 
 [hub]
 tags = "lang:en-US,region:am_n_e,rp:low"

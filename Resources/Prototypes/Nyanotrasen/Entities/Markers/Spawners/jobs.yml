@@ -65,7 +65,7 @@
 - type: entity
   id: SpawnPointForensicMantis
   parent: SpawnPointJobBase
-  name: mantis
+  name: Ward Mantis
   components:
   - type: SpawnPoint
     job_id: ForensicMantis

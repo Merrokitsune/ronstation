@@ -4,11 +4,6 @@
   description: job-description-hop
   playTimeTracker: JobHeadOfPersonnel
   requirements:
-    - !type:CharacterTraitRequirement
-      inverted: true
-      traits:
-        - Foreigner
-        - ForeignerLight
     - !type:CharacterPlaytimeRequirement
       tracker: JobChef
       min: 14400 # DeltaV - 4 hours

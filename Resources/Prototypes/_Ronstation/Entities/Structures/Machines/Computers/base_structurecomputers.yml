@@ -1,13 +1,16 @@
 - type: entity
-  parent: BaseComputerModular
+  parent: BaseComputer
   id: BaseComputerTabletopWorkstation
   name: workstation
   description: An ancient-looking computer that can be put onto tables.
   components:
-  - type: Computer
-    board: BaseComputerTabletopWorkstationCircuitBoard
+  - type: Construction
+    graph: Workstation
+    node: workstation
+    containers:
+      - board
   - type: Sprite
-    sprite: _Ronstation/Structures/Machines/workstation_computer.rsi
+    sprite: _Ronstation/Structures/Machines/workstation_computers.rsi
     layers:
     - map: ["computerLayerBody"]
       state: computer
@@ -17,6 +20,8 @@
       state: generic
     - map: ["computerLayerMouse"]
       state: generic_mouse
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: generic_panel_open
   - type: Appearance
   - type: GenericVisualizer
     visuals:
@@ -27,6 +32,10 @@
         computerLayerKeys:
           True: { visible: true, shader: unshaded }
           False: { visible: true, shader: unshaded }
+      enum.WiresVisuals.MaintenancePanelState:
+        enum.WiresVisualLayers.MaintenancePanel:
+          True: { visible: false }
+          False: { visible: true }
   - type: Physics
     bodyType: Static
   - type: Fixtures
@@ -40,3 +49,12 @@
         - TabletopMachineMask
         layer:
         - TabletopMachineLayer
+
+- type: entity
+  parent: [ BaseComputerTabletopWorkstation, BaseComputerModular ]
+  id: BaseComputerTabletopWorkstationModular
+  name: modular workstation
+  description: An ancient-looking computer that can be put onto tables.
+  components:
+  - type: Computer
+    board: BaseComputerModularTabletopWorkstationCircuitBoard

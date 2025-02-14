@@ -3,6 +3,7 @@
   parent: CratePrivateSecure
   name: unmarked crate
   description: An unmarked crate. The identification numbers have been scratched off.
+  suffix: smuggled weaponry
   components:
   - type: StorageFill
     contents:
@@ -45,57 +46,57 @@
       orGroup: Crew
     #Pirate
     - id: WeaponShotgunHandmade
-      prob: 0.2
+      prob: 0.1
       orGroup: Crew
     - id: WeaponShotgunBlunderbuss
-      prob: 0.2
+      prob: 0.1
       orGroup: Crew
     - id: Musket
-      prob: 0.2
+      prob: 0.1
       orGroup: Crew
     - id: WeaponPistolFlintlock
-      prob: 0.2
+      prob: 0.1
       orGroup: Crew
     - id: WeaponRevolverPirate
-      prob: 0.2
+      prob: 0.1
       orGroup: Crew
     #Syndicate
     - id: WeaponSniperHristov
       prob: 0.05
       orGroup: Syndicate
     - id: WeaponShotgunBulldog
-      prob: 0.03
+      prob: 0.02
       orGroup: Syndicate
     - id: WeaponSubMachineGunC20r
-      prob: 0.03
+      prob: 0.02
       orGroup: Syndicate
     - id: WeaponRevolverPython
-      prob: 0.03
+      prob: 0.02
       orGroup: Syndicate
     - id: WeaponPistolViper
-      prob: 0.03
+      prob: 0.02
       orGroup: Syndicate
     - id: WeaponPistolCobra
-      prob: 0.03
+      prob: 0.02
       orGroup: Syndicate
     #CentralCommand
     - id: WeaponSubMachineGunVector
-      prob: 0.01
+      prob: 0.005
       orGroup: CentralCommand
     - id: WeaponSubMachineGunAtreides
-      prob: 0.01
+      prob: 0.005
       orGroup: CentralCommand
     - id: WeaponRifleM90GrenadeLauncher
-      prob: 0.01
+      prob: 0.005
       orGroup: CentralCommand
     - id: WeaponRevolverMateba
-      prob: 0.01
+      prob: 0.005
       orGroup: CentralCommand
     - id: WeaponRevolverArgenti
-      prob: 0.01
+      prob: 0.005
       orGroup: CentralCommand
     - id: WeaponMinigun
-      prob: 0.005
+      prob: 0.001
       orGroup: CentralCommand
 
 - type: entity
@@ -103,6 +104,7 @@
   parent: CratePrivateSecure
   name: unmarked crate
   description: An unmarked crate. The identification numbers have been scratched off.
+  suffix: smuggled organs
   components:
   - type: StorageFill
     contents:
@@ -183,25 +185,25 @@
     - id: OrganFelinidEars
       prob: 0.1
       orGroup: Alien
+    - id: OrganIPCTongue
+      prob: 0.05
+      orGroup: Alien
+    - id: OrganIPCEars
+      prob: 0.05
+      orGroup: Alien
+    - id: OrganIPCPump
+      prob: 0.05
+      orGroup: Alien
     #Bioengineered
     - id: BasicCyberneticEyes
-      prob: 0.1
+      prob: 0.05
       orGroup: Bioengineered
     - id: SecurityCyberneticEyes
-      prob: 0.1
+      prob: 0.05
       orGroup: Bioengineered
     - id: MedicalCyberneticEyes
-      prob: 0.1
+      prob: 0.05
       orGroup: Bioengineered
     - id: OrganIPCEyes
-      prob: 0.1
-      orGroup: Bioengineered
-    - id: OrganIPCTongue
-      prob: 0.1
-      orGroup: Bioengineered
-    - id: OrganIPCEars
-      prob: 0.1
-      orGroup: Bioengineered
-    - id: OrganIPCPump
-      prob: 0.1
+      prob: 0.05
       orGroup: Bioengineered

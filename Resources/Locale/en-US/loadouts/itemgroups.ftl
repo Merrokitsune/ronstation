@@ -308,20 +308,20 @@ character-item-group-LoadoutNoviciateOuter = Research Assistant Outerwear
 character-item-group-LoadoutNoviciateShoes = Research Assistant Shoes
 character-item-group-LoadoutNoviciateUniforms = Research Assistant Uniforms
 
-# Science - Mantis
-character-item-group-LoadoutPsionicMantisBackpacks = Mantis Backpacks
-character-item-group-LoadoutPsionicMantisBelt = Mantis Belt
-character-item-group-LoadoutPsionicMantisEars = Mantis Ears
-character-item-group-LoadoutPsionicMantisEquipment = Mantis Equipment
-character-item-group-LoadoutPsionicMantisEyes = Mantis Eyewear
-character-item-group-LoadoutPsionicMantisGloves = Mantis Gloves
-character-item-group-LoadoutPsionicMantisHead = Mantis Headgear
-character-item-group-LoadoutPsionicMantisId = Mantis Id
-character-item-group-LoadoutPsionicMantisNeck = Mantis Neckwear
-character-item-group-LoadoutPsionicMantisMask = Mantis Masks
-character-item-group-LoadoutPsionicMantisOuter = Mantis Outerwear
-character-item-group-LoadoutPsionicMantisShoes = Mantis Shoes
-character-item-group-LoadoutPsionicMantisUniforms = Mantis Uniforms
+# Science - Ward Mantis
+character-item-group-LoadoutPsionicMantisBackpacks = Ward Mantis Backpacks
+character-item-group-LoadoutPsionicMantisBelt = Ward Mantis Belt
+character-item-group-LoadoutPsionicMantisEars = Ward Mantis Ears
+character-item-group-LoadoutPsionicMantisEquipment = Ward Mantis Equipment
+character-item-group-LoadoutPsionicMantisEyes = Ward Mantis Eyewear
+character-item-group-LoadoutPsionicMantisGloves = Ward Mantis Gloves
+character-item-group-LoadoutPsionicMantisHead = Ward Mantis Headgear
+character-item-group-LoadoutPsionicMantisId = Ward Mantis Id
+character-item-group-LoadoutPsionicMantisNeck = Ward Mantis Neckwear
+character-item-group-LoadoutPsionicMantisMask = Ward Mantis Masks
+character-item-group-LoadoutPsionicMantisOuter = Ward Mantis Outerwear
+character-item-group-LoadoutPsionicMantisShoes = Ward Mantis Shoes
+character-item-group-LoadoutPsionicMantisUniforms = Ward Mantis Uniforms
 
 # Cargo
 character-item-group-LoadoutLogisticsBackpacks = Cargo Backpacks
