@@ -59,6 +59,27 @@
 - type: entity
   abstract: true
   parent: ClothingBeltBase
+  id: ClothingBeltStorageBaseblackops
+  components:
+  - type: Storage
+    maxItemSize: Normal
+    defaultStorageOrientation: Vertical
+    grid:
+    - 0,0,10,3
+  - type: Item
+    size: Ginormous
+  - type: ContainerContainer
+    containers:
+      storagebase: !type:Container
+        ents: []
+  - type: UserInterface
+    interfaces:
+      enum.StorageUiKey.Key:
+        type: StorageBoundUserInterface
+
+- type: entity
+  abstract: true
+  parent: ClothingBeltBase
   id: ClothingBeltAmmoProviderBase
   components:
   - type: BallisticAmmoProvider
