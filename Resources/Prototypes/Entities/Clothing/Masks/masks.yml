@@ -2,7 +2,7 @@
   parent: ClothingMaskPullableBase
   id: ClothingMaskGas
   name: gas mask
-  description: A face-covering mask that can be connected to an air supply.
+  description: A face-covering steel and plastic mask that can be connected to an air supply, unlike the breath mask this blocks people from seeing your face, only people that dont want to be known would wear something like this.
   components:
   - type: Sprite
     sprite: Clothing/Mask/gas.rsi
@@ -79,7 +79,7 @@
   parent: ClothingMaskGasAtmos
   id: ClothingMaskGasCaptain
   name: captain's gas mask
-  description: Nanotrasen cut corners and repainted a spare atmospheric gas mask, but don't tell anyone.
+  description: An atmospheric gas mask that was repainted with costly and hard to find imported exotic paints.
   components:
   - type: Sprite
     sprite: Clothing/Mask/gascaptain.rsi
@@ -103,7 +103,7 @@
   parent: ClothingMaskGasAtmos
   id: ClothingMaskGasCentcom
   name: CentCom gas mask
-  description: Oooh, gold and green. Fancy! This should help as you sit in your office.
+  description: A green and gold painted atmos gas mask.
   components:
   - type: Sprite
     sprite: Clothing/Mask/gascentcom.rsi
@@ -173,7 +173,7 @@
   parent: ClothingMaskPullableBase
   id: ClothingMaskBreath
   name: breath mask
-  description: Might as well keep this on 24/7.
+  description: A cheap plastic face mask that allows use of air tanks.
   components:
   - type: Item
     size: Tiny
@@ -286,7 +286,7 @@
   parent: ClothingMaskPullableBase
   id: ClothingMaskSterile
   name: sterile mask
-  description: A sterile mask designed to help prevent the spread of diseases.
+  description: A medical grade sterile mask designed to help prevent the spread of diseases or facial hair from getting on whoever you are putting back together.
   components:
   - type: Sprite
     sprite: Clothing/Mask/sterile.rsi
@@ -305,7 +305,7 @@
   parent: ClothingMaskBase
   id: ClothingMaskMuzzle
   name: muzzle
-  description: To stop that awful noise.
+  description: A steel mouth lock that *mostly* makes someone unable to speak.
   components:
   - type: Item
     size: Tiny
@@ -325,7 +325,7 @@
   parent: ClothingMaskPullableBase
   id: ClothingMaskPlague
   name: plague doctor mask
-  description: A bad omen.
+  description: A mask that looks to be very very old, it has the smell of ashes and flowers.
   components:
   - type: Sprite
     sprite: Clothing/Mask/plaguedoctormask.rsi
@@ -406,8 +406,8 @@
 - type: entity
   parent: ClothingMaskGasERT
   id: ClothingMaskGasDeathSquad
-  name: death squad gas mask
-  description: A unique gas mask for the NT's most elite squad.
+  name: Black ops gas mask
+  description: A unique gas mask for black ops units.
   components:
   - type: Sprite
     sprite: Clothing/Mask/squadron.rsi
@@ -416,10 +416,10 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.80
-        Slash: 0.80
-        Piercing: 0.90
-        Heat: 0.90
+        Blunt: 0.75
+        Slash: 0.75
+        Piercing: 0.85
+        Heat: 0.85
 
 - type: entity
   parent: ClothingMaskBase
@@ -446,7 +446,7 @@
   parent: ClothingMaskBase
   id: ClothingMaskFox
   name: fox mask
-  description: What does the fox say?
+  description: A mask that looks like a fox.
   components:
   - type: Sprite
     sprite: Clothing/Mask/fox.rsi
@@ -465,7 +465,7 @@
   parent: ClothingMaskBase
   id: ClothingMaskBee
   name: bee mask
-  description: For the queen!
+  description: A mask that looks like a fox.
   components:
   - type: Sprite
     sprite: Clothing/Mask/bee.rsi
@@ -484,7 +484,7 @@
   parent: ClothingMaskBase
   id: ClothingMaskBear
   name: bear mask
-  description: I'm a cloudy, cloudy, cloudy, I'm not a bear at all.
+  description: A mask that looks like a bear.
   components:
   - type: Sprite
     sprite: Clothing/Mask/bear.rsi
@@ -503,7 +503,7 @@
   parent: ClothingMaskBase
   id: ClothingMaskRaven
   name: raven mask
-  description: Where I am, death... or glitter.
+  description: A mask that looks like a raven.
   components:
   - type: Sprite
     sprite: Clothing/Mask/raven.rsi
@@ -522,7 +522,7 @@
   parent: ClothingMaskBase
   id: ClothingMaskJackal
   name: jackal mask
-  description: It is better not to turn your back to the owner of the mask, it may bite.
+  description: A mask that would only be worn by someone that has lost their mind.
   components:
   - type: Sprite
     sprite: Clothing/Mask/jackal.rsi
@@ -541,7 +541,7 @@
   parent: ClothingMaskBase
   id: ClothingMaskBat
   name: bat mask
-  description: A bloodsucker by night, and a cute, blinded beast by day.
+  description: A mask that looks like a bat.
   components:
   - type: Sprite
     sprite: Clothing/Mask/bat.rsi
