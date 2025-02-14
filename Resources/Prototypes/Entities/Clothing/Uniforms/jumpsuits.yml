@@ -1,13 +1,15 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitDeathSquad
-  name: death squad uniform
-  description: Advanced armored jumpsuit used by special forces in special operations.
+  name: Black ops uniform
+  description: Advanced hydraulic jumpsuit used by black ops units, keeps you moving when there is little left of you.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/deathsquad.rsi
   - type: Clothing
     sprite: Clothing/Uniforms/Jumpsuit/deathsquad.rsi
+  - type: ClothingSlowOnDamageModifier
+    modifier: 0.1
 
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
