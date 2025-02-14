@@ -812,8 +812,8 @@
 - type: entity
   parent: ClothingHeadHardsuitBase
   id: ClothingHeadHelmetHardsuitDeathsquad
-  name: deathsquad hardsuit helmet
-  description: A robust helmet for special operations.
+  name: Black ops hardsuit helmet
+  description: A robust helmet for black operations.
   components:
   - type: BreathMask
   - type: Sprite
@@ -826,16 +826,16 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.80
-        Slash: 0.80
-        Piercing: 0.80
-        Heat: 0.80
-        Radiation: 0.80
-        Caustic: 0.95
+        Blunt: 0.70
+        Slash: 0.70
+        Piercing: 0.70
+        Heat: 0.70
+        Radiation: 0.70
+        Caustic: 0.85
   - type: ThermalVision
     isEquipment: true
     color: "#98EEFB"
-    lightRadius: 15
+    lightRadius: 25
 
 #MISC. HARDSUITS
 #Clown Hardsuit
