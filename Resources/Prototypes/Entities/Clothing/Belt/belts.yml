@@ -718,7 +718,7 @@
     distanceSprinting: 3
 
 - type: entity
-  parent: ClothingBeltMilitaryWebbing
+  parent: ClothingBeltStorageBaseblackops
   id: ClothingBeltBlackops
   name: Black ops advanced chest rig
   description: A set of tactical webbing worn by black ops units.
