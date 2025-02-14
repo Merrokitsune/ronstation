@@ -46,7 +46,7 @@
     head: ClothingHeadHatWarden
     jumpsuit: ClothingUniformJumpsuitWarden
     back: ClothingBackpackSecurity
-    shoes: ClothingShoesBootsCombatFilled
+    shoes: ClothingShoesBootsJackFilled
     eyes: ClothingEyesGlassesSunglasses
     outerClothing: ClothingOuterCoatWarden
     id: WardenPDA
