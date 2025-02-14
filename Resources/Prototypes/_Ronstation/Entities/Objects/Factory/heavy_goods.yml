@@ -1,0 +1,91 @@
+- type: entity
+  parent: BaseStructureDynamic
+  id: ManufacturedGeneric
+  categories: [ HideSpawnMenu ]
+  name: manufactured good
+  description: Made to be sold. Sold to be made.
+  components:
+  - type: Icon
+    sprite: Structures/Storage/Crates/generic.rsi
+    state: icon
+  - type: Sprite
+    noRot: true
+    sprite: Structures/Storage/Crates/generic.rsi
+  - type: InteractionOutline
+  - type: Physics
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.4,-0.4,0.4,0.29"
+        density: 50
+        mask:
+        - CrateMask
+        layer:
+        - MachineLayer
+  - type: PlaceableSurface
+    isPlaceable: false # defaults to closed.
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: Metallic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 250
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+  - type: Appearance
+  - type: StaticPrice
+    price: 50
+  - type: RequireProjectileTarget
+
+  - type: entity
+  parent: ManufacturedGeneric
+  id: WeaponCase
+  name: weapon case
+  description: A weapon case containing a gun. You realise shaking the case makes no noise whatsoever.
+  components:
+  - type: Icon
+    sprite: _Ronstation/Objects/ManufacturedGoods/weaponcase.rsi
+    state: icon
+  - type: Sprite
+    noRot: true
+    sprite: _Ronstation/Objects/ManufacturedGoods/weaponcase.rsi
+  - type: StaticPrice
+    price: 1000
+
+  - type: entity
+  parent: ManufacturedGeneric
+  id: SealedPlasteel
+  name: sealed plastitanium
+  description: Medium quality packed plasteel, ready to be sold.
+  components:
+  - type: Icon
+    sprite: _Ronstation/Objects/ManufacturedGoods/plasteel.rsi
+    state: icon
+  - type: Sprite
+    noRot: true
+    sprite: _Ronstation/Objects/ManufacturedGoods/plasteel.rsi
+  - type: StaticPrice
+    price: 1500
+
+  - type: entity
+  parent: ManufacturedGeneric
+  id: SealedPlastitanium
+  name: sealed plastitanium
+  description: Medium-low quality packed plastitanium, ready to be sold.
+  components:
+  - type: Icon
+    sprite: _Ronstation/Objects/ManufacturedGoods/plastitanium.rsi
+    state: icon
+  - type: Sprite
+    noRot: true
+    sprite: _Ronstation/Objects/ManufacturedGoods/plastitanium.rsi
+  - type: StaticPrice
+    price: 2000
