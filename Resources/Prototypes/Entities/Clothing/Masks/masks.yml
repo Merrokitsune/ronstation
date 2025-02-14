@@ -19,6 +19,10 @@
     slots:
     - Snout
     hideOnToggle: true
+  - type: PhysicalComposition # ronstation
+    materialComposition:
+      Steel: 100
+      Glass: 100
 
 - type: entity
   parent: ClothingMaskGas
@@ -39,6 +43,9 @@
         Slash: 0.95
         Piercing: 0.95
         Heat: 0.95
+  - type: PhysicalComposition # ronstation
+    materialComposition:
+      Steel: 100
 
 - type: entity
   parent: ClothingMaskGas
@@ -59,6 +66,11 @@
         Slash: 0.95
         Piercing: 0.95
         Heat: 0.95
+  - type: PhysicalComposition # ronstation
+    materialComposition:
+      Plasteel: 300 # i mean, it's syndie mask.. should be armored, right?
+      Steel: 100 
+      ReinforcedGlass: 100
 
 - type: entity
   parent: ClothingMaskGas
@@ -74,6 +86,11 @@
     modifiers:
       coefficients:
         Heat: 0.80
+  - type: PhysicalComposition # ronstation
+    materialComposition:
+      Steel: 200 # i suppose its armored too since it has 20 heat resist
+      Plasteel: 100
+      ReinforcedGlass: 100
 
 - type: entity
   parent: ClothingMaskGasAtmos
@@ -87,6 +104,11 @@
     sprite: Clothing/Mask/gascaptain.rsi
   - type: BreathMask
   - type: IngestionBlocker
+  - type: PhysicalComposition # ronstation
+    materialComposition:
+      Steel: 200 # repainted atmos mask
+      Plasteel: 100
+      ReinforcedGlass: 100    
 
 - type: entity
   parent: ClothingMaskGasExplorer
@@ -98,6 +120,11 @@
     sprite: Clothing/Mask/gascaptaincombat.rsi
   - type: Clothing
     sprite: Clothing/Mask/gascaptaincombat.rsi
+  - type: PhysicalComposition # ronstation
+    materialComposition:
+      Steel: 200
+      Plasteel: 200
+      ReinforcedGlass: 100
 
 - type: entity
   parent: ClothingMaskGasAtmos
@@ -111,6 +138,11 @@
     sprite: Clothing/Mask/gascentcom.rsi
   - type: BreathMask
   - type: IngestionBlocker
+  - type: PhysicalComposition # ronstation
+    materialComposition:
+      Steel: 200 # repainted atmos mask
+      Plasteel: 100
+      ReinforcedGlass: 100
 
 - type: entity
   parent: ClothingMaskGas
@@ -129,6 +161,9 @@
         Slash: 0.90
         Piercing: 0.95
         Heat: 0.95
+  - type: PhysicalComposition # ronstation
+    materialComposition:
+      Steel: 100 # same as secmask
 
 - type: entity
   parent: ClothingMaskPullableBase
@@ -148,6 +183,10 @@
     tags:
     - PetWearable
     - WhitelistChameleon
+  - type: PhysicalComposition # ronstation
+    materialComposition:
+      Steel: 50
+      Plastic: 100
 
 - type: entity
   parent: ClothingMaskBreathMedical
@@ -215,6 +254,9 @@
   - type: HideLayerClothing
     slots:
     - Snout
+  - type: PhysicalComposition # ronstation
+    materialComposition:
+      Bananium: 200
 
 - type: entity
   parent: ClothingMaskClownBase
@@ -557,7 +599,7 @@
     - Snout
 
 - type: entity
-  parent: ClothingMaskBase
+  parent: ClothingMaskPullableBase # ronstation
   id: ClothingMaskNeckGaiter
   name: neck gaiter
   description: Stylish neck gaiter for your neck, can protect from the cosmic wind?...
