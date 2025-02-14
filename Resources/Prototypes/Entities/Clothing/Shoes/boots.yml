@@ -67,8 +67,6 @@
   - type: Clothing
     sprite: Clothing/Shoes/Boots/explorer.rsi
   - type: Matchbox
-  - type: ClothingSlowOnDamageModifier
-    modifier: 0.9
 
 - type: entity
   parent: ClothingShoesBaseButcherable
