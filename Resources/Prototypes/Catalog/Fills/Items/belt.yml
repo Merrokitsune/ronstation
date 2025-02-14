@@ -189,16 +189,17 @@
 
 - type: entity
   id: ClothingBeltBlackOps
-  parent: ClothingBeltMilitaryWebbing
+  parent: ClothingBeltStorageBaseblackops
   suffix: Filled
   components:
   - type: StorageFill
     contents:
       - id: EpinephrineChemistryBottle
-        amount: 2
+        amount: 4
       - id: EphedrineChemistryBottle
-        amount: 2
+        amount: 4
       - id: OmnizineChemistryBottle
+        amount: 4
       - id: MedkitCombatFilled
 
 - type: entity
