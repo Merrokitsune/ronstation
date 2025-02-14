@@ -23,7 +23,10 @@
 ##    ClothingOuterArmorBasicSlim: 2
     ClothingNeckScarfStripedRed: 3
     ClothingEyesBlindfold: 1
-    ClothingShoesBootsCombat: 1
     ClothingShoesBootsWinterSec: 2
     ClothingShoesBootsCowboyBlack: 1
     ClothingHeadHatCowboyBlack: 1
+    emaggedInventory:
+    ClothingOuterVestWebMerc: 1
+    contrabandInventory:
+    ClothingShoesBootsCombatFilled: 1

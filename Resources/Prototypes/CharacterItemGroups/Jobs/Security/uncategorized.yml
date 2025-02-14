@@ -215,8 +215,6 @@
   items:
     - type: loadout
       id: LoadoutSecurityShoesJackboots
-    - type: loadout
-      id: LoadoutClothingShoesBootsCombat
 
 - type: characterItemGroup
   id: LoadoutSecurityUniforms

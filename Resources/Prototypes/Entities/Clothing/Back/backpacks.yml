@@ -280,12 +280,14 @@
 - type: entity
   parent: ClothingBackpackERTSecurity
   id: ClothingBackpackDeathSquad
-  name: death squad backpack
-  description: Holds the kit of CentComm's most feared agents.
+  name: Black ops backpack
+  description: A backpack created for use of black ops units, has bluespace tech built into it.
   components:
     - type: Storage
-      grid:
-      - 0,0,7,6
+    grid:
+    - 0,0,19,9
+    - type: ExplosionResistance
+    damageCoefficient: 0.01
 
 #Syndicate
 - type: entity

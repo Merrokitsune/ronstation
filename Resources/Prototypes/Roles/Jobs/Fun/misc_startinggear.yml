@@ -63,7 +63,7 @@
     jumpsuit: ClothingUniformJumpsuitDeathSquad
     back: ClothingBackpackDeathSquadFilled
     mask: ClothingMaskGasDeathSquad
-    eyes: ClothingEyesHudSecurity
+    eyes: ClothingEyesHudOmni
     ears: ClothingHeadsetAltCentCom
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitDeathsquad
@@ -72,7 +72,7 @@
     id: DeathsquadPDA
     pocket1: EnergySword
     pocket2: EnergyShield
-    belt: ClothingBeltMilitaryWebbingMedFilled
+    belt: ClothingBeltBlackops
   innerClothingSkirt: ClothingUniformJumpskirtColorBlack
 
 #Syndicate Operative Outfit - Full Kit
