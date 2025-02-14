@@ -31,4 +31,5 @@
   contrabandInventory:
     FoodDonutHomer: 12
     FoodBoxDonut: 2
-    #box evidence
+emaggedInventory:
+    PipeBomb: 8
