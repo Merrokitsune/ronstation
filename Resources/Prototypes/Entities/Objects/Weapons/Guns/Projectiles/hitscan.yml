@@ -109,9 +109,12 @@
 
 - type: hitscan
   id: Pulse
+- type: StaminaDamageOnCollide
+    damage: 25
   damage:
     types:
-      Heat: 35
+      Heat: 55
+      Structural: 120
   muzzleFlash:
     sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
     state: muzzle_blue
