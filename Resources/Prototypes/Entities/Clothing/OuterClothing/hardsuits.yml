@@ -707,9 +707,9 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.6
-        Slash: 0.6
-        Piercing: 0.6
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.5
         Heat: 0.2
         Radiation: 0.01
         Caustic: 0.5
@@ -722,7 +722,7 @@
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitSyndieElite
   - type: StaminaDamageResistance
-    coefficient: 0.5 # 50%
+    coefficient: 0.3 # 30%
 
 #Syndicate Commander Hardsuit
 - type: entity
@@ -739,15 +739,17 @@
     highPressureMultiplier: 0.05
     lowPressureMultiplier: 1000
   - type: ExplosionResistance
-    damageCoefficient: 0.5
+    damageCoefficient: 0.15
+  - type: FireProtection
+    reduction: 0.75 # 3/4 the effect the elite suit
   - type: Armor
     modifiers:
       coefficients:
         Blunt: 0.4
         Slash: 0.4
         Piercing: 0.3
-        Heat: 0.5
-        Radiation: 0.25
+        Heat: 0.3
+        Radiation: 0
         Caustic: 0.4
   - type: ClothingSpeedModifier
     walkModifier: 1.0
@@ -756,7 +758,7 @@
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitSyndieCommander
   - type: StaminaDamageResistance
-    coefficient: 0.5 # 50%
+    coefficient: 0.2 # 20%
 
 #Cybersun Juggernaut Hardsuit
 - type: entity
@@ -773,7 +775,9 @@
     highPressureMultiplier: 0.2
     lowPressureMultiplier: 1000
   - type: ExplosionResistance
-    damageCoefficient: 0.3
+    damageCoefficient: 0.1
+  - type: FireProtection
+    reduction: 0.75 # 3/4 the effect the elite suit
   - type: Armor
     modifiers:
       coefficients:
@@ -781,7 +785,7 @@
         Slash: 0.2
         Piercing: 0.2
         Heat: 0.2
-        Radiation: 0.2
+        Radiation: 0.1
         Caustic: 0.2
   - type: ClothingSpeedModifier
     walkModifier: 0.9
@@ -790,7 +794,7 @@
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitCybersun
   - type: StaminaDamageResistance
-    coefficient: 0.5 # 50%
+    coefficient: 0.1 # 10%
 
 #Wizard Hardsuit
 - type: entity
@@ -807,16 +811,18 @@
     highPressureMultiplier: 0.05
     lowPressureMultiplier: 1000
   - type: ExplosionResistance
-    damageCoefficient: 0.5
+    damageCoefficient: 0.3
+  - type: FireProtection
+    reduction: 0.9 # 9/10 the effect the elite suit, for fireballs.
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.6
-        Slash: 0.6
-        Piercing: 0.4
+        Blunt: 0.3
+        Slash: 0.3
+        Piercing: 0.3
         Heat: 0.25
-        Radiation: 0.25
-        Caustic: 0.75
+        Radiation: 0
+        Caustic: 0.3
   - type: ClothingSpeedModifier
     walkModifier: 0.8
     sprintModifier: 0.8
@@ -824,7 +830,7 @@
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitWizard
   - type: StaminaDamageResistance
-    coefficient: 0.5 # 50%
+    coefficient: 0.1 # 10%
 
 #Ling Space Suit
 - type: entity
@@ -938,7 +944,7 @@
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitERTLeader
   - type: StaminaDamageResistance
-    coefficient: 0.5 # 50%
+    coefficient: 0.2 # 20%
 
 #ERT Chaplain Hardsuit
 - type: entity
@@ -954,7 +960,7 @@
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitERTChaplain
   - type: StaminaDamageResistance
-    coefficient: 0.5 # 50%
+    coefficient: 0.2 # 20%
 
 #ERT Engineer Hardsuit
 - type: entity
@@ -970,7 +976,7 @@
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitERTEngineer
   - type: StaminaDamageResistance
-    coefficient: 0.5 # 50%
+    coefficient: 0.2 # 20%
   - type: TemperatureProtection
     coefficient: 0.001
   - type: FireProtection
@@ -990,7 +996,7 @@
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitERTMedical
   - type: StaminaDamageResistance
-    coefficient: 0.5 # 50%
+    coefficient: 0.2 # 20%
 
 #ERT Security Hardsuit
 - type: entity
@@ -1010,11 +1016,11 @@
     - Hardsuit
     - WhitelistChameleon
   - type: StaminaDamageResistance
-    coefficient: 0.5 # 50%
+    coefficient: 0.2 # 20%
 
 #ERT Janitor Hardsuit
 - type: entity
-  parent: ClothingOuterHardsuitCBURN
+  parent: ClothingOuterHardsuitSyndie
   id: ClothingOuterHardsuitERTJanitor
   name: ERT janitor's hardsuit
   description: A protective hardsuit worn by the janitors of an emergency response team.
@@ -1026,43 +1032,45 @@
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitERTJanitor
   - type: StaminaDamageResistance
-    coefficient: 0.5 # 50%
+    coefficient: 0.2 # 20%
 
 #Deathsquad
 - type: entity
   parent: ClothingOuterHardsuitBaseHeavy
   id: ClothingOuterHardsuitDeathsquad
-  name: death squad hardsuit
-  description: An advanced hardsuit favored by commandos for use in special operations.
+  name: Black ops hardsuit
+  description: A highly advanced hardsuit made of the almost completely indestructible plastitanium. This suit provides not just almost complete resisting to damage but also allows the person wearing the suit to move at speeds that they would not be able to move at normally with the advanced servos, there is also a shock absorbing system that will dissipate all stuns into the entire suit evenly effectively making it stun-proof.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/deathsquad.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Hardsuits/deathsquad.rsi
   - type: PressureProtection
-    highPressureMultiplier: 0.02
-    lowPressureMultiplier: 1000
+    highPressureMultiplier: 0.002
+    lowPressureMultiplier: 100000
   - type: TemperatureProtection
     coefficient: 0.001
   - type: ExplosionResistance
-    damageCoefficient: 0.2
+    damageCoefficient: 0.00001
+  - type: FireProtection
+    reduction: 1
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.1 #best armor in the game
-        Slash: 0.1
-        Piercing: 0.1
-        Heat: 0.1
-        Radiation: 0.1
-        Caustic: 0.1
+        Blunt: 0.01
+        Slash: 0.01
+        Piercing: 0.001
+        Heat: 0.001
+        Radiation: 0
+        Caustic: 0.01
   - type: ClothingSpeedModifier
-    walkModifier: 1.0
-    sprintModifier: 1.0
+    walkModifier: 1.2
+    sprintModifier: 1.2
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitDeathsquad
   - type: StaminaDamageResistance
-    coefficient: 0.1 # 90%
+    coefficient: 0 # 100%
 
 #CBURN Hardsuit
 - type: entity
@@ -1085,9 +1093,9 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.7
-        Slash: 0.7
-        Piercing: 0.6
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.5
         Heat: 0.1
         Cold: 0.1
         Shock: 0.1
