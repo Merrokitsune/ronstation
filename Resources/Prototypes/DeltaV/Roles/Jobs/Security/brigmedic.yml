@@ -50,7 +50,7 @@
     jumpsuit: ClothingUniformJumpsuitBrigmedic
     outerClothing: ClothingOuterArmorPlateCarrier
     back: ClothingBackpackBrigmedicFilled
-    shoes: ClothingShoesBootsCombatFilled
+    shoes: ClothingShoesBootsJackFilled
     gloves: ClothingHandsGlovesNitrile
     eyes: ClothingEyesHudMedical
     head: ClothingHeadHatBeretBrigmedic
