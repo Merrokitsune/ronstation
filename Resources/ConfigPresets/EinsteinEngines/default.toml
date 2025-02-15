@@ -60,6 +60,7 @@ map_enabled = true
 #Required for development without glimmer, and psionics.
 
 [shuttle]
+arrivals = false # Ronstation = pending rework, due to numerous bugs.
 arrivals_map = "Maps/_Ronstation/Misc/terminal.yml"
 emergency_dock_time = 120
 

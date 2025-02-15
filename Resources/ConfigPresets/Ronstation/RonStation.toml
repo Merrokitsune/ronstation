@@ -59,6 +59,7 @@ map_enabled = true
 #enabled = true
 
 [shuttle]
+arrivals = false # Ronstation = pending rework, due to numerous bugs.
 arrivals_map = "Maps/_Ronstation/Misc/terminal.yml"
 emergency_dock_time = 120
 
