@@ -18,7 +18,6 @@
       min: 72000 # 20 hours
     - !type:CharacterOverallTimeRequirement # Ronstation - Playtime requirement
       min: 126000 # Ronstation - 35 hours
-  antagAdvantage: 6 # DeltaV - Reduced TC: Head of Staff
   weight: 10 # DeltaV - Changed HoP weight from 20 to 10 due to them not being more important than other Heads
   startingGear: HoPGear
   icon: "JobIconHeadOfPersonnel"
