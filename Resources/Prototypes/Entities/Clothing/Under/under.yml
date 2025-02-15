@@ -5,7 +5,7 @@
   parent: ClothingShoesBase
   id: ClothingUnderSocksBee
   name: bee socks
-  description: Make them loins buzz!
+  description: Thigh high socks with the color style of bees.
   components:
   - type: Sprite
     sprite: Clothing/Under/Socks/bee.rsi
@@ -15,8 +15,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: ClothingUnderSocksCoder
-  name: coder socks
-  description: It's time to code sisters!!11!
+  name: Thigh highs
+  description: Socks that reach up to your thighs, also known as coder socks.
   components:
   - type: Sprite
     sprite: Clothing/Under/Socks/coder.rsi
