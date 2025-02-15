@@ -3,7 +3,6 @@
   name: job-name-lawyer
   description: job-description-lawyer
   playTimeTracker: JobLawyer
-  antagAdvantage: 2 # DeltaV - Reduced TC: Security Radio and Access
   startingGear: LawyerGear
   icon: "JobIconLawyer"
   supervisors: job-supervisors-hop  # Ronstation - Change supervisor to head of personnel
