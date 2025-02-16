@@ -90,7 +90,7 @@
   - type: Clothing
     sprite: Clothing/Shoes/Boots/combatboots.rsi
   - type: ClothingSlowOnDamageModifier
-    modifier: 0.7
+    modifier: 0.8
 
 - type: entity
   parent: ClothingShoesMilitaryBase
