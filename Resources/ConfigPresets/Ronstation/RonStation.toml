@@ -19,6 +19,7 @@ station_goals      = false
 map_pool           = "RonstationMapPool"
 auto_eat_food      = true
 auto_eat_drinks    = true
+traits_default_points = 0
 
 [hub]
 tags = "lang:en-US,region:am_n_e,rp:low"
