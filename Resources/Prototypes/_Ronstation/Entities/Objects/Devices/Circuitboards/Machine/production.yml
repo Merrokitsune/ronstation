@@ -1,21 +1,5 @@
 - type: entity
   parent: BaseMachineCircuitboard
-  id: FabricationManufactorumBoard
-  name: manufactorum machine board
-  components:
-  - type: Sprite
-    state: supply
-  - type: MachineBoard
-    prototype: FabricationManufactorum
-    requirements:
-      MatterBin: 2
-      Manipulator: 1
-    materialRequirements:
-      Plasteel: 3
-      Glass: 2
-
-- type: entity
-  parent: BaseMachineCircuitboard
   id: FabricationPharmaceuticalFabricatorBoard
   name: pharmaceutical fabricator machine board
   components:

@@ -1,36 +1,8 @@
-- type: entity
-  id: FabricationManufactorum
-  parent: Autolathe
-  name: manufactorum
-  description: A hunk of circuits and plasteel that packs certain materials and goods. The base of all interspace trading.
-  components:
-  - type: Sprite
-    sprite: _Ronstation/Structures/Machines/manufactorum.rsi
-    snapCardinals: true
-  - type: Lathe
-    materialUseMultiplier: 1.27
-    timeMultiplier: 1.8
-    idleState: icon
-    runningState: icon
-    dynamicRecipes:
-    - SealedPlasteel
-    - SealedPlastitanium
-    - WeaponCase
-  - type: Machine
-    board: FabricationManufactorumBoard
-  - type: MaterialStorage
-    whitelist:
-      tags:
-        - Sheet
-        - Ingot
-        - RawMaterial
-        - Metal
-
   - type: entity
     id: FabricationPharmaceuticalFabricator
     parent: Autolathe
     name: pharmaceutical fabricator
-    description: A hunk of circuits and plasteel that packs biomass and other into medipens.
+    description: A hunk of circuits and plasteel that packs biomass and materials into medipens.
     components:
     - type: Sprite
       sprite: _Ronstation/Structures/Machines/pharmaceuticalfabricator.rsi
