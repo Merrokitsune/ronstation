@@ -1,0 +1,47 @@
+
+# Tier 0, basic
+
+- type: latheRecipe
+  id: EmergencyMedipen
+  result: EmergencyMedipen
+  completetime: 1.5
+  materials:
+    Plastic: 450
+    Biomass: 10
+
+- type: latheRecipe
+  id: SpaceMedipen
+  result: SpaceMedipen
+  completetime: 1.5
+  materials:
+    Plastic: 450
+    Biomass: 10
+
+# Tier 2
+
+- type: latheRecipe
+  id: StabilizerMedipen
+  result: StabilizerMedipen
+  completetime: 1.5
+  materials:
+    Plastic: 450
+    Biomass: 20
+    Plasma: 150
+
+- type: latheRecipe
+  id: PenteticMedipen
+  result: PenteticMedipen
+  completetime: 1.5
+  materials:
+    Plastic: 450
+    Biomass: 25
+    Plasma: 200
+
+- type: latheRecipe
+  id: HeartburnMedipen
+  result: HeartburnMedipen
+  completetime: 1.5
+  materials:
+    Plastic: 450
+    Biomass: 35
+    Plasma: 200
