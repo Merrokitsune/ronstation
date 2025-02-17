@@ -9,10 +9,6 @@
   root: true
 
 - type: traitCategory
-  id: Mental
-  root: true
-
-- type: traitCategory
   id: Physical
   root: true
 

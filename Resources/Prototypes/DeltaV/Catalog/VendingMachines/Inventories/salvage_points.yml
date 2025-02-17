@@ -34,7 +34,7 @@
   - id: WeaponCrusher
     cost: 750
   - id: WeaponProtoKineticAccelerator
-    cost: 750
+    cost: 250
   # TODO: resonator for 800
   - id: Fulton
     cost: 1000
