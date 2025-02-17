@@ -278,3 +278,105 @@
   - MustBuildOnSubfloor
   rotation: User
   fx: EffectRCDConstruct0
+      
+- type: rcd
+  id: FloorGlass
+  category: WallsAndFlooring
+  sprite: /Textures/Interface/Radial/RCD/glass.png
+  mode: ConstructObject
+  prototype: FloorGlass
+  cost: 1
+  delay: 0
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  fx: EffectRCDConstruct1
+      
+- type: rcd
+  id: FloorRGlass
+  category: WallsAndFlooring
+  sprite: /Textures/Interface/Radial/RCD/rglass.png
+  mode: ConstructObject
+  prototype: CableTerminal
+  cost: 2
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  fx: EffectRCDConstruct1
+  
+- type: rcd
+  id: BaseAPC
+  category: Electrical
+  sprite: /Textures/Interface/Radial/RCD/base.png
+  mode: ConstructObject
+  prototype: BaseAPC
+  cost: 5
+  delay: 2
+  rotation: User
+  fx: EffectRCDConstruct0
+      
+- type: rcd
+  id: BaseRecharger
+  category: Electrical
+  sprite: /Textures/Interface/Radial/RCD/empty.png
+  mode: ConstructObject
+  prototype: BaseRecharger
+  cost: 3
+  delay: 1
+  rotation: User
+  fx: EffectRCDConstruct0
+      
+- type: rcd
+  id: BaseSMES
+  category: Electrical
+  sprite: /Textures/Interface/Radial/RCD/smes.png
+  mode: ConstructObject
+  prototype: BaseSMES
+  cost: 35
+  delay: 10
+  rotation: User
+      
+- type: rcd
+  id: BaseSubstation
+  category: Electrical
+  sprite: /Textures/Interface/Radial/RCD/substation.png
+  mode: ConstructObject
+  prototype: BaseSubstation
+  cost: 15
+  delay: 7
+  rotation: User
+  fx: EffectRCDConstruct0
+      
+- type: rcd
+  id: WallReinforced
+  category: WallsAndFlooring
+  sprite: /Textures/Interface/Radial/RCD/rgeneric.png
+  mode: ConstructObject
+  prototype: WallReinforced
+  cost: 8
+  delay: 5
+  rotation: User
+  fx: EffectRCDConstruct0
+      
+- type: rcd
+  id: BaseWindoor
+  category: AirlockGlass
+  sprite: /Textures/Interface/Radial/RCD/closed.png
+  mode: ConstructObject
+  prototype: BaseWindoor
+  cost: 2
+  delay: 2
+  rotation: User
+  fx: EffectRCDConstruct0
+      
+- type: rcd
+  id: WindoorSecure
+  category: AirlockGlass
+  sprite: /Textures/Interface/Radial/RCD/secure_underlay.png
+  mode: ConstructObject
+  prototype: WindoorSecure
+  cost: 3
+  delay: 4
+  rotation: User
+  fx: EffectRCDConstruct0
