@@ -14,8 +14,8 @@
   - type: Damageable
     damageContainer: StructuralInorganic
     damageModifierSet: RGlass
-    - type: RadiationBlocker
-    resistance: 20
+  - type: RadiationBlocker
+    resistance: 200
   - type: Destructible
     thresholds:
     - trigger:
