@@ -278,7 +278,7 @@
     sprite: Clothing/Back/Backpacks/ertchaplain.rsi
 
 - type: entity
-  parent: ClothingBackpackERTSecurity
+  parent: ClothingBackpack
   id: ClothingBackpackDeathSquad
   name: Black ops backpack
   description: A backpack created for use of black ops units, has bluespace tech built into it.
