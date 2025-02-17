@@ -21,6 +21,7 @@
   - type: Transform
     noRot: false
   - type: AnomalyVessel
+    basePointMultiplier: 2
   - type: ResearchClient
   - type: ActivatableUI
     key: enum.ResearchClientUiKey.Key
@@ -100,7 +101,7 @@
     drawdepth: Mobs
   - type: SpriteFade
   - type: AnomalyVessel
-    basePointMultiplier: 2
+    basePointMultiplier: 4
   - type: RadiationSource
     slope: 0.1
     enabled: false
