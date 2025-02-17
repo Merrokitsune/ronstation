@@ -283,10 +283,10 @@
   name: Black ops backpack
   description: A backpack created for use of black ops units, has bluespace tech built into it.
   components:
-    - type: Storage
+  - type: Storage
     grid:
-    - 0,0,19,9
-    - type: ExplosionResistance
+  - 0,0,19,9
+  - type: ExplosionResistance
     damageCoefficient: 0.01
 
 #Syndicate
