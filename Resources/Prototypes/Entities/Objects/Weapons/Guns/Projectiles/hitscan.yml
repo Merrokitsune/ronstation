@@ -109,8 +109,6 @@
 
 - type: hitscan
   id: Pulse
-- type: StaminaDamageOnCollide
-    damage: 25
   damage:
     types:
       Heat: 55
