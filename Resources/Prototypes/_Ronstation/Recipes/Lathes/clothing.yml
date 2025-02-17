@@ -1,0 +1,43 @@
+- type: latheRecipe
+  id: GasMask
+  result: ClothingMaskGas
+  completetime: 1
+  materials:
+    Steel: 100
+    Glass: 100
+
+- type: latheRecipe
+  id: NeckGaiter
+  result: ClothingMaskNeckGaiter
+  completetime: 1
+  materials:
+    Cloth: 200
+
+- type: latheRecipe
+  id: NeckGaiterWhite
+  result: ClothingMaskNeckGaiterWhite
+  completetime: 1
+  materials:
+    Cloth: 200
+
+- type: latheRecipe
+  id: NeckGaiterRed
+  result: ClothingMaskNeckGaiterRed
+  completetime: 1
+  materials:
+    Cloth: 200
+
+- type: latheRecipe
+  id: GasMaskSecurity
+  result: ClothingMaskGasSecurity # for secfab
+  completetime: 1
+  materials:
+    Steel: 100
+
+- type: latheRecipe
+  id: MaskBreath
+  result: ClothingMaskBreath # autolathe
+  completetime: 1
+  materials:
+    Steel: 50
+    Plastic: 100
