@@ -45,10 +45,10 @@ limit = 10.0
 fork_id = "Ronstation"
 
 [server]
-rules_file   = "RonstationRuleset"
+rules_file   = "DefaultRuleset"
 
 [ooc]
-enable_during_round = true
+enable_during_round = false
 
 [vote]
 restart_required_ratio = 0.7
