@@ -210,8 +210,8 @@ ghost-role-information-behonker-description = You are an antagonist, bring death
 ghost-role-information-hellspawn-name = Hellspawn
 ghost-role-information-hellspawn-description = You are an antagonist, bring death to those who do not follow the great god Nar'Sie.
 
-ghost-role-information-Death-Squad-name = Death Squad Operative
-ghost-role-information-Death-Squad-description = One of Nanotrasen's top internal affairs agents. Await orders from CentComm or an official.
+ghost-role-information-Death-Squad-name = Black ops
+ghost-role-information-Death-Squad-description = A highly trained commando outfited with the best gear NT has ever created, wait for orders from centcomm and if you get no orders terminate all organic life with your team on the station with nothing escaping.
 
 ghost-role-information-SyndiCat-name = SyndiCat
 ghost-role-information-SyndiCat-description = You're the faithful trained pet of nuclear operatives with a microbomb. Serve your master to the death!
