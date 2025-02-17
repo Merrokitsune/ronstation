@@ -297,7 +297,7 @@
     access: [["Hydroponics"]]
 
 - type: entity
-  parent: CrateBaseSecureReinforced
+  parent: CrateBaseSecure
   id: CrateWeaponSecure
   name: secure weapon crate
   components:
