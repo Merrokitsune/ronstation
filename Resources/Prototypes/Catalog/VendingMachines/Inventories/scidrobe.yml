@@ -14,7 +14,7 @@
     ClothingMaskGas: 3
     ClothingOuterWinterSci: 2
     ClothingNeckScarfStripedPurple: 3
-    ClothingHeadTinfoil: 2 # Nyanotrasen - Tinfoil hats for Epistemics
+    #ClothingHeadTinfoil: 2 # Ronstation - psionics does not exist.
     ClothingShoesBootsWinterSci: 2
   contrabandInventory:
-    ToyFigurineResearchDirector: 1  
+    ToyFigurineResearchDirector: 1
