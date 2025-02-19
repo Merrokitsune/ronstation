@@ -9,10 +9,6 @@
     layers:
     - state: firstaid
       map: ["enum.SolutionContainerLayers.Fill"]
-  - type: SolutionContainerVisuals
-    maxFillLevels: 1
-    changeColor: false
-    emptySpriteName: firstaid_empty
   - type: SolutionContainerManager
     solutions:
       pen:
@@ -22,6 +18,15 @@
           Quantity: 15
         - ReagentId: Inaprovaline
           Quantity: 5
+  - type: SolutionContainerVisuals
+    maxFillLevels: 1
+    changeColor: false
+    emptySpriteName: firstaid_empty
+  - type: Hypospray
+    solutionName: pen
+    transferAmount: 20
+    onlyAffectsMobs: false
+    injectOnly: true
   - type: Tag
     tags: []
 
@@ -36,17 +41,22 @@
     layers:
     - state: arithpen
       map: ["enum.SolutionContainerLayers.Fill"]
+  - type: SolutionContainerManager
+    solutions:
+      pen:
+        maxVol: 20
+        reagents:
+        - ReagentId: PenteticAcid
+          Quantity: 20
   - type: SolutionContainerVisuals
     maxFillLevels: 1
     changeColor: false
     emptySpriteName: arithpen_empty
-  - type: SolutionContainerManager
-    solutions:
-      pen:
-        maxVol: 15
-        reagents:
-        - ReagentId: PenteticAcid
-          Quantity: 15
+  - type: Hypospray
+    solutionName: pen
+    transferAmount: 20
+    onlyAffectsMobs: false
+    injectOnly: true
   - type: Tag
     tags: []
 
@@ -61,18 +71,23 @@
     layers:
     - state: bicpen
       map: ["enum.SolutionContainerLayers.Fill"]
-  - type: SolutionContainerVisuals
-    maxFillLevels: 1
-    changeColor: false
-    emptySpriteName: bicpen_empty
   - type: SolutionContainerManager
     solutions:
       pen:
-        maxVol: 35
+        maxVol: 30
         reagents:
         - ReagentId: Cordrazine
           Quantity: 15
         - ReagentId: SalicylicAcid
-          Quantiy: 20
+          Quantiy: 15
+  - type: SolutionContainerVisuals
+    maxFillLevels: 1
+    changeColor: false
+    emptySpriteName: bicpen_empty
+  - type: Hypospray
+    solutionName: pen
+    transferAmount: 30
+    onlyAffectsMobs: false
+    injectOnly: true
   - type: Tag
     tags: []
