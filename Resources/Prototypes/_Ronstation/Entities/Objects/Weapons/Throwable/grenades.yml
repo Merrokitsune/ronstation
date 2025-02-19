@@ -1,0 +1,16 @@
+- type: entity
+  parent: SmokeGrenade
+  id: CarpetGrenade
+  name: carpet-bomb
+  description: Detonates into carpet. Truly marvelous.
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Grenades/grenade.rsi
+  - type: SmokeOnTrigger
+    duration: 15
+    spreadAmount: 50
+    smokePrototype: Foam
+    solution:
+      reagents:
+      - ReagentId: Carpetium
+        Quantity: 30

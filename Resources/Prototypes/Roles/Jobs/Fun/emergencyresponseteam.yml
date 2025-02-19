@@ -30,7 +30,6 @@
     ears: ClothingHeadsetAltCentCom
     belt: ClothingBeltSecurityFilled
     pocket1: WeaponPistolN1984NonLethal
-    pocket2: FlashlightSeclite
 
 - type: startingGear
   id: ERTLeaderGearEVA
@@ -49,7 +48,6 @@
     ears: ClothingHeadsetAltCentCom
     belt: ClothingBeltSecurityFilled
     pocket1: WeaponPistolN1984NonLethal
-    pocket2: FlashlightSeclite
 
 - type: startingGear
   id: ERTLeaderGearEVALecter
@@ -70,6 +68,8 @@
     belt: ClothingBeltSecurityFilled
     pocket1: MagazineRifle
     pocket2: MagazineRifle
+  inhand:
+    - AirTankFilled
 
 # Chaplain
 - type: job
@@ -215,7 +215,7 @@
     ears: ClothingHeadsetAltCentCom
     belt: ClothingBeltSecurityFilled
     pocket1: WeaponPistolMk58Nonlethal
-    pocket2: FlashlightSeclite
+    pocket2: Flare
 
 - type: startingGear
   id: ERTSecurityGearEVA
@@ -234,7 +234,7 @@
     ears: ClothingHeadsetAltCentCom
     belt: ClothingBeltSecurityFilled
     pocket1: WeaponPistolMk58Nonlethal
-    pocket2: FlashlightSeclite
+    pocket2: Flare
 
 - type: startingGear
   id: ERTSecurityGearEVALecter
@@ -253,7 +253,7 @@
     id: ERTSecurityPDA
     ears: ClothingHeadsetAltCentCom
     belt: ClothingBeltSecurityFilled
-    pocket1: MagazineRifle
+    pocket1: Flare
     pocket2: MagazineRifle
 
 # Medical

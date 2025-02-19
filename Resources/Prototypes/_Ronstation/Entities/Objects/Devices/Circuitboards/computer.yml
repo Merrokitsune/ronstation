@@ -1,8 +1,0 @@
-- type: entity
-  parent: BaseComputerCircuitboard
-  id: BaseComputerTabletopWorkstationCircuitBoard
-  name: workstation board
-  description: A computer printed circuit board for a workstation.
-  components:
-    - type: ComputerBoard
-      prototype: BaseComputerTabletopWorkstation

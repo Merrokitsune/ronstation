@@ -1,0 +1,142 @@
+﻿- type: constructionGraph
+  id: Workstation
+  start: start
+  graph:
+    - node: start
+      edges:
+        - to: workstationFrameUnsecured
+          completed:
+            - !type:SetAnchor
+              value: false
+          steps:
+            - material: Steel
+              amount: 5
+              doAfter: 2.5
+
+    - node: workstationFrameUnsecured
+      actions:
+      - !type:AppearanceChange
+      entity: WorkstationFrame
+      edges:
+        - to: workstationBoardUnsecured
+          conditions:
+            - !type:EntityAnchored {}
+          steps:
+            - tag: WorkstationBoard
+              store: board
+              name: any workstation circuit board
+              icon:
+                sprite: "_Ronstation/Objects/Misc/module.rsi"
+                state: "workstationboard"
+
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: SheetSteel1
+              amount: 5
+            - !type:DeleteEntity {}
+          steps:
+            - tool: Screwing
+              doAfter: 2
+
+    - node: workstationBoardUnsecured
+      actions:
+      - !type:AppearanceChange
+      edges:
+        - to: workstationMissingWires
+          conditions:
+            - !type:EntityAnchored {}
+          steps:
+            - tool: Screwing
+
+        - to: workstationFrameUnsecured
+          conditions:
+            - !type:EntityAnchored { }
+          completed:
+            - !type:EmptyAllContainers {}
+          steps:
+            - tool: Prying
+
+    - node: workstationMissingWires
+      actions:
+      - !type:AppearanceChange
+      edges:
+        - to: workstationMonitorMissing
+          conditions:
+            - !type:EntityAnchored {}
+          steps:
+            - material: Cable
+              amount: 5
+
+        - to: workstationBoardUnsecured
+          conditions:
+            - !type:EntityAnchored { }
+          steps:
+            - tool: Screwing
+
+    - node: workstationMonitorMissing
+      entity: WorkstationFrame
+      actions:
+        - !type:SetAnchor { }
+        - !type:AppearanceChange
+      edges:
+        - to: workstationMonitorUnsecured
+          conditions:
+            - !type:EntityAnchored {}
+          steps:
+            - material: Glass
+              amount: 2
+
+        - to: workstationMissingWires
+          conditions:
+            - !type:EntityAnchored { }
+          completed:
+            - !type:SpawnPrototype
+              prototype: CableApcStack1
+              amount: 5
+          steps:
+            - tool: Cutting
+
+    - node: workstationMonitorUnsecured
+      actions:
+      - !type:AppearanceChange
+      entity: WorkstationFrame
+      edges:
+        - to: workstation
+          conditions:
+            - !type:EntityAnchored {}
+          steps:
+            - tool: Screwing
+
+        - to: workstationMonitorMissing
+          conditions:
+            - !type:EntityAnchored {}
+          completed:
+            - !type:SpawnPrototype
+              prototype: SheetGlass1
+              amount: 2
+          steps:
+            - tool: Prying
+              doAfter: 1
+
+    - node: workstation
+      entity: !type:BoardNodeEntity { container: board }
+      edges:
+        - to: workstationMonitorUnsecured
+          steps:
+            - tool: Prying
+              doAfter: 1
+
+    - node: workstationMonitorBroken
+      entity: WorkstationBroken
+      edges:
+        - to: workstationMonitorMissing
+          conditions:
+            - !type:EntityAnchored {}
+          completed:
+            - !type:SpawnPrototype
+              prototype: ShardGlass
+              amount: 2
+          steps:
+            - tool: Prying
+              doAfter: 2

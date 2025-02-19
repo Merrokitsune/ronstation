@@ -28,8 +28,6 @@
     - !type:CharacterTraitRequirement
       inverted: true
       traits:
-        - Foreigner
-        - ForeignerLight
         - Pacifist
   weight: 20
   startingGear: CaptainGear

@@ -10,11 +10,6 @@
     - !type:CharacterDepartmentTimeRequirement
       department: Security
       min: 54000 # 15 hours
-    - !type:CharacterTraitRequirement
-      inverted: true
-      traits:
-        - Foreigner
-        - ForeignerLight
     - !type:CharacterWhitelistRequirement # Ronstation- Whitelist requirement due to being the same as chief justice.
   weight: 20
   startingGear: MagistrateGear
@@ -25,15 +20,16 @@
   canBeAntag: false
   access:
   - Security
-  - Brig
-  - External
-  - Cryogenics
-  - Maintenance
+  #- Brig # Ronstation - Brig access is removed by Delta-V.
+  #- External
+  #- Cryogenics
+  #- Maintenance
   - Detective
   - Corpsman
   - Command
   - CentralCommand
   - Magistrate
+  - Justice # Ronstation - Magistrate is also part of justice.
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]

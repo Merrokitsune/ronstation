@@ -41,7 +41,7 @@ loadout-category-JobsEpistemicsGolemancer = Roboticist
 loadout-category-JobsEpistemicsMystagogue = Research Director
 loadout-category-JobsEpistemicsMystic = Senior Scientist
 loadout-category-JobsEpistemicsNoviciate = Research Assistant
-loadout-category-JobsEpistemicsPsionicMantis = Mantis
+loadout-category-JobsEpistemicsPsionicMantis = Ward Mantis
 
 # Logistics
 loadout-category-JobsLogistics = Logistics

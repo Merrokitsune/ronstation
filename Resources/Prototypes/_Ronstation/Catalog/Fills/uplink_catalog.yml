@@ -1,0 +1,39 @@
+- type: listing
+  id: UplinkX4
+  name: uplink-x4-name
+  description: uplink-x4-desc
+  productEntity: X4
+  discountCategory: veryRareDiscounts
+  discountDownTo:
+    Telecrystal: 6
+  cost:
+    Telecrystal: 10
+  categories:
+  - UplinkExplosives
+
+- type: listing
+  id: UplinkX4Bundle
+  name: uplink-x4-bundle-name
+  description: uplink-x4-bundle-desc
+  productEntity: ClothingBackpackDuffelSyndicateX4tBundle
+  discountCategory: veryRareDiscounts
+  discountDownTo:
+    Telecrystal: 1
+  cost:
+    Telecrystal: 20
+  categories:
+  - UplinkExplosives
+
+- type: listing
+  id: UplinkCarpetBomb
+  name: uplink-carpet-bomb-name
+  description: uplink-carpet-bomb-desc
+  productEntity: CarpetGrenade
+  cost:
+    Telecrystal: 1
+  categories:
+  - UplinkExplosives
+  conditions:
+    - !type:BuyerDepartmentCondition
+      whitelist:
+      - Civilian

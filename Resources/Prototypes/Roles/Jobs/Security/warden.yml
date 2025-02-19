@@ -14,11 +14,7 @@
     - !type:CharacterTraitRequirement
       inverted: true
       traits:
-        - Foreigner
-        - ForeignerLight
-        - Muted
         - Blindness
-        - Pacifist
         - BrittleBoneDisease
   startingGear: WardenGear
   icon: "JobIconWarden"

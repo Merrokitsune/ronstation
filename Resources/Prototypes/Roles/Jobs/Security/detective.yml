@@ -10,11 +10,7 @@
   - !type:CharacterTraitRequirement
     inverted: true
     traits:
-      - Foreigner
-      - ForeignerLight
-      - Muted
       - Blindness
-      - Pacifist
       - BrittleBoneDisease
   startingGear: DetectiveGear
   icon: "JobIconDetective"

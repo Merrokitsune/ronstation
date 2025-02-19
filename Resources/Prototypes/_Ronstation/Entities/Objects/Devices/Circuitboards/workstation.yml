@@ -1,0 +1,26 @@
+- type: entity
+  parent: BaseComputerCircuitboard
+  id: BaseComputerTabletopWorkstationCircuitboard
+  name: computer board
+  abstract: true
+  components:
+    - type: Sprite
+      sprite: _Ronstation/Objects/Misc/module.rsi
+      state: workstationboard
+    - type: PhysicalComposition
+      materialComposition:
+        Glass: 230
+      chemicalComposition:
+        Silicon: 20
+    - type: Tag
+      tags:
+        - WorkstationBoard
+
+- type: entity
+  parent: BaseComputerTabletopWorkstationCircuitboard
+  id: BaseComputerModularTabletopWorkstationCircuitBoard
+  name: modular workstation board
+  description: A workstation printed circuit board for a modular workstation.
+  components:
+    - type: ComputerBoard
+      prototype: BaseComputerTabletopWorkstationModular
