@@ -36,7 +36,7 @@
           groups:
             Brute: -1
             Burn: -1
-        - !type:HealthChange
+      - !type:HealthChange
           conditions:
           damage:
             types:
