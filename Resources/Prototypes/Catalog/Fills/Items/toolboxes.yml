@@ -27,6 +27,13 @@
         prob: 0.5
       - id: HarmonicaInstrument
         prob: 0.15
+      # Ronstation - Ported from wizden.
+      - id: RadioHandheld
+      - id: WelderMini
+      - id: FireExtinguisherMini
+      - id: FoodSnackChocolate
+        prob: 0.15
+      # End of modified code.
 
 - type: entity
   id: ToolboxElectricalFilled
