@@ -100,8 +100,8 @@
   - WeaponSprayNozzle
   - ClothingBackpackWaterTank
   - CargoTelepadMachineCircuitboard
-  - ClothingShoesBootsMagSci
-  - ClothingShoesBootsMoon
+  #- ClothingShoesBootsMagSci # Ronstation - Moved to experimental under "MagnetsTech".
+  #- ClothingShoesBootsMoon # Ronstation - Moved to experimental under "MagnetsTech".
   - CloningConsoleComputerCircuitboard
   - MedicalScannerMachineCircuitboard
   - MetempsychoticMachineCircuitboard
