@@ -2,7 +2,7 @@
   name: stabilizer auto-injector
   parent: ChemicalMedipen
   id: StabilizerMedipen
-  description: A quick, accessible way to stabilize patients in critical condition. Contains cordrazine and inaprovaline.
+  description: An accessible way to stabilize patients in critical condition. Contains cordrazine and inaprovaline.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/medipen.rsi
@@ -34,7 +34,7 @@
   name: pentetic auto-injector
   parent: ChemicalMedipen
   id: PenteticMedipen
-  description: A rapid, accessible dose of anti-radiation medicine. Works on the dead. Contains pentetic acid. "Interdyne Pharmaceuticals" is inscribed on the side.
+  description: A rapid, accessible dose of anti-radiation medicine. Works on the dead. Contains pentetic acid.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/medipen.rsi
@@ -61,10 +61,10 @@
     tags: []
 
 - type: entity
-  name: heartburn mix auto-injector # a reference, i don't think it's obvious though
+  name: heartburn mix auto-injector
   parent: ChemicalMedipen
   id: HeartburnMedipen
-  description: A rapid, accessible dose of brute medicine. Contains cordrazine and salicylic acid. "Interdyne Pharmaceuticals" is inscribed on the side.
+  description: A rapid, accessible dose of brute medicine. Contains cordrazine and salicylic acid.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/medipen.rsi
