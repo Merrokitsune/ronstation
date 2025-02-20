@@ -812,20 +812,19 @@
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Unreported Psionics
+        Unreported Magical Powers
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Knowingly failing to report the possession or awakening of psionic abilities to the Mantis Authority.
+        Knowingly failing to report the possession or awakening of magical abilities to security personnel.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Transparency with the Mantis is crucial for ensuring station safety and the proper regulation of psionic capabilities.
         This act applies to all sophonts, without exception for rank or status.
         Non-compliance may result in mindbreaking or designation as a threat to station security.
-        Failure to report potentially lethal psionics may result in immediate mindbreaking at the discretion of Security and the Mantis Authority and should be charged under 2XX Code as a Moderate Crime.
+        Failure to report potentially lethal magical powers may result in immediate mindbreaking at the discretion of Security and should be charged under 2XX Code as a Moderate Crime.
       </Box>
     </ColorBox>
   </Table>
@@ -1651,23 +1650,22 @@
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        3-15
+        3-00
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Mindbreaking
+        N/A
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To unlawfully and maliciously rid a psionic sophont of their powers.
+        Undefined.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        This law does not apply to lawful mindbreaking of individuals misusing their psionics or having inherently dangerous abilities.
-        In cases where unlawful mindbreaking results in the loss of a soul, rendering the individual a husked body, this act shall be escalated to 4XX Capital Punishment, as the sophont has been unjustly and irreversibly deprived of all life.
+        Undefined.
       </Box>
     </ColorBox>
   </Table>
