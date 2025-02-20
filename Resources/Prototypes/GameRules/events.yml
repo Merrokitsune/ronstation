@@ -37,7 +37,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: StationEvent
-    weight: 8
+    weight: 5
     duration: 35
   - type: AnomalySpawnRule
 
@@ -47,7 +47,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: StationEvent
-    weight: 8
+    weight: 5
     duration: 35
   - type: BluespaceArtifactRule
 
@@ -116,7 +116,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: StationEvent
-    weight: 6.5
+    weight: 5
     duration: 1
     earliestStart: 40
     reoccurrenceDelay: 20
@@ -130,7 +130,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: StationEvent
-    weight: 6
+    weight: 5
     duration: 1
     earliestStart: 30
     reoccurrenceDelay: 20
@@ -182,7 +182,7 @@
     weight: 7.5
     duration: 1
     earliestStart: 45
-    minimumPlayers: 20
+    minimumPlayers: 25
   - type: RandomSpawnRule
     prototype: MobRevenant
 
@@ -205,7 +205,8 @@
   - type: StationEvent
     startAnnouncement: true
     endAnnouncement: true
-    weight: 8
+    weight: 4
+    minimumPlayers: 5
     startDelay: 20
   - type: GasLeakRule
 
@@ -229,8 +230,8 @@
   components:
   - type: StationEvent
     earliestStart: 30
-    weight: 7.5
-    minimumPlayers: 10 #Enough to hopefully have at least one engineering guy
+    weight: 2
+    minimumPlayers: 15 #Enough to hopefully have at least one engineering guy
     startAnnouncement: true
     endAnnouncement: true
     duration: null #ending is handled by MeteorSwarmRule
@@ -356,7 +357,8 @@
     startAnnouncement: true
     endAnnouncement: true
     duration: 120
-    maxDuration: 240
+    maxDuration: 180
+    minimumPlayers: 5
   - type: SolarFlareRule
     onlyJamHeadsets: true
     affectedChannels:
@@ -396,8 +398,8 @@
     startAnnouncement: true
     startDelay: 10
     earliestStart: 20
-    minimumPlayers: 15
-    weight: 5
+    minimumPlayers: 20
+    weight: 2
     duration: 60
   - type: VentCrittersRule
     entries:
@@ -417,8 +419,8 @@
     startAnnouncement: true
     startDelay: 10
     earliestStart: 20
-    minimumPlayers: 15
-    weight: 5
+    minimumPlayers: 20
+    weight: 2
     duration: 60
   - type: VentCrittersRule
     entries:
@@ -435,7 +437,7 @@
     startDelay: 10
     earliestStart: 20
     minimumPlayers: 20
-    weight: 1.5
+    weight: 1
     duration: 60
   - type: VentCrittersRule
     entries:
@@ -449,8 +451,8 @@
   components:
   - type: StationEvent
     earliestStart: 50
-    minimumPlayers: 30
-    weight: 2
+    minimumPlayers: 35
+    weight: 1.5
     duration: 1
   - type: ZombieRule
   - type: AntagSelection
@@ -486,6 +488,7 @@
     weight: 5.5
     minimumPlayers: 20
     duration: 1
+  - type: RuleGrids
   - type: LoadMapRule
     preloadedGrid: ShuttleStriker
   - type: NukeopsRule
@@ -517,7 +520,7 @@
   components:
   - type: StationEvent
     earliestStart: 25
-    weight: 8
+    weight: 7
     minimumPlayers: 15
     reoccurrenceDelay: 30
     startAnnouncement: false
@@ -542,7 +545,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: StationEvent
-    weight: 7
+    weight: 3
     duration: 150
     maxDuration: 300
     reoccurrenceDelay: 30
