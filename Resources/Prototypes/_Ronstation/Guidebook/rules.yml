@@ -10,6 +10,7 @@
 - type: guideEntry
   id: RonstationMetashield
   name: guide-entry-rules-ronstation-metashield
+  ruleEntry: true
   text: "/ServerInfo/_Ronstation/Guidebook/ServerRules/RonstationMetashield.xml"
 
 - type: guideEntry
