@@ -613,7 +613,7 @@
 - type: trait
   id: CyberEyes
   category: Physical
-  points: -4
+  points: -1
   requirements:
     - !type:CharacterJobRequirement
       inverted: true
