@@ -1,7 +1,7 @@
 - type: guideEntry
   id: Psionics
-  name: guide-entry-psionics
-  text: "/ServerInfo/Guidebook/Psionics/Psionics.xml"
+  name: guide-entry-ronstation-empty
+  text: "/ServerInfo/_Ronstation/Guidebook/Empty.xml"
   children:
   - Glimmer
   - PsionicInsulation
@@ -11,25 +11,25 @@
 
 - type: guideEntry
   id: Glimmer
-  name: guide-entry-glimmer
-  text: "/ServerInfo/Guidebook/Psionics/Glimmer.xml"
+  name: guide-entry-ronstation-empty
+  text: "/ServerInfo/_Ronstation/Guidebook/Empty.xml"
 
 - type: guideEntry
   id: PsionicInsulation
-  name: guide-entry-psionic-insulation
-  text: "/ServerInfo/Guidebook/Psionics/PsionicInsulation.xml"
+  name: guide-entry-ronstation-empty
+  text: "/ServerInfo/_Ronstation/Guidebook/Empty.xml"
 
 - type: guideEntry
   id: Mindbreaking
-  name: guide-entry-mindbreaking
-  text: "/ServerInfo/Guidebook/Psionics/Mindbreaking.xml"
+  name: guide-entry-ronstation-empty
+  text: "/ServerInfo/_Ronstation/Guidebook/Empty.xml"
 
 - type: guideEntry
   id: AltarsGolemancy
-  name: guide-entry-altars-golemancy
-  text: "/ServerInfo/Guidebook/Psionics/Altar.xml"
+  name: guide-entry-ronstation-empty
+  text: "/ServerInfo/_Ronstation/Guidebook/Empty.xml"
 
 - type: guideEntry
   id: GlimmerCreatures
-  name: guide-entry-glimmer-creatures
-  text: "/ServerInfo/Guidebook/Psionics/GlimmerCreatures.xml"
+  name: guide-entry-ronstation-empty
+  text: "/ServerInfo/_Ronstation/Guidebook/Empty.xml"
