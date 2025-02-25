@@ -17,7 +17,7 @@
   - type: StaticPrice
     price: 0
   - type: StackPrice
-    price: 200
+    price: 20
   - type: Currency
     price:
       Telecrystal: 1
@@ -78,7 +78,7 @@
   components:
   - type: Store
     balance:
-      Telecrystal: 100
+      Telecrystal: 20
 
 - type: entity
   parent: BaseUplinkRadio
@@ -87,7 +87,7 @@
   components:
   - type: Store
     balance:
-      Telecrystal: 125
+      Telecrystal: 25
 
 #this uplink MUST be used for nukeops, as it has the tag for filtering the listing.
 - type: entity
@@ -97,7 +97,7 @@
   components:
   - type: Store
     balance:
-      Telecrystal: 250 # 5x TC, +cost of a tacsuit they no longer spawn with.
+      Telecrystal: 40 # 5x TC, +cost of a tacsuit they no longer spawn with.
   - type: Tag
     tags:
     - NukeOpsUplink
@@ -109,7 +109,7 @@
   components:
   - type: Store
     balance:
-      Telecrystal: 350 # 5x TC, +cost of a tacsuit they no longer spawn with.
+      Telecrystal: 60 # 5x TC, +cost of a tacsuit they no longer spawn with.
   - type: Tag
     tags:
     - NukeOpsUplink

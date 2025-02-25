@@ -8,9 +8,9 @@
   productEntity: WeaponPistolViper
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 10
+    Telecrystal: 2 # Ronstation - telecrystal cost rework.
   cost:
-    Telecrystal: 15
+    Telecrystal: 3 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkWeaponry
 
@@ -21,9 +21,9 @@
   productEntity: WeaponRevolverPythonAP
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 20
+    Telecrystal: 2 # Ronstation - telecrystal cost rework.
   cost:
-    Telecrystal: 40
+    Telecrystal: 4 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkWeaponry
 
@@ -35,9 +35,9 @@
   productEntity: WeaponPistolCobra
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 10
+    Telecrystal: 2 # Ronstation - telecrystal cost rework.
   cost:
-    Telecrystal: 20
+    Telecrystal: 4 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkWeaponry
 
@@ -48,7 +48,7 @@
   description: uplink-rifle-mosin-desc
   productEntity: WeaponSniperMosin
   cost:
-    Telecrystal: 5
+    Telecrystal: 1 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkWeaponry
 
@@ -59,10 +59,10 @@
   icon: { sprite: /Textures/Objects/Weapons/Melee/e_sword.rsi, state: icon }
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 20
+    Telecrystal: 4 # Ronstation - telecrystal cost rework.
   productEntity: EnergySword
   cost:
-    Telecrystal: 40
+    Telecrystal: 8 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkWeaponry
 
@@ -74,9 +74,9 @@
   productEntity: EnergyDaggerBox
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 5
+    Telecrystal: 1 # Ronstation - telecrystal cost rework.
   cost:
-    Telecrystal: 10
+    Telecrystal: 2 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkWeaponry
 
@@ -88,9 +88,9 @@
   productEntity: ThrowingKnivesKit
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 15
+    Telecrystal: 3 # Ronstation - telecrystal cost rework.
   cost:
-    Telecrystal: 30
+    Telecrystal: 6 # Ronstation - telecrystal cost rework.
   categories:
     - UplinkWeaponry
 
@@ -102,9 +102,9 @@
   productEntity: ClothingHandsGlovesNorthStar
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 20
+    Telecrystal: 4 # Ronstation - telecrystal cost rework.
   cost:
-    Telecrystal: 40
+    Telecrystal: 8 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkWeaponry
 
@@ -115,9 +115,9 @@
   productEntity: ToolboxElectricalTurretFilled
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 15
+    Telecrystal: 3 # Ronstation - telecrystal cost rework.
   cost:
-    Telecrystal: 30
+    Telecrystal: 6 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkWeaponry
   conditions:
@@ -134,9 +134,9 @@
   productEntity: EnergyShield
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 20
+    Telecrystal: 4 # Ronstation - telecrystal cost rework.
   cost:
-    Telecrystal: 80
+    Telecrystal: 8 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkWeaponry
   conditions:
@@ -153,9 +153,9 @@
   productEntity: BriefcaseSyndieSniperBundleFilled
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 30
+    Telecrystal: 6 # Ronstation - telecrystal cost rework.
   cost:
-    Telecrystal: 60
+    Telecrystal: 12 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkWeaponry
 
@@ -167,9 +167,9 @@
   productEntity: ClothingBackpackDuffelSyndicateFilledSMG
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 50
+    Telecrystal: 10 # Ronstation - telecrystal cost rework.
   cost:
-    Telecrystal: 85
+    Telecrystal: 17 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkWeaponry
 
@@ -181,9 +181,9 @@
   productEntity: ClothingBackpackDuffelSyndicateFilledShotgun
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 60
+    Telecrystal: 12 # Ronstation - telecrystal cost rework.
   cost:
-    Telecrystal: 100
+    Telecrystal: 20 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkWeaponry
 
@@ -195,9 +195,9 @@
   productEntity: ClothingBackpackDuffelSyndicateFilledGrenadeLauncher
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 100
+    Telecrystal: 20 # Ronstation - telecrystal cost rework.
   cost:
-    Telecrystal: 125
+    Telecrystal: 25 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkWeaponry
 
@@ -209,9 +209,9 @@
   productEntity: ClothingBackpackDuffelSyndicateFilledLMG
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 120
+    Telecrystal: 24 # Ronstation - telecrystal cost rework.
   cost:
-    Telecrystal: 150
+    Telecrystal: 30 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkWeaponry
 
@@ -223,9 +223,9 @@
   productEntity: ClothingBackpackDuffelSyndicateFilledFPA90
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 40
+    Telecrystal: 15 # Ronstation - telecrystal cost rework.
   cost:
-    Telecrystal: 80
+    Telecrystal: 21 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkWeaponry
 
@@ -238,9 +238,9 @@
   productEntity: ExGrenade
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 10
+    Telecrystal: 2 # Ronstation - telecrystal cost rework.
   cost:
-    Telecrystal: 20
+    Telecrystal: 4 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkExplosives
 
@@ -250,7 +250,7 @@
   description: uplink-flash-grenade-desc
   productEntity: GrenadeFlashBang
   cost:
-    Telecrystal: 5
+    Telecrystal: 1 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkExplosives
 
@@ -260,7 +260,7 @@
   description: uplink-smoke-grenade-desc
   productEntity: SmokeGrenade
   cost:
-    Telecrystal: 5
+    Telecrystal: 1 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkExplosives
 
@@ -271,9 +271,9 @@
   productEntity: SyndieMiniBomb
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 15
+    Telecrystal: 3 # Ronstation - telecrystal cost rework.
   cost:
-    Telecrystal: 30
+    Telecrystal: 6 # Ronstation - telecrystal cost rework.
   categories:
     - UplinkExplosives
 
@@ -284,9 +284,9 @@
   productEntity: SupermatterGrenade
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 15
+    Telecrystal: 15 # Ronstation - telecrystal cost rework.
   cost:
-    Telecrystal: 30
+    Telecrystal: 30 # Ronstation - telecrystal cost rework.
   categories:
     - UplinkExplosives
 
@@ -297,9 +297,9 @@
   productEntity: WhiteholeGrenade
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 5
+    Telecrystal: 1 # Ronstation - telecrystal cost rework.
   cost:
-    Telecrystal: 15
+    Telecrystal: 3 # Ronstation - telecrystal cost rework.
   categories:
     - UplinkExplosives
 
@@ -310,9 +310,9 @@
   productEntity: MobGrenadePenguin
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 15
+    Telecrystal: 3 # Ronstation - telecrystal cost rework.
   cost:
-    Telecrystal: 25
+    Telecrystal: 5 # Ronstation - telecrystal cost rework.
   categories:
     - UplinkExplosives
   conditions:
@@ -328,9 +328,9 @@
   productEntity: C4
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 5
+    Telecrystal: 1 # Ronstation - telecrystal cost rework.
   cost:
-    Telecrystal: 10
+    Telecrystal: 2 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkExplosives
 
@@ -341,9 +341,9 @@
   productEntity: ClothingBeltMilitaryWebbingGrenadeFilled
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 30
+    Telecrystal: 6 # Ronstation - telecrystal cost rework.
   cost:
-    Telecrystal: 60
+    Telecrystal: 12 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkExplosives
   conditions:
@@ -359,9 +359,9 @@
   productEntity: ClothingBackpackDuffelSyndicateC4tBundle
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 40
+    Telecrystal: 8 # Ronstation - telecrystal cost rework.
   cost:
-    Telecrystal: 60 #you're buying bulk so its a 25% discount, so no additional random discount over it
+    Telecrystal: 12 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkExplosives
 
@@ -372,9 +372,9 @@
   productEntity: EmpGrenade
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 5
+    Telecrystal: 1 # Ronstation - telecrystal cost rework.
   cost:
-    Telecrystal: 10
+    Telecrystal: 2 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkExplosives
 
@@ -386,9 +386,9 @@
   productEntity: PenExplodingBox
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 10
+    Telecrystal: 2 # Ronstation - telecrystal cost rework.
   cost:
-    Telecrystal: 20
+    Telecrystal: 4 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkExplosives
 
@@ -398,7 +398,7 @@
   description: uplink-exploding-syndicate-bomb-desc
   productEntity: SyndicateBomb
   cost:
-    Telecrystal: 55
+    Telecrystal: 11 # Ronstation - telecrystal cost rework.
   categories:
     - UplinkExplosives
   restockTime: 1800
@@ -414,7 +414,7 @@
   description: uplink-exploding-syndicate-bomb-desc
   productEntity: SyndicateBomb
   cost:
-    Telecrystal: 55
+    Telecrystal: 11 # Ronstation - telecrystal cost rework.
   categories:
     - UplinkExplosives
   conditions:
@@ -430,9 +430,9 @@
   productEntity: ClusterGrenade
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 25
+    Telecrystal: 5 # Ronstation - telecrystal cost rework.
   cost:
-    Telecrystal: 40
+    Telecrystal: 8 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkExplosives
 
@@ -443,9 +443,9 @@
   productEntity: GrenadeShrapnel
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 10
+    Telecrystal: 2 # Ronstation - telecrystal cost rework.
   cost:
-    Telecrystal: 20
+    Telecrystal: 4 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkExplosives
 
@@ -456,9 +456,9 @@
   productEntity: GrenadeIncendiary
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 10
+    Telecrystal: 2 # Ronstation - telecrystal cost rework.
   cost:
-    Telecrystal: 20
+    Telecrystal: 4 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkExplosives
 
@@ -469,9 +469,9 @@
   productEntity: ElectricalDisruptionKit
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 20
+    Telecrystal: 4 # Ronstation - telecrystal cost rework.
   cost:
-    Telecrystal: 30
+    Telecrystal: 6 # Ronstation - telecrystal cost rework.
   categories:
     - UplinkExplosives
 
@@ -484,7 +484,7 @@
   icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/pistol_mag.rsi, state: red-icon }
   productEntity: MagazinePistol
   cost:
-    Telecrystal: 5
+    Telecrystal: 1 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkAmmo
 
@@ -495,7 +495,7 @@
   icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/pistol_mag.rsi, state: rubber }
   productEntity: MagazinePistolRubber
   cost:
-    Telecrystal: 5
+    Telecrystal: 2 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkAmmo
 
@@ -506,7 +506,7 @@
   icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/pistol_mag.rsi, state: practice }
   productEntity: MagazinePistolIncendiary
   cost:
-    Telecrystal: 8
+    Telecrystal: 4 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkAmmo
 
@@ -518,7 +518,7 @@
   icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/smg_mag.rsi, state: red-icon }
   productEntity: MagazinePistolSubMachineGun
   cost:
-    Telecrystal: 10
+    Telecrystal: 2 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkAmmo
 
@@ -529,7 +529,7 @@
   icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/smg_mag.rsi, state: rubber }
   productEntity: MagazinePistolSubMachineGunRubber
   cost:
-    Telecrystal: 10
+    Telecrystal: 2 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkAmmo
 
@@ -540,7 +540,7 @@
   icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/smg_mag.rsi, state: practice }
   productEntity: MagazinePistolSubMachineGunIncendiary
   cost:
-    Telecrystal: 14
+    Telecrystal: 7 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkAmmo
 
@@ -552,7 +552,7 @@
   icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/CaselessRifle/caseless_pistol_mag.rsi, state: red-icon }
   productEntity: MagazinePistolCaselessRifle
   cost:
-    Telecrystal: 5
+    Telecrystal: 1 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkAmmo
 
@@ -563,7 +563,7 @@
   icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/CaselessRifle/caseless_pistol_mag.rsi, state: rubber }
   productEntity: MagazinePistolCaselessRifleRubber
   cost:
-    Telecrystal: 5
+    Telecrystal: 1 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkAmmo
 
@@ -574,7 +574,7 @@
   icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/CaselessRifle/caseless_rifle_mag.rsi, state: red }
   productEntity: MagazineCaselessRifle
   cost:
-    Telecrystal: 10
+    Telecrystal: 2 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkAmmo
 
@@ -585,7 +585,7 @@
   icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/CaselessRifle/caseless_rifle_mag.rsi, state: rubber }
   productEntity: MagazineCaselessRifleRubber
   cost:
-    Telecrystal: 10
+    Telecrystal: 2 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkAmmo
 
@@ -597,7 +597,7 @@
   icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/SpeedLoaders/Magnum/magnum_speed_loader.rsi, state: icon }
   productEntity: SpeedLoaderMagnumAP
   cost:
-    Telecrystal: 15
+    Telecrystal: 3 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkAmmo
 
@@ -608,7 +608,7 @@
   description: uplink-mosin-ammo-desc
   productEntity: MagazineBoxLightRifle
   cost:
-    Telecrystal: 5
+    Telecrystal: 1 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkAmmo
 
@@ -619,7 +619,7 @@
   description: uplink-sniper-ammo-desc
   productEntity: MagazineBoxAntiMateriel
   cost:
-    Telecrystal: 10
+    Telecrystal: 2 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkAmmo
 
@@ -629,7 +629,7 @@
   description: uplink-ammo-bundle-desc
   productEntity: ClothingBackpackDuffelSyndicateAmmoFilled
   cost:
-    Telecrystal: 75
+    Telecrystal: 15 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkAmmo
   conditions:
@@ -652,9 +652,9 @@
   productEntity: HypopenBox
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 20
+    Telecrystal: 4 # Ronstation - telecrystal cost rework.
   cost:
-    Telecrystal: 30
+    Telecrystal: 6 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkChemicals
 
@@ -666,9 +666,9 @@
   productEntity: HypoDartBox
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 5
+    Telecrystal: 1 # Ronstation - telecrystal cost rework.
   cost:
-    Telecrystal: 10
+    Telecrystal: 2 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkChemicals
 
@@ -680,9 +680,9 @@
   productEntity: ChemicalSynthesisKit
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 15
+    Telecrystal: 3 # Ronstation - telecrystal cost rework.
   cost:
-    Telecrystal: 20
+    Telecrystal: 4 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkChemicals
 
@@ -693,7 +693,7 @@
   icon: { sprite: /Textures/Structures/Wallmounts/signs.rsi, state: bio }
   productEntity: ClothingBackpackDuffelZombieBundle
   cost:
-    Telecrystal: 200
+    Telecrystal: 40 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkChemicals
   conditions:
@@ -713,9 +713,9 @@
   productEntity: NocturineChemistryBottle
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 15
+    Telecrystal: 3 # Ronstation - telecrystal cost rework.
   cost:
-    Telecrystal: 30
+    Telecrystal: 6 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkChemicals
 
@@ -726,9 +726,9 @@
   productEntity: MedkitCombatFilled
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 10
+    Telecrystal: 2 # Ronstation - telecrystal cost rework.
   cost:
-    Telecrystal: 20
+    Telecrystal: 5 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkChemicals
 
@@ -739,9 +739,9 @@
   productEntity: CombatMedipen
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 5
+    Telecrystal: 2 # Ronstation - telecrystal cost rework.
   cost:
-    Telecrystal: 10
+    Telecrystal: 4 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkChemicals
 
@@ -752,9 +752,9 @@
   productEntity: Stimpack
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 10
+    Telecrystal: 2 # Ronstation - telecrystal cost rework.
   cost:
-    Telecrystal: 20
+    Telecrystal: 4 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkChemicals
 
@@ -765,9 +765,9 @@
   productEntity: StimkitFilled
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 40
+    Telecrystal: 8 # Ronstation - telecrystal cost rework.
   cost:
-    Telecrystal: 60
+    Telecrystal: 12 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkChemicals
 
@@ -778,9 +778,9 @@
   productEntity: CigPackSyndicate
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 5
+    Telecrystal: 1 # Ronstation - telecrystal cost rework.
   cost:
-    Telecrystal: 10
+    Telecrystal: 2 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkChemicals
 
@@ -791,9 +791,9 @@
   productEntity: ClothingBackpackDuffelSyndicateMedicalBundleFilled
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 80
+    Telecrystal: 16 # Ronstation - telecrystal cost rework.
   cost:
-    Telecrystal: 120
+    Telecrystal: 24 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkChemicals
   conditions:
@@ -815,9 +815,9 @@
   productEntity: AgentIDCard
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 5
+    Telecrystal: 1 # Ronstation - telecrystal cost rework.
   cost:
-    Telecrystal: 15
+    Telecrystal: 3 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkDeception
 
@@ -828,9 +828,9 @@
   productEntity: StealthBox
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 10
+    Telecrystal: 2 # Ronstation - telecrystal cost rework.
   cost:
-    Telecrystal: 25
+    Telecrystal: 5 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkDeception
 
@@ -841,9 +841,9 @@
   productEntity: ChameleonProjector
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 20
+    Telecrystal: 4 # Ronstation - telecrystal cost rework.
   cost:
-    Telecrystal: 35
+    Telecrystal: 7 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkDeception
 
@@ -855,9 +855,9 @@
   productEntity: BoxEncryptionKeySyndie # Two for the price of one
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 5
+    Telecrystal: 1 # Ronstation - telecrystal cost rework.
   cost:
-    Telecrystal: 10
+    Telecrystal: 2 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkDeception
 
@@ -868,7 +868,7 @@
   icon: { sprite: /Textures/Objects/Devices/encryption_keys.rsi, state: ai_label }
   productEntity: EncryptionKeyBinarySyndicate
   cost:
-    Telecrystal: 5
+    Telecrystal: 1 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkDeception
 
@@ -878,7 +878,7 @@
   description: uplink-cyberpen-desc
   productEntity: CyberPen
   cost:
-    Telecrystal: 5
+    Telecrystal: 1 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkDeception
 
@@ -888,7 +888,7 @@
   description: uplink-decoy-disk-desc
   productEntity: NukeDiskFake
   cost:
-    Telecrystal: 5
+    Telecrystal: 1 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkDeception
 
@@ -899,9 +899,9 @@
   productEntity: LanternFlash
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 5
+    Telecrystal: 1 # Ronstation - telecrystal cost rework.
   cost:
-    Telecrystal: 10
+    Telecrystal: 2 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkDeception
 
@@ -912,9 +912,9 @@
   productEntity: BriefcaseSyndieLobbyingBundleFilled
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 10
+    Telecrystal: 2 # Ronstation - telecrystal cost rework.
   cost:
-    Telecrystal: 20
+    Telecrystal: 4 # Ronstation - telecrystal cost rework.
   categories:
     - UplinkDeception
   conditions:
@@ -929,9 +929,9 @@
   productEntity: BriefcaseSyndieLobbyingBundlePlasmamanFilled
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 10
+    Telecrystal: 2 # Ronstation - telecrystal cost rework.
   cost:
-    Telecrystal: 20
+    Telecrystal: 4 # Ronstation - telecrystal cost rework.
   categories:
     - UplinkDeception
   conditions:
@@ -957,7 +957,7 @@
   productEntity: ClothingBackpackDuffelSyndicateDecoyKitFilled
   discountCategory: usualDiscounts
   cost:
-    Telecrystal: 5
+    Telecrystal: 6 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkDeception
 
@@ -968,9 +968,9 @@
   productEntity: SyndicateBombFake
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 5
+    Telecrystal: 1 # Ronstation - telecrystal cost rework.
   cost:
-    Telecrystal: 20
+    Telecrystal: 4 # Ronstation - telecrystal cost rework.
   categories:
   - UplinkDeception
 
