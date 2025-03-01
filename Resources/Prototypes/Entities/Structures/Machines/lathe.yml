@@ -610,6 +610,7 @@
     - SMESAdvancedMachineCircuitboard
     - BaseComputerModularCircuitBoard # Arcadis - Modular Computer System
     - DiskBurnerMachineCircuitboard # Arcadis - Modular Computer System
+    - FabricationPharmaceuticalFabricatorBoard # Ronstation - Basic Factory
   - type: EmagLatheRecipes
     emagDynamicRecipes:
     - ShuttleGunDusterCircuitboard

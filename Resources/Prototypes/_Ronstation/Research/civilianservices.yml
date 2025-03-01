@@ -1,0 +1,27 @@
+# Tier 2
+
+- type: technology
+  id: PharmaceuticalManufacturing
+  name: research-technology-pharmaceutical-manufacturing
+  icon:
+    sprite: _Ronstation/Structures/Machines/manufactorum.rsi
+    state: icon
+  discipline: Industrial
+  tier: 2
+  cost: 25000
+  recipeUnlocks:
+  - FabricationPharmaceuticalFabricatorBoard
+
+- type: technology
+  id: BasicAutoInjectorProduction
+  name: research-technology-autoinjector-production
+  icon:
+    sprite: Objects/Specific/Medical/medipen.rsi
+    state: bicpen
+  discipline: CivillianServices
+  tier: 2
+  cost: 15000
+  recipeUnlocks:
+  - HeartburnMedipen
+  - PenteticMedipen
+  - StabilizerMedipen

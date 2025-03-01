@@ -1,0 +1,30 @@
+  - type: entity
+    id: FabricationPharmaceuticalFabricator
+    parent: Autolathe
+    name: pharmaceutical fabricator
+    description: A hunk of circuits and plasteel that packs biomass and materials into medipens.
+    components:
+    - type: Sprite
+      sprite: _Ronstation/Structures/Machines/pharmaceuticalfabricator.rsi
+      snapCardinals: true
+    - type: Lathe
+      materialUseMultiplier: 1.15
+      timeMultiplier: 1.3
+      idleState: icon
+      runningState: icon
+      staticRecipes:
+      - EmergencyMedipen
+      - SpaceMedipen
+      dynamicRecipes:
+      - PenteticMedipen
+      - StabilizerMedipen
+      - HeartburnMedipen
+    - type: Machine
+      board: FabricationPharmaceuticalFabricatorBoard
+    - type: MaterialStorage
+      whitelist:
+        tags:
+          - Sheet
+          - Ingot
+          - RawMaterial
+          - Metal

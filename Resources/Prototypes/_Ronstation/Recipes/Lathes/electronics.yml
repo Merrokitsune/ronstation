@@ -1,0 +1,10 @@
+- type: latheRecipe
+  id: FabricationPharmaceuticalFabricatorBoard
+  result: FabricationPharmaceuticalFabricatorBoard
+  category: Circuitry
+  completetime: 4
+  materials:
+    Steel: 200
+    Glass: 300
+    Silver: 100
+
