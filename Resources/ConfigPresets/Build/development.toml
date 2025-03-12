@@ -29,6 +29,9 @@ arrivals_map = "Maps/_Ronstation/Misc/terminal.yml"
 [admin]
 see_own_notes = true
 
+# [lavaland] # Lavaland Change
+# enabled = false -- DISABLED TEMPORARILY
+
 [glimmer]
 enabled = false
 
