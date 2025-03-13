@@ -3010,7 +3010,7 @@ entities:
             1395: 0,7
             1408: -1,13
             1422: 9,19
-            1527: -13,-9
+            1526: -13,-9
         - node:
             color: '#FFFFFFFF'
             id: WoodTrimThinCornerSe
@@ -3034,7 +3034,7 @@ entities:
             1409: -1,9
             1423: 9,15
             1517: -12,-12
-            1526: -13,-10
+            1525: -13,-10
         - node:
             color: '#FFFFFFFF'
             id: WoodTrimThinEndE
@@ -3067,7 +3067,7 @@ entities:
             id: WoodTrimThinInnerSw
           decals:
             1349: 31,-4
-            1519: -12,-10
+            1518: -12,-10
         - node:
             color: '#FFFFFFFF'
             id: WoodTrimThinLineE
@@ -3101,13 +3101,13 @@ entities:
             1401: 2,7
             1413: 1,13
             1414: 0,13
-            1528: -12,-9
-            1529: -11,-9
-            1530: -10,-9
-            1531: -9,-9
-            1532: -8,-9
-            1533: -7,-9
-            1534: -6,-9
+            1527: -12,-9
+            1528: -11,-9
+            1529: -10,-9
+            1530: -9,-9
+            1531: -8,-9
+            1532: -7,-9
+            1533: -6,-9
         - node:
             color: '#FFFFFFFF'
             id: WoodTrimThinLineS
@@ -3121,11 +3121,11 @@ entities:
             1415: 2,9
             1416: 1,9
             1417: 0,9
-            1521: -7,-12
-            1522: -8,-12
-            1523: -9,-12
-            1524: -10,-12
-            1525: -11,-12
+            1520: -7,-12
+            1521: -8,-12
+            1522: -9,-12
+            1523: -10,-12
+            1524: -11,-12
         - node:
             color: '#FFFFFFFF'
             id: WoodTrimThinLineW
@@ -3145,7 +3145,7 @@ entities:
             1428: 9,18
             1429: 9,17
             1430: 9,16
-            1520: -12,-11
+            1519: -12,-11
     - type: GridAtmosphere
       version: 2
       data:
@@ -7216,6 +7216,21 @@ entities:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 40.5,14.5
+      parent: 30
+  - uid: 9630
+    components:
+    - type: Transform
+      pos: -39.5,6.5
+      parent: 30
+  - uid: 9631
+    components:
+    - type: Transform
+      pos: 22.5,-13.5
+      parent: 30
+  - uid: 9632
+    components:
+    - type: Transform
+      pos: 15.5,10.5
       parent: 30
 - proto: BoxBeanbag
   entities:
@@ -26356,6 +26371,27 @@ entities:
     components:
     - type: Transform
       pos: -43.5,-19.5
+      parent: 30
+  - uid: 9640
+    components:
+    - type: Transform
+      pos: 40.5,15.5
+      parent: 30
+  - uid: 9641
+    components:
+    - type: Transform
+      pos: 40.5,18.5
+      parent: 30
+  - uid: 9642
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 34.5,14.5
+      parent: 30
+  - uid: 9643
+    components:
+    - type: Transform
+      pos: 37.5,18.5
       parent: 30
 - proto: EuphoniumInstrument
   entities:
@@ -46289,6 +46325,31 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -64.5,1.5
       parent: 30
+- proto: PoweredLEDSmallLight
+  entities:
+  - uid: 9636
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 40.5,14.5
+      parent: 30
+  - uid: 9637
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 34.5,16.5
+      parent: 30
+  - uid: 9638
+    components:
+    - type: Transform
+      pos: 39.5,18.5
+      parent: 30
+  - uid: 9639
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 37.5,16.5
+      parent: 30
 - proto: Poweredlight
   entities:
   - uid: 36
@@ -50723,6 +50784,30 @@ entities:
     - type: Transform
       pos: -43.5,6.5
       parent: 30
+- proto: ShelfMetal
+  entities:
+  - uid: 9633
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 39.5,-5.5
+      parent: 30
+    - type: Storage
+      storedItems:
+        9634:
+          position: 0,0
+          _rotation: East
+        9635:
+          position: 2,0
+          _rotation: East
+    - type: ContainerContainer
+      containers:
+        storagebase: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 9634
+          - 9635
 - proto: Shovel
   entities:
   - uid: 1429
@@ -55049,6 +55134,24 @@ entities:
     - type: Transform
       pos: 36.496956,-2.4090433
       parent: 30
+- proto: TowelColorCentcom
+  entities:
+  - uid: 9634
+    components:
+    - type: Transform
+      parent: 9633
+    - type: Physics
+      angularDamping: 0
+      linearDamping: 0
+      canCollide: False
+  - uid: 9635
+    components:
+    - type: Transform
+      parent: 9633
+    - type: Physics
+      angularDamping: 0
+      linearDamping: 0
+      canCollide: False
 - proto: ToyAi
   entities:
   - uid: 7193
