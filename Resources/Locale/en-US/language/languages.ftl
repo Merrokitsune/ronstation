@@ -6,6 +6,18 @@ language-SolCommon-description =
     With its roots in Mandarin Chinese - Common evolved as the official language of the Sol Alliance - with officials working to tie it together with a common tongue.
     It's spoken by state officials - taught in schools - and spoken by those who either feel a sense of national pride in the Alliance or otherwise fell sway to the culture.
 
+language-NovuNederic-name = Novu-Nederic
+language-NovuNederic-description =
+    Once the language of seafarers and merchants, now the voice of spacers, terraformers, and pioneers.
+    Spoken in the New-Netherlands, this direct and pragmatic trade language carries the sharp consonants and clipped vowels of its old-world roots.
+    Built on centuries of seafaring, land reclamation, and commerce, it thrives among those who shape entire worlds — just as their ancestors shaped the land from the sea.
+
+language-TauCetiBasic-name = Tau-Ceti Basic
+language-TauCetiBasic-description =
+    A spiritual successor of Esperanto, established in 2404 in Tau Ceti by Ceti intellectuals.
+    Its unique, fully customized alphabet and structure allow it to be spoken even by most alien species.
+    It's the official language of Tau Ceti and has growing traction in diplomatic circles and Universalists across human space.
+
 language-Tradeband-name = Tradeband
 language-Tradeband-description =
     Descended from latin and romance languages of old Earth - Tradeband remains the main tongue of the upper class of humanity.
@@ -21,12 +33,6 @@ language-Elyran-name = Elyran Standard
 language-Elyran-description =
     Elyran Standard is the official tongue of the Republic of Elyra. Constructed using elements of Farsi - Arabic - and Turkish.
     Influence from all three of these languages can be seen throughout its grammar and vocabulary.
-
-language-TauCetiBasic-name = Tau-Ceti Basic
-language-TauCetiBasic-description =
-    A spiritual successor of Esperanto, established in 2404 in Tau Ceti by Ceti intellectuals.
-    Its unique, fully customized alphabet and structure allow it to be spoken even by most alien species.
-    It's the official language of Tau Ceti and has growing traction in diplomatic circles and Universalists across human space.
 
 language-Canilunzt-name = Canilunzt
 language-Canilunzt-description =
