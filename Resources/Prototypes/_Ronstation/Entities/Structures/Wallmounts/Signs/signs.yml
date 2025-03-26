@@ -1,0 +1,9 @@
+- type: entity
+  parent: BaseSign
+  id: SignScienceArmory
+  name: science armory sign
+  description: A sign indicating the science armory.
+  components:
+  - type: Sprite
+    sprite: _Ronstation/Structures/Wallmounts/signs.rsi
+    state: science_armory
