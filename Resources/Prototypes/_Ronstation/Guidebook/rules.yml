@@ -18,3 +18,15 @@
   ruleEntry: true
   priority: 20
   text: "/ServerInfo/_Ronstation/Guidebook/ServerRules/RoleTypes.xml"
+
+- type: guideEntry
+  id: RonstationR1-1Clarification
+  ruleEntry: true
+  priority: 20
+  text: "/ServerInfo/_Ronstation/Guidebook/ServerRules/RonstationR1-1Clarification.xml"
+
+- type: guideEntry
+  id: RonstationC3Clarification
+  ruleEntry: true
+  priority: 20
+  text: "/ServerInfo/_Ronstation/Guidebook/ServerRules/RonstationC3Clarification.xml"
