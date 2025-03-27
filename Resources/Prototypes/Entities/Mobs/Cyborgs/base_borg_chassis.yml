@@ -282,10 +282,14 @@
   - type: NpcFactionMember
     factions:
     - NanoTrasen
+  - type: SiliconLawProvider
+    laws: Asimov
   - type: Access
     enabled: false
     groups:
     - AllAccessBorg
+    tags:
+    - Borg
   - type: AccessReader
     access: [["Command"], ["Research"]]
   - type: ShowJobIcons

@@ -74,6 +74,7 @@ namespace Content.IntegrationTests.Tests
             "Lambda", // Maintained by Ichai
             "Bagel", // Maintained by Ichai
             "Northway", // Maintained by Violet,
+            "Anchor", // Maintained by the SiN Mapping Team.
             "Saltern-2", //Ronstation
             "Omega-Lul", //Ronstation
             "Atlas-B", //Ronstation

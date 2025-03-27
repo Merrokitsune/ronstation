@@ -43,6 +43,8 @@
         Slash: 0.95
         Piercing: 0.95
         Heat: 0.95
+  - type: IngestionBlocker # Goobstation
+    blockSmokeIngestion: true
   - type: PhysicalComposition # ronstation
     materialComposition:
       Steel: 100
@@ -66,10 +68,12 @@
         Slash: 0.95
         Piercing: 0.95
         Heat: 0.95
+  - type: IngestionBlocker # Goobstation
+    blockSmokeIngestion: true
   - type: PhysicalComposition # ronstation
     materialComposition:
       Plasteel: 300 # i mean, it's syndie mask.. should be armored, right?
-      Steel: 100 
+      Steel: 100
       ReinforcedGlass: 100
 
 - type: entity
@@ -108,7 +112,7 @@
     materialComposition:
       Steel: 200 # repainted atmos mask
       Plasteel: 100
-      ReinforcedGlass: 100    
+      ReinforcedGlass: 100
 
 - type: entity
   parent: ClothingMaskGasExplorer
@@ -444,6 +448,8 @@
     - Hair
     - Snout
     hideOnToggle: true
+  - type: IngestionBlocker # Goobstation
+    blockSmokeIngestion: true
 
 - type: entity
   parent: ClothingMaskGasERT
@@ -713,3 +719,4 @@
   - type: Tag
     tags:
     - IPCMaskWearable # Estacao Pirata - IPCs
+  - type: Unremoveable

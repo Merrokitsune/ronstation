@@ -1,6 +1,27 @@
 language-Universal-name = Universal
 language-Universal-description = What are you?
 
+language-Psychomantic-name = Psychomantic
+language-Psychomantic-description = Pure meaning, free from the tyranny of primative words and gestures.
+
+language-Bubblish-name = Bubblish
+language-Bubblish-description = The language of Slimes. Being a mixture of bubbling noises and pops it's very difficult to speak for humans without the use of mechanical aids.
+
+language-RootSpeak-name = Rootspeak
+language-RootSpeak-description = The strange whistling-style language spoken by the Diona.
+
+language-Nekomimetic-name = Nekomimetic
+language-Nekomimetic-description = To the casual observer, this language is an incomprehensible mess of broken Japanese. To the Felinids and Oni, it's somehow comprehensible.
+
+language-Draconic-name = Sinta'Unathi
+language-Draconic-description =
+    The common language of Moghes - composed of sibilant hisses and rattles. Spoken natively by Unathi.
+
+language-Azaziba-name = Sinta'Azaziba
+language-Azaziba-description =
+    A language of Moghes consisting of a combination of spoken word and gesticulation.
+    While waning since Moghes entered the galactic stage - it enjoys popular use by Unathi that never fell to the Hegemony's cultural dominance.
+
 language-SolCommon-name = Sol common
 language-SolCommon-description =
     With its roots in Mandarin Chinese - Common evolved as the official language of the Sol Alliance - with officials working to tie it together with a common tongue.
@@ -38,24 +59,6 @@ language-Canilunzt-name = Canilunzt
 language-Canilunzt-description =
     The guttural language spoken and utilized by the inhabitants of the Vazzend system,
     composed of growls, barks, yaps, and heavy utilization of ears and tail movements. Vulpkanin speak this language with ease.
-
-language-RootSpeak-name = Rootspeak
-language-RootSpeak-description = The strange whistling-style language spoken by the Diona.
-
-language-Bubblish-name = Bubblish
-language-Bubblish-description = The language of Slimes. Being a mixture of bubbling noises and pops it's very difficult to speak for humans without the use of mechanical aids.
-
-language-Nekomimetic-name = Nekomimetic
-language-Nekomimetic-description = To the casual observer, this language is an incomprehensible mess of broken Japanese. To the Felinids and Oni, it's somehow comprehensible.
-
-language-Azaziba-name = Sinta'Azaziba
-language-Azaziba-description =
-    A language of Moghes consisting of a combination of spoken word and gesticulation.
-    While waning since Moghes entered the galactic stage - it enjoys popular use by Unathi that never fell to the Hegemony's cultural dominance.
-
-language-Draconic-name = Sinta'Unathi
-language-Draconic-description =
-    The common language of Moghes - composed of sibilant hisses and rattles. Spoken natively by Unathi.
 
 language-Moffic-name = Moffic
 language-Moffic-description = The language of the mothpeople borders on complete unintelligibility.
