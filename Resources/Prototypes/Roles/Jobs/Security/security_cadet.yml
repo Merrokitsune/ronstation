@@ -15,6 +15,10 @@
       traits:
         - Blindness
         - BrittleBoneDisease
+    - !type:CharacterEmployerRequirement
+      inverted: true
+      employers:
+      - Unemployed
   startingGear: SecurityCadetGear
   icon: "JobIconSecurityCadet"
   supervisors: job-supervisors-security

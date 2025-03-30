@@ -17,6 +17,14 @@
       min: 54000 # DeltaV - 15 hours
     - !type:CharacterOverallTimeRequirement
       min: 126000 # Ronstation - 35 hours
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - Foreigner
+        - ForeignerLight
+    - !type:CharacterEmployerRequirement
+      employers:
+      - NanoTrasen
   weight: 10
   startingGear: CMOGear
   icon: "JobIconChiefMedicalOfficer"

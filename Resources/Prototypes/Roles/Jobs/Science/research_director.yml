@@ -11,17 +11,25 @@
       min: 126000 # Ronstation - 35 hours
     #- !type:CharacterLogicOrRequirement
     #  requirements:
-    #    - !type:CharacterSpeciesRequirement
-    #      inverted: true
-    #      species:
-    #        - IPC
-    #    - !type:CharacterTraitRequirement
-    #      traits:
-    #        - AnomalousPositronics
-    #    - !type:CharacterTraitRequirement
-    #      inverted: true
-    #      traits:
-    #        - ShadowkinBlackeye
+    #    #- !type:CharacterSpeciesRequirement
+    #    #  inverted: true
+    #    #  species:
+    #    #    - IPC
+    #    #- !type:CharacterTraitRequirement
+    #    #  traits:
+    #    #    - AnomalousPositronics
+    #    #- !type:CharacterTraitRequirement
+    #    #  inverted: true
+    #    #  traits:
+    #    #    - ShadowkinBlackeye
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - Foreigner
+        - ForeignerLight
+    - !type:CharacterEmployerRequirement
+      employers:
+      - NanoTrasen
   weight: 10
   startingGear: ResearchDirectorGear
   icon: "JobIconResearchDirector"

@@ -7,6 +7,14 @@
     - !type:CharacterDepartmentTimeRequirement
       department: Command
       min: 54000 # 15 hours
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - Foreigner
+        - ForeignerLight
+    - !type:CharacterEmployerRequirement
+      employers:
+      - NanoTrasen
     - !type:CharacterWhitelistRequirement # Ronstation- Whitelist requirement due to the role requiring advanced knowledge of actually roleplaying as a mere representative.
   weight: 20
   startingGear: NanotrasenRepresentativeGear

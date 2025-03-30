@@ -40,6 +40,10 @@
     #      inverted: true
     #      traits:
     #        - ShadowkinBlackeye
+    - !type:CharacterEmployerRequirement
+      inverted: true
+      employers:
+      - Unemployed
   startingGear: ChaplainGear
   icon: "JobIconChaplain"
   supervisors: job-supervisors-hop # Ronstation - Change supervisor to head of personnel
