@@ -10,3 +10,4 @@
   recipeUnlocks:
   - BaseComputerModularCircuitBoard
   - DiskBurnerMachineCircuitboard
+  - BaseComputerModularTabletopWorkstationCircuitBoard # Ronstation
