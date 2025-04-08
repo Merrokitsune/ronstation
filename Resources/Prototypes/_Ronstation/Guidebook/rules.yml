@@ -1,11 +1,4 @@
-- type: guideEntry # Should be used for Ronstation servers.
-  id: RonstationRuleset
-  name: guide-entry-rules-ronstation
-  text: "/ServerInfo/_Ronstation/Guidebook/ServerRules/RonstationRuleset.xml"
-  children:
-  - RonstationMetashield
-  - SiliconRules
-  - RonstationRoleTypes
+# Go directly to Guidebook in main folder for rules.
 
 - type: guideEntry
   id: RonstationMetashield
