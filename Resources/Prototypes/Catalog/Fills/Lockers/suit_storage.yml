@@ -118,7 +118,7 @@
     contents:
         - id: NitrogenTankFilled
         - id: OxygenTankFilled
-        - id: ClothingShoesBootsMag
+        - id: ClothingShoesBootsMagEng
         - id: ClothingOuterHardsuitEngineering
         - id: ClothingMaskBreath
   - type: AccessReader
@@ -154,6 +154,8 @@
           amount: 2 #DeltaV - Double the suits
         - id: ClothingMaskBreath
           amount: 2 #Delta-V Double the masks
+        - id: ClothingShoesBootsMagSec
+          amount: 2
   - type: AccessReader
     access: [["Security"]]
 
@@ -217,6 +219,7 @@
         - id: JetpackSecurityFilled
         - id: ClothingOuterHardsuitCombatHoS # DeltaV - ClothingOuterHardsuitSecurityRed replaced in favour of head of security's advanced combat hardsuit.
         - id: ClothingMaskGasSwat
+        - id: ClothingShoesBootsMagSec
   - type: AccessReader
     access: [["HeadOfSecurity"]]
 
@@ -232,6 +235,7 @@
         - id: OxygenTankFilled
         - id: ClothingOuterHardsuitCombatWarden # DeltaV - ClothingOuterHardsuitWarden replaced in favour of warden's riot combat hardsuit.
         - id: ClothingMaskBreath
+        - id: ClothingShoesBootsMagSec
   - type: AccessReader
     access: [["Armory"]]
 

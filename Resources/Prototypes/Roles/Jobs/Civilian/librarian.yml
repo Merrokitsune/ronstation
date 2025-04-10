@@ -7,29 +7,21 @@
     - !type:CharacterDepartmentTimeRequirement
       department: Civilian # Ronstation - Librarian is now in Service.
       min: 14400
-  #  - !type:CharacterLogicOrRequirement
-  #    requirements:
-  #      - !type:CharacterSpeciesRequirement
-  #        inverted: true
-  #        species:
-  #          - IPC
-  #      - !type:CharacterTraitRequirement
-  #        traits:
-  #          - AnomalousPositronics
-  #  - !type:CharacterLogicOrRequirement
-  #    requirements:
-  #      - !type:CharacterSpeciesRequirement
-  #        inverted: true
-  #        species:
-  #          - Shadowkin
-  #  - !type:CharacterTraitRequirement
-  #    inverted: true
-  #    traits:
-  #      - ShadowkinBlackeye
+    #- !type:CharacterLogicOrRequirement
+    #  requirements:
+    #    - !type:CharacterSpeciesRequirement
+    #      inverted: true
+    #      species:
+    #        - IPC
+    #    - !type:CharacterTraitRequirement
+    #      traits:
+    #        - AnomalousPositronics
     - !type:CharacterEmployerRequirement
       inverted: true
       employers:
       - Unemployed
+    #- !type:CharacterItemGroupRequirement
+    #  group: TraitsCasterType
   startingGear: LibrarianGear
   icon: "JobIconLibrarian"
   supervisors: job-supervisors-rd
@@ -41,10 +33,15 @@
   #- !type:AddComponentSpecial
   #  components:
   #  - type: Psionic
+  #    baselinePowerCost: 75
+  #    nextPowerCost: 75
+  #    removable: false
+  #    powerPool: PsychoHistorianPowerPool
   #  - type: InnatePsionicPowers
   #    powersToAdd:
   #      - XenoglossyPower
   #      - TelepathyPower
+  #      - AssayPower
 
 
 - type: startingGear
@@ -58,7 +55,7 @@
     outerClothing: ClothingOuterCoatRnd
     id: LibrarianPDA
     ears: ClothingHeadsetScience
-    pocket1: BookPsionicsGuidebook
+  #  pocket1: BookPsionicsGuidebook
     pocket2: HandLabeler
   innerClothingSkirt: ClothingUniformJumpskirtLibrarian
   satchel: ClothingBackpackSatchelLibrarianFilled

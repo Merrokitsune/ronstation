@@ -1,7 +1,7 @@
 - type: job
   id: NanotrasenRepresentative
-  name: Nanotrasen Representative
-  description: "Represent NT, send reports back to them on the station's situation, inform the heads of anything CentCom orders them to do."
+  name: Corporate Liaison
+  description: "Represent your employer, send reports back to them on the station's situation, inform the heads of anything CentCom orders them to do."
   playTimeTracker: JobNanotrasenRepresentative
   requirements:
     - !type:CharacterDepartmentTimeRequirement
@@ -13,6 +13,7 @@
         - Foreigner
         - ForeignerLight
     - !type:CharacterEmployerRequirement
+      inverted: true
       employers:
       - NanoTrasen
     - !type:CharacterWhitelistRequirement # Ronstation- Whitelist requirement due to the role requiring advanced knowledge of actually roleplaying as a mere representative.

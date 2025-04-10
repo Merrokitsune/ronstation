@@ -4,24 +4,17 @@
   description: job-description-rd
   playTimeTracker: JobResearchDirector
   requirements:
-    - !type:CharacterDepartmentTimeRequirement
-      department: Epistemics
-      min: 54000 # DeltaV - 15 hours
-    - !type:CharacterOverallTimeRequirement
-      min: 126000 # Ronstation - 35 hours
+    #- !type:CharacterItemGroupRequirement
+    #  group: TraitsCasterType
     #- !type:CharacterLogicOrRequirement
     #  requirements:
-    #    #- !type:CharacterSpeciesRequirement
-    #    #  inverted: true
-    #    #  species:
-    #    #    - IPC
-    #    #- !type:CharacterTraitRequirement
-    #    #  traits:
-    #    #    - AnomalousPositronics
-    #    #- !type:CharacterTraitRequirement
-    #    #  inverted: true
-    #    #  traits:
-    #    #    - ShadowkinBlackeye
+    #    - !type:CharacterSpeciesRequirement
+    #      inverted: true
+    #      species:
+    #        - IPC
+    #    - !type:CharacterTraitRequirement
+    #      traits:
+    #       - AnomalousPositronics
     - !type:CharacterTraitRequirement
       inverted: true
       traits:
@@ -51,6 +44,8 @@
   #  - type: BibleUser # Nyano - Lets them heal with bibles
   #  - type: Psionic # Nyano - They start with telepathic chat
   #    powerSlots: 3
+  #    baselinePowerCost: 75
+  #    nextPowerCost: 75 # No that's fully intended that he has the "Full" power pull. Have fun with being a crew-aligned wizard/cultist.
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
   - !type:AddComponentSpecial
